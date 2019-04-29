@@ -1,0 +1,124 @@
+﻿<game  
+      name="Dragon Ball S Patch Beta" 
+      id="b81599ea-7717-4725-9acd-f62947782fd6" 
+      octgnVersion="3.1.2.0" 
+      version="0.0.9.6"
+      markersize="12"
+      tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
+      description="Dragon Ball Super Trading Card Game, by Bandai.  If you have questions or feedback, please join the Discord server at https://discord.gg/AUJKdD"
+      setsurl="http://www.hi-izuru.org/DBZ/"
+      gameurl="http://placeholder.com"
+	  iconurl="http://placeholder.com/placeholder.jpg"
+      authors="Brandon Shollenberger"
+	  scriptVersion="3.1.0.2">
+<scripts>
+<script src="scripts/actions.py" />
+<script src="scripts/changelog.py" />
+<script src="scripts/methods.py" />
+<script src="scripts/plugin.py" />
+<script src="scripts/util.py" />
+</scripts>
+<events>
+   <event name="OnDeckLoaded" action="onDeckLoaded" />
+   <event name="OnCardsMoved" action="moveCards" />
+   <event name="OnScriptedCardsMoved" action="moveCards" />
+   <event name="OnTableLoaded" action="initializeGame" />
+   <event name="OnTurnPassed" action="autosave" />
+</events>
+<fonts>
+<font src="fonts/MPlantin_chat_symbols.ttf" size="14" target="deckeditor" />
+</fonts>
+<proxygen definitionsrc="proxy/proxydef.xml"></proxygen>
+<documents></documents>
+<globalvariables></globalvariables>
+<card back="Cards/front.png" front="Cards/front.png" width="63" height="88">
+	<property name="Type" type="String" />
+	<property name="Color" type="String" />
+	<property name="Cost" type="String" />
+	<property name="Power" type="String" />
+	<property name="Combo" type="String" />
+	<property name="Combo Cost" type="String" />
+	<property name="Character" type="String" />
+	<property name="Special Trait" type="String" />
+	<property name="Era" type="String" />
+	<property name="Rarity" type="String" />
+	<property name="Text" type="String" />
+</card>
+<table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Board/background.png" backgroundStyle="uniformToFill">
+   <groupaction menu="Set up Game" shortcut="F12" execute="setup" />
+   <groupaction menu="Set up Life" shortcut="F9" execute="setupLife" />
+   <groupaction menu="Clear targets" shortcut="Esc" execute="clearAll" />
+   <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
+   <groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
+   <groupaction menu="Create a Token..." shortcut="ctrl+shift+T" execute="token" />
+   <groupaction menu="Sideboard" shortcut="ctrl+shift+S" execute="sideboard" />
+   <cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
+   <cardaction menu="Flip Up/Down" execute="flip" />
+   <cardaction menu="Discard" shortcut="Del" execute="discard" />
+   <cardaction menu="Combo" shortcut="Ctrl+C" execute="combo" />
+   <cardaction menu="Send to Warp" default="True" shortcut="Ctrl+W" execute="warp" />
+   <cardaction menu="Activate" shortcut="Ctrl+A" execute="activate" />
+   <cardaction menu="Awaken" execute="awaken" />
+   <cardaction menu="Unawaken" execute="unawaken" />   
+   <cardactions menu="Power Modification">
+   <cardaction menu="Add 5k" shortcut="CTRL+F" execute="addCounter5" />
+   <cardaction menu="Minus 5k" shortcut="CTRL+V" execute="addCounterN5" />
+   <cardaction menu="Set X Power" shortcut="CTRL+Shift+F" execute="setCounter" />
+   <cardaction menu="Minus X Power" shortcut="CTRL+Shift+V" execute="setCounterN" />
+   <cardaction menu="Remove Counters" shortcut="CTRL+B" execute="removeCounters" />
+   </cardactions>
+   <groupactions menu="Announcements">
+      <groupaction menu="No Counters" execute="BUTTON_NR"  shortcut="Ctrl+1"/>
+      <groupaction menu="No Blocks" execute="BUTTON_NB" shortcut="Ctrl+2"/>
+      <groupaction menu="No Combos" execute="BUTTON_NC" shortcut="Ctrl+3"/>
+      <groupaction menu="Finished Comboing" execute="BUTTON_FC" shortcut="Ctrl+4"/>
+   </groupactions>
+	<groupactions menu="Saving Tools">
+		<groupaction menu="Save Game..." execute="saveTable" />
+		<groupaction menu="Load Game..." execute="loadTable" />
+		<groupaction menu="Autosave Mode On..." execute="autosaveOn" />
+		<groupaction menu="Autosave Mode Off..." execute="autosaveOff" />
+		<groupaction menu="Load Event Deck" execute="getEventDeck" />
+	</groupactions>
+</table>
+<player summary="Hand: {#Hand} / Life: {#Life}">
+   <globalvariable name="phase" value="0" /> 
+	<hand name="Hand" visibility="me" ordered="False"  icon="cards/front.png">
+	<cardaction menu="Charge as Energy" default="True" shortcut="Ctrl+E" execute="toEnergy" />
+	<cardaction menu="Play" execute="play" shortcut="Ctrl+P" />
+	<cardaction menu="Discard" shortcut="Del" execute="discard" />
+	<groupaction menu="Random Discard" execute="randomDiscard" />
+        <cardaction menu="Combo" shortcut="Ctrl+C" execute="combo" />
+	<groupaction menu="Spectator Mode On" execute="spectatorModeOn" />
+	<groupaction menu="Spectator Mode Off" execute="spectatorModeOff" />
+</hand>
+	<group name="Deck" visibility="none" icon="cards/front.png" shortcut="F5">
+    <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
+    <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
+    <groupaction menu="Draw from bottom" shortcut="Ctrl+Alt+D" execute="drawBottom" />
+    <groupaction menu="Mulligan" default="True" shortcut="Ctrl+M" execute="mulligan" />
+    <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
+    <groupaction menu="Search for DB" shortcut="Ctrl+Shift+X" execute="dbSearch" />
+    <groupaction menu="Top card as Energy" execute="topCardEnergy" />
+</group>
+    <group name="Drop Zone" visibility="all" icon="cards/front.png" shortcut="F6">
+    <groupaction menu="Over Realm" default="True" shortcut="Ctrl+Shift+W" execute="warp" />
+</group>
+    <group name="Life" visibility="none" icon="cards/front.png" collapsed="False">
+    <groupaction menu="Top card as Energy" execute="topCardEnergy" shortcut="Ctrl+Shift+E" />
+    <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
+</group>
+<group name="Leader" visibility="none" icon="cards/front.png" collapsed="True">
+<cardaction menu="Play Leader" default="True" execute="playLeader"/>
+</group>
+    <group name="Warp" visibility="all" icon="cards/front.png" collapsed="True" shortcut="F7"></group>	
+    <group name="Sideboard" visibility="me" icon="cards/front.png" collapsed="True" shortcut="F8"></group>	
+</player>
+<shared>
+</shared>
+<deck>
+	<section name="Leader" group="Leader" />
+	<section name="Deck" group="Deck" />
+	<section name="Sideboard" group="Sideboard" />
+</deck>
+</game>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Shenron's Advant"
+     id="35f17fab-dfa3-4f39-b42d-da6e71af9e3c" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="96119b8c-4a3c-45f0-840c-b859b2c1cc5e" name="Dragon Ball">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Dragon Ball" />
+<property name="Special Trait" value="Shenron" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Permanent: This card can\'t attack. Activate Main: Switch this card to Rest Mode : Choose up to 2 Dragon Ball cards from your deck or life and add them to your hand. Then shuffle any areas you looked through. Wish: When there are 7 Dragon Ball cards in your Drop Area: Choose up to 1 Desire card in your Drop Area, add it to your hand, and flip this card over." />
+<alternate name="Miraculous Arrival Shenron" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: This card can\'t attack. Activate Main: Once per turn: Choose one \xef\xbc\x8dDraw 1 card. Choose 1 Desire card in your hand with an energy cost less than or equal to your current energy and activate its Activate Main skill. Remove 7 Dragon Ball cards in your Drop Area from the game. If you do, choose 1 of your Battle Cards and it gets +10000 power and Triple Attack for the duration of the turn, then flip this card over at the end of the turn." />
+</alternate>
+</card>
+<card id="de80ebcc-52cb-4ff9-86da-717e7283962a" name="Dimensional Warrior Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Xeno" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Double Strike. Barrier. Auto: Sparking 7 (This skill takes effect when you have 7 or more cards in your Drop Area.): When you play this card, choose up to 1 of your opponent\'s Battle Cards and send it to its owner\'s Warp." />
+</card>
+<card id="5ad5a507-4eb4-47d7-ae4a-8932b864d510" name="Vegeta, Returned from Darkness">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="19000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta: Xeno" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Critical. Auto: Burst 5 (You must place the top 5 cards of your deck in your Drop Area to activate this skill.): When you play this card, if your opponent has 11 or more cards in hand, your opponent chooses cards from their hand and sends them to their Warp until they have 10 cards in hand." />
+</card>
+<card id="31c1e5cd-6a99-40e7-b1f3-0765663e4a6a" name="Shenron, Figure of Majesty">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Shenron" />
+<property name="Special Trait" value="Shenron" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Permanent: This card can\'t attack. Activate Main: Once per turn: Sparking 5: Draw 1 card and choose one \xef\xbc\x8dChoose up to 2 of your energy and switch them to Active Mode. Choose 1 Battle Card with an energy cost of 2 or less from your Drop Area and play it. Choose your Leader Card or 1 of your Battle Cards, and it gets +5000 power and Critical for the duration of the turn." />
+</card>
+<card id="6452a0ea-c96b-4278-83b6-77c492e2a7dc" name="Mega Focus Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Fortune Teller Baba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Activate Main: Once perturn: Burst 3: For the duration of the turn, this card gets +5000 power and can attack Battle Cards in Active Mode." />
+</card>
+</cards>
+</set>

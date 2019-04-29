@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Resurrected Fusion"
+     id="ce87ffb6-d4bc-4605-ae01-4cf25989a036" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="f918d70f-de49-4f85-83e7-5bc8a2709366" name="Gogeta">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Gogeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Janemba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: Burst 2: When this card attacks, draw 1 card. Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Knockout Strike Gogeta" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: Sparking 5: When this card attacks, draw 1 card. If you have 3 or more energy, this card gets +5000 power for the duration of the turn, and if you have 5 or more energy, this card also gains Double Strike for the duration of the turn. Activate Main: Choose 1 card from your hand and place it in your Drop Area : Your opponent can only activate Counter skills once for the duration of the turn." />
+</alternate>
+</card>
+<card id="2c5c64d2-ce62-4a64-be0f-77dbdb19dd1d" name="Fusion Reborn Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Janemba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When this card is placed in your Drop Area from your hand as a result of Union-Fusion, if your Leader Card is a Gogeta card, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="6070c3cb-0b6b-407d-9de9-db0db624091d" name="Fusion Reborn Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Janemba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When this card is placed in your Drop Area from your hand as a result of Union-Fusion, if your Leader Card is a Gogeta card, draw 1 card." />
+</card>
+<card id="2047125d-91ae-41cf-8295-900c78e3f45f" name="Ultimate Fusion Gogeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BB)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gogeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Janemba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Double Strike. Union Fusion 2BB: Son Goku and Vegeta: Auto: Sparking 5: When you play this card, draw 2 cards, then choose up to 2 of your opponent\'s Battle Cards and place them at the bottom of their owners\' decks in any order." />
+</card>
+<card id="912b8580-1f9f-45e7-bc3c-35fbdd201a83" name="Great Saiyaman">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthing" />
+<property name="Era" value="Janemba Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>

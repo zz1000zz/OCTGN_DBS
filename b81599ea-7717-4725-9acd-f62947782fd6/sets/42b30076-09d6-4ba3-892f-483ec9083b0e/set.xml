@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Guardian of Namekians"
+     id="42b30076-09d6-4ba3-892f-483ec9083b0e" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="021f1bc7-5e87-4556-b461-2fb2ea966754" name="Piccolo Jr.">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Piccolo Jr." />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: when this card attacks a Leader Card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="xPiccolo Jr., Evil Reborn" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card.  Activate: Main: Once per turn G: Choose 1 of your opponent's Battle Cards with an energy cost of 5 or less and KO it, then this card gains +5000 power for the duration of the turn." />
+</alternate>
+</card>
+<card id="9c031d39-7ea1-4590-b360-5fa952a3493b" name="Indomitable Link Son Gohan">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with an energy cost of 4 or less and KO it." />
+</card>
+<card id="93a4a685-e93e-44f5-80ff-0d7d5e92433a" name="Indomitable Link Piccolo">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian/God/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Son Gohan: Adolescence with an energy cost of 3 or less from your deck and add it to your hand, then shuffle your deck." />
+</card>
+<card id="1654bd71-5daf-4d42-8fa0-44d0eec799d8" name="King Piccolo, Lord of Terror">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="King Piccolo" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="King Piccolo Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Double Strike.  Permanent: Bond 3 (Namekian): Reduce the energy cost of this card in your hand by 2.  Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with an energy cost of 5 or less and KO it." />
+</card>
+<card id="40f18196-6f7b-41e3-bf8f-5e31953c679f" name="Namekian Bond Saonel">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Saonel" />
+<property name="Special Trait" value="Namekian/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: Bond 3 (Namekian): When you play this card, draw 1 card, then, you may choose up to 2 cards from your life and add them to yourhand. If you chose to add 1 or more cards to your hand, choose up to 1 of your opponent's Battle Cards and KO it." />
+</card>
+</cards>
+</set>

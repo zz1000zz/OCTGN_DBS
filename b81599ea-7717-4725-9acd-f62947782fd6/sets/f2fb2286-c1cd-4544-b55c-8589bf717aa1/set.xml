@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Dark Demon's Villains"
+     id="f2fb2286-c1cd-4544-b55c-8589bf717aa1" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="9af61db9-6518-4be8-a715-a67752c83479" name="Time Patrol Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Xeno" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Over Realm 3. Auto: When you play this card using Over Realm, look at up to 2 cards from the top of your deck. Choose up to 1 of them and add it to your hand. Then, place the remaining cards on the top or bottom of your deck in any order." />
+</card>
+<card id="d0dd5f11-8575-464f-a08a-ef2630912810" name="Masked Saiyan, the Mysterious Warrior">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="5" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Masked Saiyan" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Over Realm 5: 1. Auto: When you play this card using Over Realm, choose any number of opponent Battle Cards without Blocker for which the total cost adds up to 5 or less and send them to their Warp." />
+</card>
+<card id="f959ce18-69da-4832-add6-8e3e3cf86e19" name="Supreme Kai of Time, Continuity Keeper">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="2" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Supreme Kai of Time" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 black Battle Card with an energy cost of 5 or less from your deck and send it to your Warp and shuffle your deck. Then, at the beginning of your next turn, if this card is in play in your Battle Area, add the card that was sent to your Warp by this skill to your hand." />
+</card>
+<card id="9ca7d189-cb82-464a-81a5-023acd326bfc" name="Time Ruler Towa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Towa" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Over Realm 4. Auto: When you play this card using Over Realm, choose up to 1 opponent Battle Card with an energy cost of 2 or less and gain control of it (Move the chosen card to your Battle Area in the same mode)." />
+</card>
+<card id="541a7aa5-7611-461a-8ef9-3efb21b96c6f" name="Mira, From the Darkness">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mira" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Over Realm 4. Auto: When you play this card using Over Realm, it gains Critical for the duration of the turn." />
+</card>
+<card id="56ed37ba-803e-493d-92f5-e8ea35b3d681" name="Majin Twin Shun Shun">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="2" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Shun Shun" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Blocker. Auto: When you play this card, if your Leader Card is green or yellow, place up to 2 cards from the top of your deck in the Drop Area." />
+</card>
+<card id="b2316b61-7428-4832-8168-b1b302973d27" name="Majin Twin Haru Haru">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="2" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Haru Haru" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is red or blue, place up to 2 cards from the top of your deck in the Drop Area. Auto: When this card attacks, this card gains +5000 power for the duration of the turn." />
+</card>
+</cards>
+</set>

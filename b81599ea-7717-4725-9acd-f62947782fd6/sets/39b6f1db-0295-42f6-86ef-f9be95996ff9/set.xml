@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="World Martial Arts Tournament"
+     id="39b6f1db-0295-42f6-86ef-f9be95996ff9" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="5915ca47-18aa-4eaa-b3a4-21008567370f">
+      <options>
+        <option probability="0.003">
+          <pick qty="1" key="Rarity" value="Secret Rare" />
+        </option>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.65">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging>
+<cards>
+<card id="944d91a4-ee3a-4506-ba40-a5dc5923a556" name="Hercule">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="5000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Hercule" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate Battle: During this card\'s battle, if there are cards in your Combo Area, draw 1 card and negate this skill for the duration of the battle. Awaken: When your life is at 4 or less : You may draw 3 cards and flip this card over." />
+<alternate name="Bundle of Confidence Hercule" type="awakened">
+<property name="Power" value="10000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Activate Battle: During this card\'s battle, if there are cards in your Combo Area, draw 1 card and negate this skill for the duration of the battle." />
+</alternate>
+</card>
+<card id="fcab338d-ca74-40c8-b329-92dfad5f66ef" name="Supreme Showdown Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Triple Strike. Permanent: If Supreme Showdown Vegeta is in play in your Battle Area, this card gains +10000 power. Auto: When your Battle Cards are placed in the Drop Area with Supreme Showdown Vegeta\'s skill, and your Leader Card is World Tournament, activate this skill. If there are no Supreme Showdown Son Goku in your Battle Area, you may play this card from your hand." />
+</card>
+<card id="bb48c51d-7c3a-4337-ad8f-2980e289838f" name="Heroic Duo Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent\'s Battle Cards with 10000 or less power and KO it." />
+</card>
+<card id="ad4eba14-1c69-4803-bdf0-10de5752c49c" name="Tiny Rivals Son Goten">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goten" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Permanent: If Tiny Rivals Trunks is in play in your Battle Area, this card gains +5000 power and Double Strike." />
+</card>
+<card id="e4ef7123-a825-4cb3-badd-a7da7c79da41" name="Supreme Showdown Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Triple Strike. Permanent: If Supreme Showdown Son Goku is in play in your Battle Area, this card gains +10000 power. Auto: When you play this card, if your Leader Card is World Tournament, you may choose 1 of your Battle Cards other than this card and place it in your Drop Area. If you do so, your opponent cannot activate Blocker for the duration of the turn." />
+</card>
+<card id="ffc6dbc6-8505-455f-90b1-5ed8d0c00425" name="Vegeta, Power Misused">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is World Tournament and your life is 5 or less, draw 1 card and this card gains +10000 combo power for the duration of the turn." />
+</card>
+<card id="1e242aab-fc2d-43bd-aa48-f034b6d444d0" name="Tiny Rivals Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Critical. Permanent: If Tiny Rivals Son Goten is in play in your Battle Area, this card gains +5000 power and Double Strike for the duration of the battle." />
+</card>
+<card id="70a0ec89-360a-46d3-8814-d98e99d32a3f" name="Mighty Mask, Powers Combined">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mighty Mask" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is red and your life is at 4 or less, you may choose 1 card in your hand and place it in your Drop Area. If you do so, this card gains +10000 combo power for the duration of the turn, then choose up to 1 red Son Goten and up to 1 red Trunks: Youth, each with 15000 or less power, add them from your deck to your hand, then shuffle your deck." />
+</card>
+<card id="5f43b6de-069a-434a-ac3f-5cc6204ce82e" name="Secret Treaty Android 18">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Android 18" />
+<property name="Special Trait" value="Android/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto: When this card is switched from Active Mode to Rest Mode with Secret Treaty Hercule\'s skill, draw 1 card." />
+</card>
+<card id="64e64888-1418-4de6-b5e8-26758db29d7e" name="Secret Treaty Hercule">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hercule" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Permanent: You can combo with this card from your Battle Area even when it is in Rest Mode. Activate Main: Choose this card and 1 World Tournament in your Battle Area and switch them to Rest Mode: Draw 1 card." />
+</card>
+<card id="3d08882e-1b0c-4288-ac25-3b701bc7f592" name="Heroic Duo Videl">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Videl" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter Attack: Negate the attack, and play this card. Permanent: If Heroic Duo Son Gohan is in play in your Battle Area, this card gains +9000 power." />
+</card>
+<card id="caf8de6b-00d3-4eff-b8cd-68bfb059ed1b" name="Hidden Power, East Supreme Kai">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="East Supreme Kai" />
+<property name="Special Trait" value="God/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you Combo with this card, choose up to 1 of your attacking cards. It gains Double Strike." />
+</card>
+<card id="a0c7b791-6004-400c-b447-24da85531f5e" name="Dark Duo Babidi">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Evil Wizard Babidi" />
+<property name="Special Trait" value="Evil Wizard/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Barrier. Auto: When you play this card, if your Leader Card is red, choose up to 1 of your red Battle Cards with 15000 or more power and switch it to Active Mode." />
+</card>
+<card id="14adccab-0b62-48ed-91ae-b65fece87f3d" name="Dark Duo Dabura">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dabura" />
+<property name="Special Trait" value="Demon Realm Race/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: If Dark Duo Babidi is in play in your Battle Area, this card gains Barrier. Auto: When you play this card, choose up to 2 cards in your opponent\'s hand and send them to their Warp. Auto: When this card leaves the Battle Area, your opponent adds all cards sent to the Warp with this card\'s skill to their hand." />
+</card>
+<card id="809d7a6b-eaac-43e7-9a67-c6e9cfe61ad9" name="Tainted Power, Spopovich and Yamu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Spopovich/Yamu" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 card in your Battle Area and place up to 5 cards from the top of your deck under the chosen card." />
+</card>
+<card id="f795f4e1-a8cd-4723-92cd-d3b0fc168ae8" name="Pui Pui, Magician\'s Lackey">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Pui Pui" />
+<property name="Special Trait" value="Alein/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Critical." />
+</card>
+<card id="37ffe623-b81b-48b1-b9dc-884fa3b78c38" name="Razor\'s Edge Yakon">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Yakon" />
+<property name="Special Trait" value="Alien/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card gains +5000 power for each card placed under it. Auto: When your opponent attacks with one of their cards, place 1 card from the top of your deck under this card, then if there are 5 or more cards placed under this card, place this card in your Drop Area." />
+</card>
+<card id="ddf0e297-70f0-4966-ad1f-70095e11db4f" name="Babidi\'s Spaceship">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Field. Activate Main: Switch this card to Rest Mode: Look at 1 card from the top of your deck, choose up to 1 Dabura, Pui Pui, or Yakon and add it to your hand, then place the rest on the bottom of your deck." />
+</card>
+<card id="85b4783b-e572-485f-8cfa-778160dfe738" name="Uub">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Uub" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Uub, Unknowing Power" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Activate Main: Choose 1 card from your life and add it to your hand: Choose up to 1 of your opponent\'s Battle Cards and return it to its owner\'s hand, and this card gains +5000 power for the duration of the turn." />
+</alternate>
+</card>
+<card id="fe45d352-638d-4f8c-b7c1-683b2841b1c4" name="Test of Strength Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Double Strike. Auto: When you play this card, if your Leader Card is World Tournament, you may choose 1 Test of Strength Uub from your hand and play it. If you do so, both this card and that card gain +5000 power for the duration of the turn." />
+</card>
+<card id="02bc3dbc-f1a2-42d4-854a-600e74566534" name="Top of His Game Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is World Tournament and you have 5 or less life, draw 1 card, and this card gains +10000 combo power for the duration of the turn." />
+</card>
+<card id="53c0413c-1521-46d2-8bd1-7f4a1b7730bb" name="Scuffle Time Son Goten">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goten: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: Once per turn: Choose 1 card from your life and add it to your hand: If Scuffle Time Mr. Buu is in play in your Battle Area, choose this card and up to 1 of your energy and switch them to Active Mode, and this card gains +10000 power for the duration of the turn." />
+</card>
+<card id="3eb67dea-123e-40e1-8163-1da95ec1966c" name="Pan, Proudest Daughter">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Pan" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Dual Attack. Permanent: If your Leader Card is a blue World Tournament and Hercule, Proudest Grandpa is in play in your Battle Area, this card gains +10000 power and Double Strike." />
+</card>
+<card id="33a61932-7d75-43c9-b99f-0a34d8aadb75" name="Awakening Talent Pan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Pan" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto: When this card attacks, you may choose 1 card from your life and add it to your hand. If you do so, this card gains +10000 power for the duration of the turn. Auto: At the end of your turn, return this card to its owner\'s hand." />
+</card>
+<card id="0886c1af-0210-4a9f-9d4b-1f5b86844da6" name="Begrudging Respect Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Auto: When you play this card, if your Leader Card is World Tournament and Begrudging Respect Piccolo is in play in your Battle Area, your opponent chooses 2 cards from their hand and places them on top of their deck in any order." />
+</card>
+<card id="526acbf4-ecf2-4dba-9a7c-92a4d7a725a7" name="Awkward Situation Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: Once per turn: Choose 1 Awkward Situation Otokosuki in your Battle Area and place it at the bottom of its owner\'s deck: If your Leader Card is World Tournament, choose up to 1 of your opponent\'s Battle Cards and KO it." />
+</card>
+<card id="82efafea-e95d-45c6-8f22-e853d07c2031" name="Begrudging Respect Piccolo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian/God/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Permanent: If Begrudging Respect Vegeta is in play in your Battle Area, this card gains Bloccker. Auto: When you play this card, if you placed a card in your Energy Area during this turn\'s Charge Phase and you have less energy than your opponent, choose up to 1 of your opponent\'s energy and place it in their Drop Area." />
+</card>
+<card id="f78b42d4-12af-4d1e-bce8-5379f2f46c68" name="Scuffle Time Mr. Buu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mr. Buu" />
+<property name="Special Trait" value="Majin/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Barrier. Activate Main: Place this card on the bottom of its owner\'s deck: If Scuffle Time Son Goten is in play in your Battle Area, choose up to 1 of your opponent\'s Battle Cards and return it to its owner\'s hand." />
+</card>
+<card id="46e214e4-e4a0-42f5-bd75-25b4364a3e84" name="Hercule, Proudest Grandpa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hercule" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Auto: When your Pan, Proudest Daughter is played in your Battle Area, draw up to 2 cards, then, at the end of your turn, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="b94fc4e1-c489-4c59-9d33-623d123a8d04" name="Test of Strength Uub">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Uub" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Critical. Auto: When you play this card, if Test of Strength Son Goku is in play in your Battle Area, choose up to 2 of you opponent\'s Battle Cards with 2000 or less power and place them at the bottom of their owners\' decks." />
+</card>
+<card id="2e723856-26aa-4af7-8362-d4225c8030d0" name="Wild Tiger, the Imposing">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Wild Tiger" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker." />
+</card>
+<card id="ab5504d3-9c91-4ed5-b701-cbc3d625f3c2" name="Awkward Situation Otokosuki">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Otokosuki" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: If Awkward Situation Trunks is in play in your Battle Area and Awkward Situation Otokosuki is not, you can play this card from your hand without paying its energy cost." />
+</card>
+<card id="19e88197-a8af-402a-ad6d-8d647f3b4c36" name="Shocking Latent Ability">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate Battle: If your Leader Card is Uub, it gains +10000 power for the duration of the battle, and you draw 1 card." />
+</card>
+<card id="373724c0-8a5e-44af-b4e7-153e509496ff" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When this card attacks a leader card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Stopping Power Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: Once per turn: When this card attacks, draw 1 card, and this card gains +5000 power for the duration of the turn. Auto: Once per turn: When this card KO-s one of your opponent\'s Battle Card, switch this card to Active Mode." />
+</alternate>
+</card>
+<card id="22b0cd5a-dc7b-4eca-b936-42a3d4da0cdb" name="Fateful Reunion Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Double Strike. Auto: When you play this card, if Fateful Reunion Chi-Chi is in play in your Battle Area, choose up to 1 of your opponent\'s Battle Cards, KO it, and this card gains +10000 power for the duration of the turn." />
+</card>
+<card id="b8c55a85-4c3f-4cda-b2b7-794a706f9703" name="Trading Blows Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is World Tournament and your opponent has 5 or more cards in their hand, your opponent chooses 1 card in their hand and places it in their Drop Area." />
+</card>
+<card id="7c097d06-9cd3-4fda-bdaa-5ca4f787defc" name="Fateful Reunion Chi-Chi">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chi-Chi" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Barrier. Auto: When Fateful Reunion Son Goku is played in your Battle Area, choose this card and 1 of your Fateful Reunion Son Goku, and they gain +10000 power for the duration of the turn, then draw 1 card." />
+</card>
+<card id="a8d94aac-34c5-45c1-a459-1b999dfbaaee" name="Martial Daughter Chi-Chi">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chi-Chi" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is World Tournament and your life is 5 or less, draw 1 card and this card gains +10000 combo power for the duration of the turn." />
+</card>
+<card id="e5310c9c-a2f7-4b75-b440-3fff3589166e" name="Destined Conclusion Piccolo Jr.">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Piccolo Jr." />
+<property name="Special Trait" value="Namekian/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Critical. Auto: When this card attacks, choose up to 1 each of your and your opponent\'s Battle Cards and KO them. If you KO-ed Destined Conclusion Hero as your Battle Card, for the duration of the turn this card gains +10000 power and Triple Strike." />
+</card>
+<card id="b0b4ca48-fd15-4ce3-a14c-c112ad214284" name="Speed Attack Piccolo Jr.">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo Jr." />
+<property name="Special Trait" value="Namekian/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Critical." />
+</card>
+<card id="13815f72-0dee-4437-9a69-bd91d4ff95f5" name="Double Impact Krillin">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent\'s Battle Cards with an energy cost of 2 or less ignoring Barrier and KO it." />
+</card>
+<card id="bb5170b4-d468-405c-914f-8d026bb5bd7a" name="Honed Moves Yamcha">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Yamcha" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Critical. Auto: When you play this card, you may choose 1 card from your life and add it to your hand. If you do so, your opponent chooses 1 card from their hand and places it in their Drop Area." />
+</card>
+<card id="5c94df55-2a5f-4917-bb85-f7fd08852857" name="Tien Sinhan, Trading Moves">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Tien Shinhan" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Activate Main: Once per turn: Choose 1 Mercenary Tao, Trading Moves in your Battle Area and KO it : If your Leader Card is a green World Tournament, switch this card to Active Mode and for the duration of the turn this card gains +5000 power and Double Strike." />
+</card>
+<card id="438fbeee-92c0-468c-840f-6272c903b87f" name="Best Buddy Chiaotzu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chiaotzu" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you combo with this card during your turn, choose up to 1 Tien Shinhan, Trading Moves in your Battle Area and switch it to Active Mode." />
+</card>
+<card id="76933cde-3146-4ed9-ad69-3c0e23d4bd5b" name="Destined Conclusion Hero">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hero" />
+<property name="Special Trait" value="Earthling/God/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Auto: When Destined Conclusion Piccolo Jr. is played from your hand, if your Leader Card is a green World Tournament, this card gains +10000 power and Critical for the duration of the turn, then your opponent chooses 3 cards from their hand and places them in their Drop Area. You cannot place your opponent\'s hand in their Drop Area using Destined Conclusion Hero\'s skill for the duration of the turn." />
+</card>
+<card id="052bfebe-f5c1-4703-a46e-27825e9292fc" name="Trusting Relationship Kami">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Kami" />
+<property name="Special Trait" value="God/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker. Permanent: If Trusting Relationship Popo is in play in your Battle Area this card gains Barrier." />
+</card>
+<card id="24565cf5-9a91-4c68-b871-a3eca5fc3f43" name="Trusting Relationship Popo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Popo" />
+<property name="Special Trait" value="God/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Trusting Relationship Kami from your deck, add it to your hand, then shuffle your deck." />
+</card>
+<card id="d2cec437-f2df-4e3e-8f89-2cd185172cd2" name="Mercenary Tao, Trading Moves">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mercenary Tao" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Auto: When you play this card, if your Leader Card is a green World Tournament and Tien Shinhan, Trading Moves is in play in your Battle Area, your opponent chooses 3 cards from their hand and places them in their Drop Area." />
+</card>
+<card id="68270311-de28-483e-a6cd-9a96aa6faf7b" name="Feet Kamehameha">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Battle: If your Leader Card is a green Son Goku, for the duration of the battle it gains +15000 power and Critical." />
+</card>
+<card id="4cf406c7-ea11-477d-a2a1-64f197ed81e2" name="Jackie Chun">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Jackie Chun" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Jackie Chun, the Mysterious Fighter" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card, and this card gains +5000 power for the duration of the turn. Permanent: During battles where this card is attacking a Battle Card in Rest Mode, your opponent can\'t combo." />
+</alternate>
+</card>
+<card id="0f57de94-f8f3-4591-af0f-2316b8a8036a" name="Unyielding Victory Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Activate Main: Once per turn: Choose 1 Unyielding Victory Jackie Chun in your Battle Area and switch it to Rest Mode: If your leader is a yellow World Tournament, for the duration of the turn this card gains +5000 power, Double Strike, and Triple Attack." />
+</card>
+<card id="d4266bed-0b98-496f-afc7-2ed9c7684453" name="Future Martial Artist Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is World Tournament and your life is 5 or less, draw 1 card and this card gains +10000 combo power for the duration of the turn." />
+</card>
+<card id="4521b7a0-aca3-4e89-b491-9b8156c25c64" name="Toughened Up Krillin">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin: Childhood" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: If Toughened Up Chiaotzu is in play in your Battle Area, this card gains +5000 power and Critical." />
+</card>
+<card id="34b751e2-73d2-4f4f-b20d-a5ecfe54039d" name="Unending Moves Yamcha">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Yamcha" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Barrier. Permanent: If Unending Moves Tien Shinhan is in play in your Battle Area, this card gains +10000 power and Critical." />
+</card>
+<card id="bf77464b-984a-486c-8f07-d6476de4e9c2" name="Unending Moves Tien Shinhan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Tien Shinhan" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Double Strike. Barrier. Activate Main: Once per turn: Choose 1 Unending Moves Yamcha in your Battle Area and KO it: Draw 2 cards, then choose up to 1 of your opponent\'s Battle Cards in Rest Mode and KO it." />
+</card>
+<card id="c819e232-aa78-4f8d-a6dd-e2df3564ccdb" name="Toughened Up Chiaotzu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chiaotzu" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker. Auto: Once per turn: When Toughened Up Krillin is played in your Battle Area, draw 1 card, and this card gains +14000 power for the duration of the turn." />
+</card>
+<card id="4cb530f3-441d-4f13-a126-a58729936fd7" name="Master Roshi, Martial Meister">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="6000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Master Roshi" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Activate Main: Once per turn: Choose 1 Master Shen, Martial Meister in your Battle Area and switch it to Rest Mode: Draw 1 card." />
+</card>
+<card id="36ec252a-9b9d-4049-9a61-627908163248" name="Unyielding Victory Jackie Chun">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Jackie Chun" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Blocker. Barrier. Auto: At the end of your turn, choose 1 Unyielding Victory Son Goku in your Battle Area and KO it. If you KO-ed it, choose this card and 1 of your energy and switch them to Active Mode." />
+</card>
+<card id="6b702c91-54b4-45a7-8134-6b1a315e7665" name="Doublechop Nam">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Nam" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Permanent: If your Leader Card is a yellow World Tournament, this card gains Dual Attack and Barrier. Auto: Once per turn: When this card attacks, choose up to 1 of your opponent\'s Battle Cards in Rest Mode and KO it." />
+</card>
+<card id="9543028b-293b-478d-a6f8-633ca36d238d" name="Ginormous Strength Giran">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Giran" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Critical. Auto: When you play this card, choose up to 1 of your opponent\'s Battle Cards with an energy cost of 4 or less, switch it to Rest Mode, and that card can\'t be switched to Active Mode during your opponent\'s next turn." />
+</card>
+<card id="5fd74d2e-fd45-4f3f-bfe1-2af27d20919c" name="Stenchful Bacterian">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bacterian" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, you may choose 1 card in your life and add it to your hand. If you do so, choose up to 1 of your opponent\'s Battle Cards, switch it to Rest Mode, and this card gains +10000 power for the duration of the turn." />
+</card>
+<card id="1a0979e5-e9d6-48a6-b0d5-2e7372498ee5" name="Risque Ranfan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Ranfan" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent\'s Battle Cards with an energy cost of 3 or less, switch it to Rest Mode, and this card gains +5000 power for the duration of the turn." />
+</card>
+<card id="458be50e-0335-4e2f-ba6c-6414a87e3abc" name="Master Shen, Martial Meister">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="6000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Master Shen" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Barrier. Activate Main: Once per turn Choose 1 Master Roshi, Martial Meister in your Battle Area and switch it to Rest Mode: Draw 1 card." />
+</card>
+<card id="a77f326e-a7f0-461c-a663-74416bbeb80a" name="I\'m the World Champion!">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: If Son Goku: Childhood is in play in your battle area, draw 2." />
+</card>
+<card id="0bf61239-b8fc-4bd7-ad91-773f81b08b07" name="Announcer">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Announcer" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: Treat World Tournament in all areas as if they had no specified cost. Permanent: You cannot include non-World Tournament Battle Cards in your deck. Auto: Once per turn: When you play a World Tournament Battle Card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Announcer, Referee Veteran" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: Treat World Tournament in all areas as if they had no specified cost. Auto: When this card attacks, draw 1 card. Activate Main: Choose up to 2 of your Battle Cards with World Tournament, they each gain +5000 power for the duration of the turn, then negate this skill for the duration of the game." />
+</alternate>
+</card>
+<card id="268e9fc0-95b2-4805-9434-246eb186cdeb" name="Announcer, Ever-Curious">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Announcer" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is World Tournament, look at up to 7 cards from the top of your deck, choose up to 1 World Tournament among them and add it to your hand, then shuffle your deck." />
+</card>
+<card id="a330f4bf-dddf-4ec4-9854-d6532e12ee13" name="Announcer, Play-By-Play Pro">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Announcer" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Counter Attack: If your Leader Card is World Tournament, negate the attack. and play this card. Auto: During your turn: when you play this card, if there are 2 or more World Tournament other than this card in play in your Battle Area, draw 2 cards." />
+</card>
+<card id="30d6fb75-6557-4e55-8ed4-fa62fdb41c12" name="World Tournament Arena">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Field. Activate Main: Switch this card to Rest Mode: If your Leader Card is Announcer, choose up to 2 of your Battle Cards with World Tournament, and they each gain +5000 power for the duration of the turn." />
+</card>
+<card id="d9d89982-25a2-4ca2-955e-78ff6a1aa62c" name="Son Goku and Uub, Seeds of the Future">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="8(BBB)" />
+<property name="Power" value="40000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku/Uub" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Secret Rare" />
+<property name="Text" value="Double Strike. Dual Attack. Ultimate. Permanent: If your Leader Card is World Tournament and if there are 6 cards or more in both your Energy Area and your opponent\'s Energy Area, decrease this card\'s energy cost in your hand by 2. Auto: When this card attacks, choose up to 1 card each from your opponent\'s Life and Energy Areas, then place them at the bottom of their owner\'s deck in any order." />
+</card>
+<card id="247efd4b-0745-4bad-bce1-6000cf31c0be" name="Supreme Showdown Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Triple Strike. Permanent: If Supreme Showdown Vegeta is in play in your Battle Area, this card gains +10000 power. Auto: When your Battle Cards are placed in the Drop Area with Supreme Showdown Vegeta\'s skill, and your Leader Card is World Tournament, activate this skill. If there are no Supreme Showdown Son Goku in your Battle Area, you may play this card from your hand." />
+</card>
+<card id="633233ea-b564-4369-a7a5-07c2bafee1d5" name="Supreme Showdown Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Triple Strike. Permanent: If Supreme Showdown Son Goku is in play in your Battle Area, this card gains +10000 power. Auto: When you play this card, if your Leader Card is World Tournament, you may choose 1 of your Battle Cards other than this card and place it in your Drop Area. If you do so, your opponent cannot activate Blocker for the duration of the turn." />
+</card>
+<card id="afbe2579-a6b4-489a-916d-8e13df516c0b" name="Pan, Proudest Daughter">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Pan" />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Dual Attack. Permanent: If your Leader Card is a blue World Tournament and Hercule, Proudest Grandpa is in play in your Battle Area, this card gains +10000 power and Double Strike." />
+</card>
+<card id="8043f9d6-382c-48b2-a7ed-bd803e5da5c1" name="Hercule, Proudest Grandpa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hercule" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Auto: When your Pan, Proudest Daughter is played in your Battle Area, draw up to 2 cards, then, at the end of your turn, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="b8ad4f87-f4a6-4e56-a331-928442c4957d" name="Destined Conclusion Piccolo Jr.">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Piccolo Jr." />
+<property name="Special Trait" value="Namekian/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Critical. Auto: When this card attacks, choose up to 1 each of your and your opponent\'s Battle Cards and KO them. If you KO-ed Destined Conclusion Hero as your Battle Card, for the duration of the turn this card gains +10000 power and Triple Strike." />
+</card>
+<card id="b502b287-9277-4c98-9987-e8e256833498" name="Destined Conclusion Hero">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hero" />
+<property name="Special Trait" value="Earthling/God/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Auto: When Destined Conclusion Piccolo Jr. is played from your hand, if your Leader Card is a green World Tournament, this card gains +10000 power and Critical for the duration of the turn, then your opponent chooses 3 cards from their hand and places them in their Drop Area. You cannot place your opponent\'s hand in their Drop Area using Destined Conclusion Hero\'s skill for the duration of the turn." />
+</card>
+<card id="d653ff8d-53a6-481d-85f1-45c11a074b99" name="Unyielding Victory Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Activate Main: Once per turn: Choose 1 Unyielding Victory Jackie Chun in your Battle Area and switch it to Rest Mode: If your leader is a yellow World Tournament, for the duration of the turn this card gains +5000 power, Double Strike, and Triple Attack." />
+</card>
+<card id="bc49b42b-3ae3-4797-a1a8-dee5f4ceab2f" name="Unyielding Victory Jackie Chun">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Jackie Chun" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Blocker. Barrier. Auto: At the end of your turn, choose 1 Unyielding Victory Son Goku in your Battle Area and KO it. If you KO-ed it, choose this card and 1 of your energy and switch them to Active Mode." />
+</card>
+</cards>
+</set>

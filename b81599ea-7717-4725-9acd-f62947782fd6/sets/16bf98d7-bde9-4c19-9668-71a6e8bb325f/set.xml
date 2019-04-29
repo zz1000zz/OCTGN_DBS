@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Awakening"
+     id="16bf98d7-bde9-4c19-9668-71a6e8bb325f" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="30238889-a687-4dfe-a5b0-14f77031843e" name="Super Saiyan God Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When this card attacks, choose up to 1 of your blue energy and switch it to Active Mode. Awaken." />
+<alternate name="Super Saiyan Blue Son Goku, the Soul Striker" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: During your turn, if you have 5 or more energy, this card gains +5000 power. Auto: When this card attacks, draw 1 card. Choose up to 2 of your blue energy and switch it to Active Mode." />
+</alternate>
+</card>
+<card id="27b76391-1eb8-430d-beaf-c1b57149da94" name="God Rush Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="6(BBB)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve 2(BBB): 'Son Goku' (Play this card on top of the specified card). Double Strike. Auto: When you play this card, choose all of your opponent's Battle Cards with Blocker and return them to their hand." />
+</card>
+<card id="51b4a1ba-7069-4341-824a-748b989e99ba" name="SS3, Son Goku, Maximum Energy">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve two: Son Goku (Play this card on top of the specified card). Double Strike. Auto: When a card evolves into this card, this card gains Dual Attack for the duration of the turn." />
+</card>
+<card id="80eda91e-bfc6-4ce4-b890-cfb73c55d7e5" name="Rapid Spirit Ball Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve 1(B): 'Son Goku'. Auto: When you play this card, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="2cca37b5-fa28-4f36-bf70-14b59a8a399d" name="Vegeta, Prince of Speed">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BBB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve 2(BB): 'Vegeta'. Double Strike. Auto When you play this card, if you have 5 or more energy, draw 2 cards." />
+</card>
+</cards>
+</set>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Extreme Evolution"
+     id="8d785562-107a-49bb-af3f-c0672f0903cb" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<markers>
+<marker id="3ef3165f-b02f-458a-823e-cb7d9247c269" name="Power" />
+<marker id="8b12e609-12f3-4bec-9e8f-8ad2cf7c6d58" name="PowerN" />
+</markers>
+<cards>
+<card id="ca3b281a-a932-48e4-8d5d-f6d83acb0b82" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku: GT" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="When this card attacks a Leader Card, draw 1 card. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Rising Spirit Super Saiyan Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="During your turn, when your life is at 3 or less, this card gains +5000 power. Auto: When this card attacks, draw 1 card, and if this card's power is 25000 or more, it gains Double Strike for the duration of the turn." />
+</alternate>
+</card>
+<card id="bfa5ac1c-0bce-4b41-b54b-e2c026cee0d6" name="Broken Limits Super Saiyan 3 Son Goku">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Red" />
+<property name="Cost" value="6(RRRR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku: GT" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="EX-Evolve R, place 1 card from your hand in the Drop Area: Red Son Goku: GT with an energy cost of 4 or more. Auto: When one of your cards attack, this card gains +5000 power for the duration of the turn. Then, if this card's power is 40000 or more, this card gains Triple Strike." />
+</card>
+<card id="ccf56396-bd89-4a92-8354-195044a34e43" name="Unbreakable Super Saiyan Son Goku">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku: GT" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve 1RR - Son Goku: GT. Barrier. Auto: When a card evolves into this card, or if you combo with this card, draw 1 card." />
+</card>
+<card id="632024df-61a2-4527-b211-76dbbe524927" name="Rushing Warrior Pan">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Pan" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your red Leader Cards or Red Battle Cards. That card gains +5000 power for the duration of the turn. Auto: When you combo with this card from the Battle Area, draw 1 card." />
+</card>
+<card id="1bd3dbbc-7b76-42db-9330-f262e5b6d1b1" name="Chain Attack Trunks">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RRR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: GT" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Evolve RR, Trunks: GT. Permanent: This card can attack Battle Cards that are in Active Mode. Auto: When yoou lay this card, choose up to 1 Battle Card from your hand with a power of 15000 or less and play it." />
+</card>
+</cards>
+</set>

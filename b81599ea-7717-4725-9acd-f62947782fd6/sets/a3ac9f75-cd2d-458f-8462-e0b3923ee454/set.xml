@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Rising Broly"
+     id="a3ac9f75-cd2d-458f-8462-e0b3923ee454" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="075ad26f-5f51-4194-8a0a-8b42c8932f3c" name="Broly">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Activate Main: Choose up to 1 green Frieza's Army card with an energy cost of 1 from your deck and add it to your hand, then shuffle your deck and negate this skill for the duration of the game. Awaken: When your life is at 4 or less: You may draw 1 card, then choose up to 1 of your energy, switch it to Active Mode, and flip this card over." />
+<alternate name="Broly, Evil Unleashed" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: If there are 2 or more Battle Cards in play in your Battle Area, you can't play Battle Cards. Auto: Sparking 7: When this card attacks, draw cards until you have 6 cards in your hand. Activate Main: Once per turn: Choose 1 of your Battle Cards and 1 of your opponent's Battle Cards: KO the chosen cards." />
+</alternate>
+</card>
+<card id="5665f889-4c17-492b-b9a2-535a28fb6bc1" name="Broly, The Ravager">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="7(GG)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Critical. Activate Battle: Once per turn: Burst 3: Your opponent chooses 1 card from their hand and places it in their Drop Area." />
+</card>
+<card id="e9e6e1b2-b80b-45ab-8b0f-e79187d639a4" name="Broly, Rushing Forth">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Critical. Auto: When this card is removed from a Battle Area by a skill or KO'd, you may choose 2 cards from your hand and place them in your Drop Area. If you do, choose up to 1 green Broly: Br card with an energy cost of 7 from your hand and play it." />
+</card>
+<card id="2f8f797d-0183-42af-abb3-8c5d4138bbd2" name="Defending Father Paragus">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Paragus:Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is green and your life is at 4 or less, draw 2 cards, then choose 1 card from your hand and send it to your Warp." />
+</card>
+<card id="aeb2a578-b6fc-4110-b71d-95fe2b90b683" name="Cheelai, Frieza Force Soldier">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cheelai: Br" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, draw 1 card. Activate Main: (G)1: Choose up to 1 green Frieza's Army card with an energy cost of 2 or less from your deck and play it, then shuffle your deck." />
+</card>
+<card id="ead80bd4-8036-4255-b7bf-1ef63fc2c3ea" name="Lemo, Frieza Force Soldier">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Lemo: Br" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Activate Main: Once per turn: (G), choose 1 card from your hand and place it in your Drop Area: Choose up to 1 Cheelai : Br card with an energy cost of 2 or less from your deck and play it, then shuffle your deck." />
+</card>
+<card id="36d6e6d4-46b0-415a-b289-77fd12fb928e" name="Son Goku, Time to Fight">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Br" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Permanent: If your opponent has 4 or more cards in Rest Mode, reduce the energy cost of this card in your hand by 3. Auto: When you play this card, you can't play Son Goku, Time to Fight for the duration of the turn. Activate Main: Place this card in its owner's Drop Area: Choose 1 green or yellow Saiyan card with an energy cost of 3 or less and 10000 power or less from your Drop Area and play it in Rest Mode, and you can only play Battle Cards that are green or yellow and no other color for the duration of the turn." />
+</card>
+<card id="1bf8911b-7b3d-44b4-bc15-b42a965cb40e" name="Vegeta, Time to Fight">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta: Br" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Blocker. Permanent: If your opponent has 4 or more cards in Rest Mode, reduce the energy cost of this card in your hand by 3." />
+</card>
+<card id="b63712fb-72db-4a30-a04e-eee383a332ba" name="Godly Destruction Whis">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Whis: Br" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, draw 1 card. Auto: Once per turn: When your opponent switches their energy to Active Mode using a non-Awaken skill during their turn, choose up to 1 of your opponent's energy and place it in its owner's Drop Area." />
+</card>
+<card id="1561af2a-623b-4d86-b2a8-f04ff5b51f17" name="Godly Desctuction Beerus">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Beerus" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent's Battle Cards in Rest Mode with an energy cost of 2 or less and KO it." />
+</card>
+</cards>
+</set>

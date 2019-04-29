@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Tokens"
+     id="108a09ba-ec2a-4ad8-afbb-15e42f945dc7" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1"
+hidden="true">
+<cards>
+<card id="e043c8cb-cd4d-4a49-816f-bbf715bc57e4" name="Ghost Token">
+<property name="Type" value="Token" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="15000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Token" />
+<property name="Text" value="" />
+</card>
+<card id="0b5c0703-658c-4d83-871e-9f7b666f2a8d" name="Cell Jr Token">
+<property name="Type" value="Token" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Token" />
+<property name="Text" value="" />
+</card>
+<card id="e59dd1d5-3fc4-413d-abf3-e97de86f2ebb" name="Chilled Army Token">
+<property name="Type" value="Token" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Token" />
+<property name="Text" value="" />
+</card>
+<card id="90854155-7eac-404a-b12a-acd4a983bc87" name="Meda Token">
+<property name="Type" value="Token" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Token" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Clash of Fates"
+     id="a0ec1556-4e99-4a02-a9c5-499f85362629" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="6428fac5-78a1-41c5-aade-d0e7d262de37" name="Frieza">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate Main: Once per turn: Choose 1 card from your life and add it to your hand: Look at up to 2 cards from the top of your deck, choose up to 1 red Frieza's Army card from among them and add it to your hand, then place the rest at the bottom of your deck in any order. Awaken: When your life is at 4 or less : You may draw 1 card, then choose up to 1 of your energy, switch it to Active Mode, and flip this card over." />
+<alternate name="Frieza, Metamorphic Threat" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Activate Main: Once per turn: Choose 1 red Frieza's Army card in your Battle Area and KO it, then choose 1 card in your hand and place it in your Drop Area: This card gets +5000 power until the end of your opponent's next turn." />
+</alternate>
+</card>
+<card id="0b163c66-6b07-4573-b488-498e2be94afe" name="Final Showdown Frieza">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RRR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Critical.  Double Strike.  Auto: Once per turn: When your opponent declares to play a Battle Card or activates a skill that puts Battle Cards into play, if your Leader Card is a red Frieza's Army card, you may choose 1 card from your life and place it in your Drop Area. If you do, the Battle Card is played with its skills negated for the duration of the turn. This skill can be activated at Counter Timing." />
+</card>
+<card id="d086e9d1-0c33-4a5c-bb72-8e2288a7e73f" name="Frieza, Storm of Blows">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Barrier. Swap 5 (RR): Red Frieza card with an energy cost of 5. Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with 20000 power or less and KO it." />
+</card>
+<card id="4040742a-1ea2-4a26-9d98-ea1dbe06e85e" name="Evolutionary Process Frieza">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Swap 3 (R): Red Frieza card with an energy cost of 3. Permanent: During your opponent's turn, this card gets -5000 power." />
+</card>
+<card id="fcafd68c-ef8b-41c0-910c-9c27a4a2991d" name="Frieza, Overture to Battle">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Swap 2: Red Frieza card with an energy cost of 2. Auto: When you play this card from your hand, choose up to 1 of your red Leader Cards or red Battle Cards other than this card, and it gets +5000 power for the duration of the turn." />
+</card>
+<card id="a6aa06b0-ae3c-4739-99aa-c865a633c2b0" name="Body Change Ginyu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Ginyu" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto: When you play this card, choose all Ginyu Force cards in your Battle Area, and they get +10000 power for the duration of the turn. Activate Main: Place this card in its owner's Drop Area: Play this card in your opponent's Battle Area from its owner's Drop Area with its skills negated, then choose up to 1 of your opponent's Battle Cards with 20000 power or less other than Body Change Ginyu, gain control of it, and switch it to Active Mode." />
+</card>
+<card id="bc662fc8-b6dd-42de-ab59-a95ce74d362e" name="Strikeforce Recoome">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Recoome" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Auto: When you play this card from your hand, if all of your Battle Cards are red and no other color, look at up to the top 5 cards of your deck, choose up to 1 red Ginyu Force card with an energy cost of 2 other than Strikeforce Recoome and play it. Then place the rest at the bottom of your deck in any order." />
+</card>
+<card id="eed93042-46bf-4bdf-8d34-fad352f8125a" name="Strikeforce Burter">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Burter" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Critical. Auto: When you play this card from your hand, if all of your Battle Cards are red and no other color, look at up to the top 5 cards of your deck, choose up to 1 red Ginyu Force card with an energy cost of 2 other than Strikeforce Burter and play it. Then place the rest at the bottom of your deck in any order." />
+</card>
+<card id="a685feb6-7c2c-4f3d-9e65-a2e1d12e71e0" name="Strikeforce Jeice">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Jeice" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is a red Frieza's Army card and your life is at 5 or less, draw 1 card, and this card gets +10000 combo power for the duration of the turn." />
+</card>
+<card id="d1536cb5-02ab-4f93-94ec-3ca83865b1bc" name="Strikeforce Guldo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Guldo" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Barrier. Auto: When you play this card from your hand, if all of your Battle Cards are red and no other color, look at up to the top 5 cards of your deck, choose up to 1 red Ginyu Force card with an energy cost of 2 other than Strikeforce Guldo and play it. Then place the rest at the bottom of your deck in any order." />
+</card>
+<card id="2e678e43-a97a-4c82-adcc-b0b96446c356" name="Dodoria. the Expendable">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dodoria" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Blocker. Auto: When this card is KO'd, choose up to 1 red Frieza card with an energy cost of 2 or less from your hand and play it." />
+</card>
+<card id="73f9562f-f887-4d14-9bc3-5e546e6fd057" name="Super Zarbon">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Zarbon" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="19a7d680-d4a9-425d-a8ba-69f52caf9a7f" name="Zarbon, Hidden Potential">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Zarbon" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When this card is KO'd, draw 1 card, then choose up to 1 of your opponent's Battle Cards and it gets -15000 power for the duration of the turn." />
+</card>
+<card id="9137ae0b-432f-4fee-9329-530cbfb8631e" name="Strategic Mind Kikono">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Kikono: Br" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Feature Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent's Leader Cards, and it gets -5000 power for the duration of the turn, and you can't play Strategic Mind Kikono for the duration of the turn." />
+</card>
+<card id="ba9e3e92-b47b-42ba-b18f-85cdad1bbcaa" name="Recoome Ultra Fighting Bomber">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: If a Recoome card is in play in your Battle Area: Choose up to 1 of your opponent's Battle Cards with 15000 power or less ignoring Barrier and KO it." />
+</card>
+<card id="51b7c85d-a29a-4ab7-bcbe-cdde6e854b96" name="Frieza's Spaceship">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Field. Auto: At the end of your turn, choose up to 1 red Frieza's Army card with an energy cost of 2 from your hand and play it. If you played a card with this skill, draw 1 card." />
+</card>
+<card id="cb35679e-b5ce-402a-a105-552a94d4b6c6" name="Paralysis Technique">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter Attack: Negate the attack, and if your Leader Card is a red Frieza's Army card, choose your opponent's Leader Card and all of their Battle Cards, and they get -5000 power for the duration of the turn." />
+</card>
+<card id="8513cf5f-d9f9-4f91-ae50-7f7b4bba95b1" name="Bardock">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Bardock" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: Burst 2: When this card attacks a Leader Card, draw 1 card, and this card gets +5000 power for the duration of the turn. Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Bardock, Hope of the Saiyans" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: Sparking 5: When this card attacks, draw 1 card, and this card gets +5000 power for the duration of the turn. Auto: When this card is attacked, if a Bardock's Crew card is in your Drop Area, you may choose 1 card from your life and place it in your Drop Area. If you do, negate the attack." />
+</alternate>
+</card>
+<card id="ac0dbd2a-6355-4c52-88c3-c90da0b7313a" name="Final Strike Bardock">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BB)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Bardock" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Barrier. Permanent: There can only be one Final Strike Bardock in play in your Battle Area. Auto: When this card is switched from Rest Mode to Active Mode, if your Leader Card is a Bardock's Crew card, your opponent chooses one card in their hand and places it at the bottom of their deck. " />
+</card>
+<card id="63cf5fb0-90ae-4d44-93ec-c9db6092b3dc" name="Gine, Mother of Hope">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gine" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dragon Ball Minus Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you combo with this card, if one of your blue Bardock cards is being attacked, this card gets +5000 combo power for the duration of the turn." />
+</card>
+<card id="0dff2214-f16c-449d-ab4e-d8329b147f4a" name="Son Goku, Striving to be the Best">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: BR" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Feature Rare" />
+<property name="Text" value="Barrier.  Permanent: Your opponent's Battle Cards with energy costs of 2 or less can't attack." />
+</card>
+<card id="b3d05ee0-c1f6-4a07-9c80-aa157850480f" name="Kakarot, Bearer of Fate">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Kakarot" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, draw 1 card. Activate Main: Place this card at the bottom of its owner's deck: Choose up to 1 blue Saiyan card with an energy cost of 1 in your Drop Area and add it to your hand." />
+</card>
+<card id="5cd4b98d-4173-4e56-9104-d8e4e07f4f0e" name="Prince Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta: Youth" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="8c334c1c-f673-44ee-95f7-20128610a163" name="Burnished Bonds Tora">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Tora" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Barrier. Permanent: If a Bardock's Crew card is in your Drop Area, reduce the energy cost of this card in your hand by 1. Activate Main: place this card in its owner's Drop Area: Choose up to 1 Final Strike Bardock from your deck or Drop Area and play it, then shuffle your deck if you looked through it." />
+</card>
+<card id="c8cdf714-e07e-4398-b051-953296022b84" name="Planetary Invader Tora">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Tora" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Bardock's Crew card in your Drop Area and add it to your hand." />
+</card>
+<card id="230372d4-5925-4649-9465-ddd7605c19ff" name="Burnished Bonds Fasha">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Fasha" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Critical. Permanent: If a Bardock's Crew card is in your Drop Area, reduce the energy cost of this card in your hand by 1. Activate Main: Place this card in its owner's Drop Area: Choose up to 1 Bardock's Crew card in your Battle Area and switch it to Active Mode." />
+</card>
+<card id="72d2f1d4-1fd5-4915-b231-5db9da9227f5" name="Planetary Invader Fasha">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Fasha" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, look at up to 5 cards from the top of your deck, choose up to 1 Bardock's Crew card from among them and add it to your hand, then shuffle your deck." />
+</card>
+<card id="6873f85a-6ad8-4528-908b-43905ee8b7cd" name="Burnished Bonds Shugesh">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Shugesh" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When this card attacks, you may draw 1 card. If you did not draw a card with this skill, this card gains Double Strike for the duration of the turn." />
+</card>
+<card id="9bbf4b52-0f6a-4f55-b1a6-5b420aa80054" name="Burnished Bonds Borgos">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Borgos" />
+<property name="Special Trait" value="Saiyan/Bardock's Crew" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, draw 1 card. Auto: Once per turn: During your opponent's turn, if your opponent switches their energy to Active Mode using a non-Awaken skill, choose up to 1 of your opponent's energy and place it in its owner's Drop Area." />
+</card>
+<card id="d9bf1c2f-7f2d-48d5-a94d-7306067407ae" name="Toolo, The Seer">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Toolo" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo. Auto: When you combo with this card, if your Leader Card is a Bardock's Crew card and your life is at 5 or less, draw 1 card, and this card gets +10000 combo power for the duration of the turn." />
+</card>
+<card id="9cea44fa-979b-479d-906c-74f3d9eecfbd" name="Future Punch">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: Choose 1 Toolo, the Seer in your Drop Area and place it at the bottom of your deck: Choose all of your blue Saiyan Leader Cards and blue Saiyan Battle Cards, and they get +5000 power and Critical for the duration of the turn. At the end of the turn, choose all of the Saiyan cards in your Battle Area and place them in their owners' Drop Areas." />
+</card>
+<card id="a1ebf39c-c9e1-424b-bc5d-1ab7eae59aa3" name="Tora's Red Armband">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Activate Main: If your Leader Card is a Bardock's Crew card, choose 1 blue Tora card in your Drop Area and send it to your Warp: Draw 4 cards, choose up to 1 Final Strike Bardock in your Battle Area and switch it to Active Mode, and it gets +10000 power and Double Strike for the duration of the turn. At the end of the turn, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="838da075-cd82-4a3b-aea7-5186b2cf7e1d" name="Dream the Future">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter Battle: Negate the attack, and if your Leader Card is a Bardock's Crew card, you may choose 1 blue card in your hand and place it in your Drop Area. If you do, add this card to your hand." />
+</card>
+<card id="71b49abe-1a32-46fc-9e90-32d8bd89361c" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="15000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto Burst 2: When this card attacks, you may choose 1 green card in your hand and place it in your Drop Area. If you do, draw 2 cards.  Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Son Goku, The Legendary Super Saiyan" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto Sparking 5: When this card attacks, draw 1 card, and if a Krillin card is in your Drop Area, this card gets +5000 power and Double Strike for the duration of the turn." />
+</alternate>
+</card>
+<card id="65c60283-f13d-496a-a60d-eb6cb8058c01" name="Final Showdown Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GGG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Double Strike.  Auto: When a Krillin card with an energy cost of 4 or more in your Battle Area is KO'd by your opponent, if your Leader Card is green or black, play this card from your hand, and you can't play Final Showdown Son Goku for the duration of the turn. Auto: When you play this card from your hand, choose up to 1 of your opponent's Battle Cards ignoring Barrier and KO it." />
+</card>
+<card id="f0d2bc0d-1a79-4b08-b781-04bbce544eca" name="Hyperspeed Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, you may choose up to 2 cards from your life and add them to your hand. If you chose to add 1 or more cards to your hand, this card gets +15000 power and Critical for the duration of the turn." />
+</card>
+<card id="47282512-7662-4ff3-9a44-e86431768908" name="Tenacious Spirit Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Auto: When you play this card, draw 1 card.  Activate Main: Once per turn GG: This card gets +15000 power and Critical for the duration of the turn." />
+</card>
+<card id="3c2d86eb-f40a-4b2e-9a6b-db1b99c30cdb" name="Fledgling Duo Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Barrier.  Permanent: Reduce the energy cost of Krillin cards in your hand by 1. " />
+</card>
+<card id="a63bc6a1-686c-4850-b0f4-09ff2054d103" name="Vegeta, Fully Recovered">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card from a Drop Area, this card gains Dual Attack for the duration of the turn.  Auto: When this card attacks, choose up to 1 of your opponent's Battle Cards with an energy cost of 4 or less and KO it." />
+</card>
+<card id="d19ef8f5-f703-4d59-85f7-ab131e077f78" name="Tactical Victory Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Field card in your opponent's Battle Area and place it in its owner's Drop Area." />
+</card>
+<card id="2aff08bc-f388-45e4-9dd5-4d318d89a798" name="Ever-Dependable Bulma">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bulma" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo.  Auto: When you combo with this card, if your Leader Card is a Shenron card or a green Saiyan card and your life is at 5 or less, draw 1 card, and this card gets +10000 combo power for the duration of the turn." />
+</card>
+<card id="45e957b5-dfdc-4116-bc52-beda42f53dd6" name="Persistent Assault Krillin">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Barrier.  Auto: When you play this card, draw 1 card.  Permanent: If your Leader Card is green or black and this card is in Rest Mode, your opponent's cards can't attack Leader Cards." />
+</card>
+<card id="518ff033-8046-4760-b03b-ca4ba9eaf506" name="Fledgling Duo Krillin">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Blocker.  Auto: When you play this card, choose up to 1 of your opponent's Battle Cards and KO it." />
+</card>
+<card id="532915f0-cebb-4716-9c19-48c8d1ffea3f" name="Dende">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dende" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="88c1a513-983b-48dc-b43f-b0fd026c8bf4" name="Cheelai, the Beautiful">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cheelai: Br" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Feature Rare" />
+<property name="Text" value="Auto: Once per turn: When one of your opponent's Battle Cards is KO'd, your opponent chooses 1 card in their hand and places it in their Drop Area." />
+</card>
+<card id="a70e82fe-922a-41a4-8678-dd4d348fe5f7" name="Plea for Salvation">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card gains Desire in all areas.  Activate Main: If your Leader Card is a Shenron card : Choose 1 green Battle Card in your Drop Area with an energy cost less than or equal to your current energy and play it, then choose up to 1 of your opponent's Battle Cards with an energy cost of 2 or less and KO it." />
+</card>
+<card id="6091b8bd-9c87-4116-80ca-54d788439e78" name="Frieza Army Healing Pod">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Field.  Auto: Once per turn: When you play a green Battle Card from your Drop Area, draw 1 card.  Activate Main 2GG: place this card in its owner's Drop Area : Choose up to 1 Battle Card with an energy cost of 4 or less from your Drop Area and play it." />
+</card>
+<card id="b513dfeb-647a-417b-9517-33bf76354ea1" name="Preemptive Strike">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Counter Play: If your Leader Card is green and the Battle Card your opponent is playing has an energy cost of 4 or less, it is placed in its owner's Drop Area instead of being played." />
+</card>
+<card id="858b5045-df6e-4060-af24-6b4c153a2f92" name="Dende">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Dende" />
+<property name="Special Trait" value="Namekian/Shenron" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: This card can't attack. Activate Main Burst 2: Switch this card to Rest Mode : Choose up to 2 Dragon Ball cards from your deck or life and add them to your hand. Then shuffle any areas you looked through. Wish: When there are 7 Dragon Ball cards in your Drop Area: Choose up to 1 Namekian card in your Drop Area, add it to your hand, and flip this card over." />
+<alternate name="Piccolo, Brimming with Confidence" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: This card can't attack. Activate Main: Once per turn: Choose one -Draw 1 card. Choose 1 yellow Desire card in your hand with an energy cost less than or equal to your current energy and activate its Activate Main skill. Remove 7 Dragon Ball cards in your Drop Area from the game. If you do, choose all of your yellow Namekian Leader Cards and yellow Namekian Battle Cards and they get +10000 power for the duration of the turn, then flip this card over at the end of the turn." />
+</alternate>
+</card>
+<card id="6fac2bdd-8be0-4b52-b150-149fcc58223d" name="Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="d55dc302-c65c-4afb-a73e-b88e2997dd5d" name="Vegeta, Striving to be the Best">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta: BR" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Feature Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with Barrier in Rest Mode ignoring Barrier and KO it. If you KO'd it, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="a86ecb0d-071b-44bc-ae4c-c25d45bb9798" name="Krillin, Ability Unleashed">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, you may choose 2 non-black Battle Cards in your opponent's Drop Area and place them at the bottom of their deck in any order. If you do, draw 1 card." />
+</card>
+<card id="875844c6-9a03-4a72-9663-178f7e731039" name="Piccolo, Fused with Nail">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YYY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo/Nail" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Double Strike.  Activate Main: Once per turn: Choose one.  -This card gets +3000 power for the duration of the turn for each Namekian card under this card.  -If there are 3 or more xe3x80x8aNamekianxe3x80x8b cards under this card, this card gains Barrier until the end of your opponent's next turn, then choose up to 1 of your opponent's energy and switch it to Rest Mode. That card can't be switched to Active Mode until the end of your opponent's next turn." />
+</card>
+<card id="87c3a74f-6d24-4848-acb7-eedc286eaae9" name="Piccolo, Potential Unleashed">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Union-Absorb 1YY, choose 1 Nail card from your hand or Drop Area and place it under this card: If your Leader Card is a Shenron card and your opponent has 3 or more cards in Rest Mode, choose up to 1 yellow Namekian card with an energy cost of 4 from your deck or Drop Area and play it on top of this card in Active Mode, then shuffle your deck if you looked through it." />
+</card>
+<card id="8f9db058-a295-4fe2-8c85-4c5d3279679b" name="Namekian Solidarity Piccolo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, draw 1 card, then choose up to 1 Namekian card in your Battle Area and up to 3 Namekian cards in your Drop Area, and place the chosen cards from your Drop Area under the chosen card in your Battle Area." />
+</card>
+<card id="4063f72f-2e4f-4b7c-9872-c56785caab14" name="Ancient Wisdom Guru">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Guru" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Super Combo.  Auto: When you combo with this card, if your Leader Card is a yellow Namekian card and your life is at 5 or less, draw 1 card, and this card gets +10000 combo power for the duration of the turn." />
+</card>
+<card id="6ab4149e-b454-4534-9741-f20695bad8dc" name="Life or Death Nail">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Nail" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Evolve 2: Nail.  Permanent: If there are 2 or more Namekian cards under this card, this card gains Barrier and Double Strike.  Auto Sparking 5: When you play this card, you may choose 1 card from your life and add it to your hand. If you do, choose up to 1 of your opponent's Battle Cards ignoring Barrier and switch it to Rest Mode." />
+</card>
+<card id="22c43747-e74e-4e09-9a98-a4fac5b92ad1" name="Nail, Pride of Namek">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Nail" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto Burst 2: At the end of a battle in which you combo with this card from your hand, if your Leader Card is a Namekian card, play this card in Rest Mode.  Activate Main: Choose 1 other Namekian card in your Battle Area: Place this card under the chosen Battle Card, and that card gets +5000 power for the duration of the turn." />
+</card>
+<card id="eabab2d0-0dda-40f3-9643-a2ad6b7bb584" name="Wishmaker Dende">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dende" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Dragon Ball card from your deck and add it to your hand, then shuffle your deck.  Activate Main: Choose 1 other Namekian card in your Battle Area: Place this card under the chosen Battle Card, and that card gets +5000 power for the duration of the turn." />
+</card>
+<card id="6deddab8-737f-475d-abef-36f5906fb8ea" name="Cargo, Namekian Youth">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cargo" />
+<property name="Special Trait" value="Namekian" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, draw 1 card, then choose up to 1 of your opponent's skill-less Battle Cards in Rest Mode and KO it." />
+</card>
+<card id="14f5ab59-b4ee-450a-818b-508fb2b870c0" name="Twin Revival">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YYY)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: This card gains Desire in all areas. Activate Main: If your Leader Card is a yellow Shenron card: Choose up to 2 yellow ?Namekian? cards with energy costs of 2 or less in your Drop Area and play them." />
+</card>
+<card id="e164cd71-bba6-4deb-8bd6-51210cbd1c50" name="Assimilate">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate Main: Choose up to 1 green or yellow Namekian card with an energy cost of 2 or less from your deck and add it to your hand." />
+</card>
+<card id="3b01c2ba-3e65-4ae7-8702-761fa0f61e04" name="Solar Flare">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter Attack: Negate the attack, and if your Leader Card is yellow, choose up to 1 of your yellow Battle Cards with an energy cost of 2 or less, and it gains Blocker for the duration of the turn." />
+</card>
+<card id="562b7b09-4609-4f13-8f60-fc9021414fc0" name="Dragon Ball">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Dragon Ball" />
+<property name="Special Trait" value="Shenron" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: This card can't attack. Activate Main: Switch this card to Rest Mode : Choose up to 2 Dragon Ball cards from your deck or life and add them to your hand. Then shuffle any areas you looked through. Wish: When there are 7 Dragon Ball cards in your Drop Area: Choose up to 1 Desire card in your Drop Area, add it to your hand, and flip this card over." />
+<alternate name="Porunga, Saviour of Namekians" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: This card can't attack.  Activate Main Once per turn: Choose one - Draw 1 card.  Choose 1 Desire card in your hand with an energy cost less than or equal to your current energy and activate its Activate Main skill.  Remove 7 Dragon Ball cards in your Drop Area from the game. If you do, choose 1 Battle Card with an energy cost less than or equal to your current energy from your Drop Area and play it, then flip this card over at the end of the turn." />
+</alternate>
+</card>
+<card id="644917f3-ca07-4456-a173-5e3be2031715" name="No Escape Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="3000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Deflect.  Auto: When you play this card, draw 1 card, and players can't use non-keyword skills to return Battle Cards in the Battle Area to their own hands during their turn for the duration of the game." />
+</card>
+<card id="0ed00b12-1073-414d-ac89-27b533683050" name="Newfound Power Porunga">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Porunga" />
+<property name="Special Trait" value="Shenron" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Permanent: This card can't attack.  Activate Main: Switch this card to Rest Mode: If your Leader Card is a black Shenron card, choose one.  -Draw 2 cards.  -Choose 1 of your Battle Cards, and it gets +10000 power until the end of your opponent's next turn.  -Choose 1 of your and your opponent's Battle Cards ignoring Barrier. Then choose the rest of your and your opponent's cards in the Battle Area ignoring Barrier and shuffle them into their owners' decks." />
+</card>
+<card id="686e21d1-d1a5-4540-a41b-0de281b758ae" name="Porunga's Dragon Ball">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Dragon Ball.  Activate Main: If your Leader Card is a Shenron card, draw 1 card." />
+</card>
+<card id="8f4baa94-e818-40d9-ba34-604d428f0b95" name="Wish to Porunga">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card gains ?Desire? in all areas.  Activate Main: If your Leader Card is a black Shenron card, choose 1 of your and your opponent's Battle Cards with equal energy costs ignoring Barrier: Choose all other Battle Cards you control, all other Battle Cards your opponent controls ignoring Barrier, and your and your opponent's hands, then shuffle them into their owners' decks, then you and your opponent draw 5 cards." />
+</card>
+<card id="ce1a7dce-98df-460b-a2e1-a65a45b8f3b4" name="Frieza, Army Reborn">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="8(RRRRR)" />
+<property name="Power" value="40000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza: Br" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Secret Rare" />
+<property name="Text" value="Quadruple Strike.  Ultimate.  Permanent: When your life is at 2 or less, reduce the energy cost of this card in your hand by 3.  Auto: When you play this card, your opponent reveals their hand. Choose up to 1 card from your opponent's hand and place it in their Drop Area, then choose all of your opponent's Battle Cards with 40000 power or less ignoring Barrier and KO them." />
+</card>
+</cards>
+</set>

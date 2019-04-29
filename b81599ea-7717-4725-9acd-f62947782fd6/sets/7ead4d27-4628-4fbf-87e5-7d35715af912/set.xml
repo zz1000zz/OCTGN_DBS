@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Galactic Battle"
+     id="7ead4d27-4628-4fbf-87e5-7d35715af912" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="4d76e8e6-24b0-47e2-a319-ab3f118f8e73">
+      <options>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.68">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging><cards>
+<card id="545e8bb1-8db3-4f05-9c16-6264471c0c62" name="Champa">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Auto Once per turn When your Battle Card attacks a Leader Card, if the attacking card has 15000 or more power, draw 1 card. Awaken When your life is at 4 or less : You may draw 2 cards and flip this card over." />
+<alternate name="God of Destruction Champa" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Activate:Main: Place 1 card from your hand in the Drop Area : Choose this card or 1 of your Battle Cards. It gains Double Strike for the duration of the turn." />
+</alternate>
+</card>
+<card id="413e67c2-b30a-4402-89f7-cc52efa5bc61" name="Vados">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Vados" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent This card can attack Battle Cards in Active Mode. Awaken When your life is at 4 or less : You may draw 2 cards and flip this card over." />
+<alternate name="Aide Vados" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: This card can attack Battle Cards in Active Mode. Auto: When this card attacks, draw 1 card. If this card attacks a Battle Card, it gains +5000 power for the duration of the turn." />
+</alternate>
+</card>
+<card id="9e8c8156-1191-4187-b8b9-0fdcd96f24ff" name="Hit">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto When this card attacks, it gains +5000 power for the duration of the turn. Awaken When your life is at 4 or less : You may draw 2 cards and flip this card over." />
+<alternate name="Assassin Hit" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card, and this card gains +5000 power for the duration of this turn. Auto: Once per turn When your opponent activates Blocker, you may place 1 red card from your hand into the Drop Area. If you do so, negate that Blocker." />
+</alternate>
+</card>
+<card id="09e12b0d-5091-4edd-b03c-c05f1ec19a13" name="Destructive Terror Champa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="6(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 2(RRR): Champa. Triple Strike. Auto: When you play this card, choose all of your oponent's Battle Cards in the Battle Area with 15000 or less power and KO them." />
+</card>
+<card id="dc38fddc-1664-4198-b163-2e43c8d60364" name="Furthering Destruction Champa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto When you Combo with this card, choose 1 of your attacking cards. It gains Double Strike (This card inflicts 2 damage instead of 1 when attacking) for the duration of the battle." />
+</card>
+<card id="2930e198-43ef-4892-a1d7-a929a75b5944" name="Scheming Champa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto When you play a red ?Alien?, it gains +5000 power for the duration of the turn." />
+</card>
+<card id="c86455c7-91ef-46d6-98eb-d428423199e6" name="Manipulating God Champa">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto When you play this card, look at up to 7 cards from the top of your deck. Choose up to 1 red Champa among them and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="f79c564c-9487-421e-9539-67babe4916fd" name="Bewitching God Vados">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vados" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Dual Attack. Auto When this card attacks, look at up to 3 cards from the top of your deck. Choose up to 1 ?Alien? with power 15000 or less among them and play it. Then, shuffle your deck." />
+</card>
+<card id="d467948d-e8ac-48b9-a9b0-0a71bf970b8d" name="Calm-Hearted Vados">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vados" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto When you play this card, look at up to 3 cards from the top of your deck. Choose up to 1 red ?Alien? among them and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="c8b5a06b-7b42-4c5b-9428-a7230d79087b" name="Divine Aid Vados">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vados" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto When you Combo with this card, if your Leader Card is red and your life is 4 or lower, draw 1 card and add +10000 to this card's Combo for the duration of the turn." />
+</card>
+<card id="bccdbb19-6f45-4d85-8470-5a07eca244ab" name="Lightning-fast Hit">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="6(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 2(RRR): Hit. Double Strike. Auto: When a card evolves into this card, inflict 2 damage to your opponent." />
+</card>
+<card id="8b1e35e3-2641-4518-bc4a-580aca8dd1c2" name="Hit">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="" />
+</card>
+<card id="e66bf107-1a3d-41fb-bb69-436ac0d20407" name="Raging Cabba">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Cabba" />
+<property name="Special Trait" value="Alien/Saiyan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Evolve 1(RR): Cabba. Double Strike. Auto When a card evolves into this card, switch this card to Active Mode." />
+</card>
+<card id="d7923219-4d3f-4400-aec7-e8807f1a8048" name="Saiyan Cabba">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cabba" />
+<property name="Special Trait" value="Alien/Saiyan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto When this card attacks, you may choose 1 card from your life and add it to your hand. If you do so, this card gains +10000 power and Double Strike (This card inflicts 2 damage instead of 1 when attacking) for the duration of the turn." />
+</card>
+<card id="d3f1335b-96c8-48d2-8b2d-9b3405bbc8e6" name="Terror Assault Frost">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frost" />
+<property name="Special Trait" value="Alien/Frieza Clan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Evolve 1(RR): Frost. Double Strike. Auto When this card attacks a Battle Card, KO that card after the battle. Then, if your opponent's Leader Card has 10000 or less power, inflict 1 damage to your opponent. " />
+</card>
+<card id="8b2e267f-09ac-4367-90d3-6fda6908239d" name="Unceasing Evolution Frost">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frost" />
+<property name="Special Trait" value="Alien/Frieza Clan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Evolve (RR): Frost. Double Strike " />
+</card>
+<card id="7a649bac-aeda-4b51-8306-cf77139182ce" name="Evolution Premonition Frost">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frost" />
+<property name="Special Trait" value="Alien/Frieza Clan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main 2: Look at up to 7 cards from the top of your deck, choose one Frost with Evolve among them and Evolve this card into it. Then, shuffle your deck." />
+</card>
+<card id="52c6fa11-5e51-4e84-ab05-977044d806e5" name="Confident Botamo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Botamo" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent This Card can attack Battle Cards that are in Active Mode." />
+</card>
+<card id="fb42b5e3-78d1-4a47-bc5a-fc40bfc32fad" name="Botamo of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Botamo" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="85657ad0-b545-4481-bb1a-4627748896da" name="Iron Will Magetta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Magetta" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: This card cannot be KO-ed in battle." />
+</card>
+<card id="5fbba3ea-d047-490e-9074-6d1e67eeb318" name="Magetta of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Magetta" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="4f3320b8-c6b1-42e9-98c6-71b65dbe4b45" name="Universe 6 Supreme Kai">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Universe 6 Supreme Kai" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Double Strike.  Auto: When you play this card, choose up to 1 Supreme Kai's Attendant from your deck and play it. Then, shuffle your deck." />
+</card>
+<card id="d20c6b12-20de-4b0f-b521-a1182ec3eaf8" name="Kai Attendant of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Supreme Kai's Attendant" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card cannot attack Battle Card with 15000 or more power." />
+</card>
+<card id="a99b6aef-f90f-4a83-bb2e-7c8070649ea3" name="Assassination Plot">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Choose any number of opponent Battle Cards of which the total power adds up to 30000 or less and KO those cards. " />
+</card>
+<card id="f7a1f264-06e1-4b23-bf4b-a64059efb5ce" name="Vados's Assistance">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Attack: Negate the attack. Then, you may switch up to 1 of your Battle Cards to Active Mode." />
+</card>
+<card id="7fedcd74-2f9b-400a-88d2-2a1aa24f5c84" name="Fickle Destruction">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Choose 1 of your opponent's Battle Cards with 12000 or less power in the Battle Area and KO that card." />
+</card>
+<card id="2f5ac073-2283-4cf9-8129-480fc3cb665d" name="Cabba's Awakening">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Battle: Choose up to 1 of your red cards. It gains +6000 power for the duration of the battle." />
+</card>
+<card id="02b306b0-7386-4d35-80ba-69f49b200354" name="Vegeta">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Activate:Main: Once per turn Choose 1 card from your life and add it to your hand : This card gains Critical for the duration of the turn.  Awaken. " />
+<alternate name="Super Saiyan Blue Vegeta" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Activate:Main: Once per turn Choose 1 card from your life and add it to your hand : This card gains Critical for the duration of the turn. If you have 7 or more blue energy, this card also gains +10000 power for the duration of the turn. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="07f295cf-4d41-4511-ad16-dfc0ca26a4c0" name="Beerus">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Beerus" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto When this card attacks, if you have 3 or more energy, choose up to 1 of your opponent's Battle Cards with an energy cost of 2 or less and KO it.  Awaken." />
+<alternate name="Beerus, God of Destruction" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Then choose up to 1 of your opponent's Battle Cards with an energy cost of 3 or less and KO it. Activate:Main 16, Switch this card to Rest Mode : You win this game." />
+</alternate>
+</card>
+<card id="48934fb8-3b81-492d-8084-791faf1319de" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When this card attacks, it gains +1000 for each 1 energy you have, for the duration of the turn.  Awaken." />
+<alternate name="Super Saiyan Blue Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: When you have 7 or more energy, this card gains Dual Attack. Auto: Once per turn When this card attacks, draw 1 card. Then, this card gains +1000 power for each 1 energy you have for the duration of the turn." />
+</alternate>
+</card>
+<card id="1d80e27a-8ca0-480f-8016-218bf061b459" name="God Break Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="7(BBB)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 3(BBB) Son Goku: Double Strike. Your opponent cannot activate Counter against this card's attack and cannot activate Blocker during this card's attack." />
+</card>
+<card id="5d204709-d528-4a68-8e33-9c3e6a73b657" name="Overflowing Spirit SSGSS Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Critical.  Permanent: During your turn, if you have 5 or more energy, this card gains +10000 power." />
+</card>
+<card id="a1c53d71-669c-4869-a4ab-71bff76186a8" name="Kind Saiyan Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, look at up to 7 cards from the top of your deck. Choose up to 1 blue Son Goku among them and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="2f2d157a-faf4-4ddc-84f6-a2253ec604ca" name="Mighty Striker Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(B)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Gohan Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Double Strike." />
+</card>
+<card id="6e5accf8-2879-43ef-9799-02c81baf38ee" name="Son Goten">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goten" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="2087adce-806e-498d-903e-ba03c010163d" name="God Charge Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="6(BBB)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Evolve 2(BBB): Vegeta. Dual Attack. Critical. Auto: When a card evolves into this card, choose up to 1 opponent Battle Card with Blocker and return it to their hand." />
+</card>
+<card id="73d04f79-a64f-4f5a-9f07-3d3d1868aa18" name="Assailant Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Critical" />
+</card>
+<card id="ef4c0491-5ca2-49ed-9266-86dbce610d7c" name="Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="3dc2749f-090a-43a5-8c43-f33e88cf6f50" name="Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="2c0d70ea-0165-4c5b-b5a6-175c3b85fb54" name="Bulma, God Tempter">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bulma" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 Whis with an energy cost of 4 or lower from your deck and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="12431c42-1110-4cea-beff-1a39a185f514" name="Beerus, General of Demolition">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="7(BBB)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Beerus" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Triple Strike. When this card attacks a Leader Card, your oponent may choose 2 cards from their hand and place them in the Drop Area. If they don't, choose all of your oponent's Battle Cards and energy. Place them in the Drop Area." />
+</card>
+<card id="f5aa8043-8445-46b4-b372-6c315405bf6b" name="Energy Boost Beerus">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Beerus" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Auto: When you play this card, if you have 5 or more energy, choose up to 1opponent Battle Card and KO that card." />
+</card>
+<card id="9630ff29-db24-412a-a466-c1331303e093" name="Whis, Judge of the Gods">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="12(BBBBBB)" />
+<property name="Power" value="40000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Whis" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Quadruple Strike.  Permanent: This card's attack and skill cannot be negated. Auto: When you play this card, if your Leader Card is Beerus, after your current turn ends, take another turn." />
+</card>
+<card id="27edfa8f-1075-4e0b-949b-fb4b685979ad" name="Whis,the Resting Attendant">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Whis" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, add 1 card to your energy from the top of your deck." />
+</card>
+<card id="dbc27190-7864-43c3-8ad1-7c03c488471d" name="Boost Attack Piccolo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian/God" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you Combo with this card, if your Leader Card is blue and your life is 4 or less, draw 1 card and add +10000 to this card's Combo for the duration of the turn." />
+</card>
+<card id="ae4335c8-ebe8-4007-a538-d8b310c266e8" name="Taunting Piccolo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo" />
+<property name="Special Trait" value="Namekian/God" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="c312436a-a770-47d5-b571-7cd1a3d084c6" name="Energy Boosted Majin Buu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Majin Buu" />
+<property name="Special Trait" value="Majin" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, draw 1 card." />
+</card>
+<card id="531bcdac-ee86-477a-892f-ebefd85cef06" name="Ultimate Judgment Jaco">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="16000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Jaco" />
+<property name="Special Trait" value="Galactic Patrol" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you Combo with this card, choose 1 card in your opponent's Combo Area and return it to their hand." />
+</card>
+<card id="cfd43b94-b210-4f52-94d5-c8dbc4415934" name="Mysterious Presence Monaka">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Monaka" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, if you do not have any Battle Cards other than this card in play, choose up to 1 of your opponent's Battle Cards. Place that card on top of the opponent's deck, and all cards that were under it in the Drop Area." />
+</card>
+<card id="a83f4354-db58-47ef-a564-a56eb8eec997" name="Guardian North Kai">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="North Kai" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="502631a9-1db7-4bea-bea7-7fe653c107e1" name="Result of Training">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BB)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate:Main: During this turn, you may activate your Leader Card's Awaken even if you have 5 or more life. Then, choose up to 4 of your energy and switch them to Active Mode." />
+</card>
+<card id="ca7592f4-2fd1-4520-819a-0a7bbda657fb" name="Objection">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Choose up to 1 card from your hand, and add it to your energy." />
+</card>
+<card id="3b8b1892-077e-449d-a72d-e8280c242de8" name="Senzu Bean">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Battle: Choose up to 1 of your cards. It gains +5000 power for the duration of the turn. Then, choose up to 2 of your energy and switch them to Active Mode." />
+</card>
+<card id="8d35c0cb-b0df-44f8-8153-519e954488d5" name="Encouraging Presence Monaka">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Your Leader Card gains Double Strike" />
+</card>
+<card id="e27e1cc2-8f21-4bba-9d9a-436d4b63a72b" name="Whis's Coercion">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Attack: Negate the attack. Then, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="a63f5bae-804b-4166-8be5-b8cea5647e69" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Awaken." />
+<alternate name="Super Saiyan God Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Double Strike. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="dab58325-8c86-4706-833f-fd2608e80e17" name="Broly">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Permanent: This card cannot attack Battle Cards. Auto: When this card attacks, both players choose 1 card from their hand and place it in the Drop Area. Awaken." />
+<alternate name="Broly, The Legendary Super Saiyan" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: This card cannot attack Battle Cards. Auto: When this card attacks, draw 1 card. Then, both players choose 1 card from their hand and 1 card from their Battle Area, and place those cards in their Drop Areas." />
+</alternate>
+</card>
+<card id="d1c5beb5-a0ce-4b7e-8c15-6439c15ae339" name="Son Gohan">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Gohan Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When this card attacks, if you have more life than your opponent, draw 1 card. Awaken." />
+<alternate name="Full Power Son Gohan" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card. Activate:Main: Once per turn 6: Choose all of your opponent's Battle Cards in the Battle Area and KO them." />
+</alternate>
+</card>
+<card id="7e3b87fe-7278-42cb-a33a-37ca0cb50582" name="Awakening Rage Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 2(GGG) Son Goku: Double Strike. Permanent: If Krillin is in your Drop Area, this card gains Triple Strike. Auto: When you play this card, choose any number of your opponent's Battle Cards of which the total cost adds up to 6 or less and KO them." />
+</card>
+<card id="86843fb1-4321-4026-86bf-7a4608006c9a" name="Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="31c14ff3-d598-443e-9d38-27327b34d602" name="Friend-Summoning Son Gohan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: When you play this card, look at up to 7 cards from the top of your deck. Choose up to 1 Krillin among them and add it to your hand." />
+</card>
+<card id="825742be-0691-4f85-9872-285a7ed2b433" name="Son Gohan, Family of Justice">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="908aa21d-4ac0-4ec4-8147-e59f733926ea" name="Son Goten, Family of Justice">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goten" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: During your turn, when you Combo with this card, choose up to 1 of your opponent's Battle Cards with an energy cost of 3 or less and KO it." />
+</card>
+<card id="ea17be2c-63e8-44b6-b2b5-a789e717a46a" name="Raging Attacker Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Double Strike. Counter:Attack: Play this card from your hand. Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with an energy cost of 4 or less and KO it." />
+</card>
+<card id="e4b823d3-051a-4d97-ac0c-ee3853d85e33" name="Furious Yell Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Activate:Main: Once per turn Place 1 card from your life to the Drop Area : Choose 1 of your opponent's Battle Cards and KO it." />
+</card>
+<card id="c6c9d6f2-6659-4f81-b2d9-58aa3e7f9055" name="Tenacious Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Revenge. Permanent: This card cannot be attacked by a Leader Card" />
+</card>
+<card id="8040310f-bd5e-4917-9263-bf213761448e" name="Implacable Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Evolve 1(GG) Trunks: Future. Double Strike. Revenge. Auto: When a card evolves into this card, choose up to 1 card from your Drop Area and add it to your hand." />
+</card>
+<card id="cefd079d-5713-47f7-9569-f4fc05d11992" name="Slasher Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card cannot attack Battle Cards." />
+</card>
+<card id="1c91fa4c-58ec-4ec9-91aa-2a4bd826f4f5" name="Trunks, Protector of Children">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you Combo with this card, if your Leader Card is green and your life is 4 or less, draw 1 card and add +10000 to this card's Combo for the duration of the turn." />
+</card>
+<card id="66b2d0a8-6055-4d32-b1ab-1d7fd1274450" name="Super Saiyan Gotenks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Gotenks" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Evolve 1(GGG): Gotenks. Double Strike. Auto: When you play this card, choose up to 2 of your energy and switch them to Active Mode. Then, draw 1 card." />
+</card>
+<card id="355badaf-b200-4661-9bc0-9de738a9a26e" name="Energy Power Gotenks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gotenks" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, your opponent chooses 1 card from their hand and places it in the Drop Area." />
+</card>
+<card id="492f2271-b5d0-47d3-950c-be11621fb67e" name="Human Shield Krillin">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="9f7ece0a-e831-49a1-bf70-1c6558c0c719" name="Broly, the Rampaging Horror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GGG)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 1(GGGG) Broly. Double Strike. Auto: When you play this card, choose up to 2 cards from your opponent's hand at random and place them in the Drop Area." />
+</card>
+<card id="a6882780-6e0a-4543-92cb-c56eed783824" name="Rampaging Lifeform Bio-Broly">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan/Bio Warrior" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="[Evolve] 2(GG): Broly. Double Strike. [Auto] When a card evolves into this card, your opponent chooses two cards from their hand, and places them in the Drop Area. " />
+</card>
+<card id="40b89aaa-c265-4d2e-a2c6-a07d44040a37" name="Rampaging Super Saiyan Broly">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GG)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Triple Strike" />
+</card>
+<card id="7d462a1f-fce3-42cf-b25b-c388b49460d9" name="Broly, Dawn of the Rampage">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, look at up to 7 cards from the top of your deck and add 1 green Broly among them to your hand. Then, shuffle your deck." />
+</card>
+<card id="20335566-21a7-4b98-8867-7fba795aeb4f" name="Paragus, Controller of Monsters">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Paragus" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, you may place 1 card from your hand in the Drop Area. If you do so, choose and activate 1 {Broly's Ring} from your deck. Then, shuffle your deck." />
+</card>
+<card id="04c77371-d1a8-4b0b-880c-4007db235f64" name="Overflowing Bio Warrior Army">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bio Warrior" />
+<property name="Special Trait" value="Bio Warrior" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When this card is placed in the Drop Area from the Battle Area, if your Leader Card is Broly, you may place 1 card from your hand in the Drop Area. If you do, play this card." />
+</card>
+<card id="11c4623d-f97d-4979-ae49-f198158ebda3" name="King Vegeta's Surprise Attack">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate:Battle: Choose up to 1 of your Battle Cards. It gains +10000 power and Revenge" />
+</card>
+<card id="9d39ed79-2d1d-4a59-8c00-4acf13f417a3" name="Full Power Energy">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Attack: Negate the attack. Then, choose up to 1 opponent Battle Card with an energy cost of 1 or less and KO that card." />
+</card>
+<card id="04bc9ef1-dc00-44db-8816-5accf28180b5" name="Broly's Ring">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Field. Permanent: Your hand is not affected by your Leader Card Broly's skill." />
+</card>
+<card id="71183e2f-cf11-4a48-aa34-c35c68e6b9f3" name="Family Kamehameha">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Choose up to 1 opponent Battle Card with an energy cost of 2 or less and KO that card." />
+</card>
+<card id="ce76dee4-9488-4539-8e7e-101f5c67c0c4" name="Frieza">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Activate:Main: Once per turn Place 1 of your ?Frieza's Army? Battle Cards in the Drop Area : Choose up to 1 of your energy and switch it to Active Mode. Then, draw 1 card. Awaken." />
+<alternate name="Ultimate Form Golden Frieza" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Activate:Main: Once per turn Place 1 of your ?Frieza's Army? Battle Cards in the Drop Area : Choose up to 2 of your energy and switch them to Active Mode. Then, draw 1 card. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="fc5d340f-d8a3-40a3-a182-bedef4eb8ba2" name="Frieza">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Auto: At the end of your turn, choose up to 1 of your Battle Cards and switch it to Active Mode. Awaken." />
+<alternate name="Frieza, The Galactic Emperor" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: At the end of your turn, choose up to 2 of your Battle Cards and switch them to Active Mode. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="44582e31-7fbd-4866-a636-7515e44e79a5" name="Ginyu">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Ginyu" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Activate:Main: Once per turn Flip over 1 face-down card in your life : If the flipped card is ?Ginyu Force? but not Ginyu, play that card. If not, add it to your hand. Awaken." />
+<alternate name="Ginyu, The Malicious Transformation" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Activate:Main: Once per turn Add 1 card from your life to your hand : This card gains Double Strike for the duration of the turn. If there are 2 or more of your ?Ginyu Force? in play, this card gains an additional +5000 power for the duration of the turn. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="d8d4956f-1b2b-41e8-b7fa-9f931c871f45" name="Golden Frieza, Resurrected  Terror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="7(YYY)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 4(YY) Frieza. Triple Strike. Auto: When a card evolves into this card, place all Rest Mode Battle Cards except for this card in the Drop Area. Then, choose all Active Mode Battle Cards except for this card and switch them to Rest Mode." />
+</card>
+<card id="1188c1e1-010b-4632-8e2d-928540057863" name="Full-Power Frieza">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="6(YY)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Blocker. Triple Strike. Auto: When you activate this card's Blocker, switch this card to Active Mode after the battle." />
+</card>
+<card id="4fe882f8-cc09-4bd8-a196-935bebc76c4e" name="Frieza, Hellish Terror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Evolve 1(YY): Frieza. Double Strike. Auto: When a card evolves into this card, choose all of your opponent's cards with Blocker and switch them to Rest Mode." />
+</card>
+<card id="b625e0f3-bb44-49a5-8a8e-4704bbc4afee" name="Avenging Frieza">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you play this card, look at up to 3 cards from the top of your deck. Choose up to 1 Frieza's Army among them with an energy cost of 2 or less and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="934b3ea8-c065-47f0-92c8-ba5ce789e5a8" name="Mecha-Frieza, The Returning Terror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Dual Strike. Auto: When you play this card, you may place 1 card from your hand in the Drop Area. If you do so, choose up to 2 opponent Rest Mode Battle Cards and KO those cards. Then, this card gains Double Strike for the duration of the turn." />
+</card>
+<card id="1d61163c-a77a-4046-bf0a-c376bf0ea9f9" name="King Cold, Father of the Emperor">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YYY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="King Kold" />
+<property name="Special Trait" value="Frieza Clan" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Rare" />
+<property name="Text" value="Double Strike. Revenge. Counter:Battle Card Attack: Play this card from your hand and change the target of the attack to this card.Auto When you play this card, choose up to 1 opponent Battle Card and switch it to Rest Mode. " />
+</card>
+<card id="88828192-3c2a-4f72-97dc-d7a6ee8abf46" name="Sorbet, the Loyal Commander">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Sorbet" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Blocker. Activate:Battle: Once per turn Place 1 card from your hand in the Drop Area : Look at up to 2 cards from the top of your deck. Choose up to 2 ?Frieza's Army? among them and place them in your Combo Area. Place any other cards in the Drop Area. " />
+</card>
+<card id="c1f16747-e815-42d6-a661-010fee19297b" name="Tagoma, The Loyal Warrior">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Tagoma" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Permanent: If this card is in Rest Mode, your opponent cannot attack your other Battle Cards." />
+</card>
+<card id="5fbf6a0c-0bb9-407c-ab8d-e30ef47e8c68" name="Shisami, The Loyal Warrior">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Shisami" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Double Strike. Auto: When you play this card, choose up to 2 opponent Battle Cards. They cannot be switched to Active Mode during your opponent's next Charge Phase. " />
+</card>
+<card id="00b9073a-1a5b-495c-af71-41892ad23b4f" name="Elite Force Captain Ginyu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="6(YY)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Ginyu" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Auto: When you play this card, choose all of your Ginyu Force Battle Cards. Those cards gain +10000 power and Double Strike for the duration of the turn." />
+</card>
+<card id="ec474cc9-a5ee-4edd-8863-7d48e0f7784a" name="Ginyu Force Recoome">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Recoome" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Permanent: This card gains +6000 power during your opponent's turn." />
+</card>
+<card id="8e994cf7-59e2-4cc9-a365-3c9f05b64f8a" name="Ginyu Force Burter">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Burter" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: At the end of your turn, switch this card to Active Mode." />
+</card>
+<card id="aea6e275-3fcd-44c4-82c1-78c8777d26c9" name="Ginyu Force Jeice">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Jeice" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker. Auto: When you play this card from your hand, look at up to 3 cards from the top of your deck. Choose up to 1  other than Ginyu among them and play it. Then, shuffle your deck." />
+</card>
+<card id="4801a61e-a3e8-4564-a9b1-a134e2ae1167" name="Ginyu Force Guldo">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="2000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Guldo" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker. Auto: When you play this card, if your Leader Card is , choose up to 1 of your opponent's Battle Cards with an energy cost of 2 or less and switch it to Rest Mode. " />
+</card>
+<card id="1545f7db-57d9-47b1-9645-92812bc2a2db" name="Dodoria, The Emperor's Attendant">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dodoria" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: When you Combo with this card, if your Leader Card is yellow and your life is 4 or less, draw 1 card and add +10000 to this card's Combo for the duration of the turn." />
+</card>
+<card id="5921a5ba-1d70-463b-9520-bab5b89be518" name="Zarbon, The Emperor's Attendant">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Zarbon" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Auto: During your opponent's turn, when you Combo with this card, choose up to 1 of your Battle Cards and switch it to Active Mode." />
+</card>
+<card id="89e743df-013c-4ca2-9cda-79a4e11713dd" name="Appule">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Appule" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="39e571b4-531e-48fb-ad5e-ed7772fa836a" name="Sui">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Sui" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="769549c4-4b76-41c7-80bd-0e683de88dff" name="Banan">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(Y)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Banan" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="" />
+</card>
+<card id="55405237-38a2-491a-b4b4-cb90c3b482ec" name="Cui">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cui" />
+<property name="Special Trait" value="Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Blocker" />
+</card>
+<card id="587c103e-bc5d-4aa8-ace2-3c80efdbc2e6" name="Recdoome Eraser Gun">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Uncommon" />
+<property name="Text" value="Counter:Attack: If your Leader Card is yellow, negate the attack.Afterwards, the opponent's Battle Cards are unable to attack for the duration of the turn." />
+</card>
+<card id="665006d4-b221-437e-93ae-ac6248377fd6" name="Cold Bloodlust">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Play: If your Leader Card is ?Frieza's Army?, the Battle Card played has its skill negated for the duration of the turn. " />
+</card>
+<card id="2d1b9c41-3f4e-4703-8e72-d3c092ec9067" name="Bad Ring Laser">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Counter: Place 1 yellow card from your hand in the Drop Area : Negate the Counter." />
+</card>
+<card id="4f375956-ec19-47b1-b96a-604614797916" name="Frieza's Call">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Activate:Main: Choose 1 ?Frieza's Army? card of energy cost 2 or less from your deck, and play it in Rest Mode. Then, shuffle your deck." />
+</card>
+<card id="9a4a61f8-0ec5-4de2-b085-511825edc959" name="Crusher Ball">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Common" />
+<property name="Text" value="Counter:Play The Battle Card played is played in Rest Mode." />
+</card>
+<card id="0ed25dfa-bf2e-4aad-945e-f3360438fd66" name="Lightning-fast Hit">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="6(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien" />
+<property name="Era" value="Champa Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 2(RRR): Hit. Double Strike. Auto: When a card evolves into this card, inflict 2 damage to your opponent." />
+</card>
+<card id="c3f3e29d-f349-471d-90e1-b94c0ce32f17" name="God Break Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="7(BBB)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 3(BBB) Son Goku: Double Strike. Your opponent cannot activate Counter against this card's attack and cannot activate Blocker during this card's attack." />
+</card>
+<card id="f6ced68f-1733-448d-a8bb-af0aeaab45b6" name="Broly, the Rampaging Horror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GGG)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 1(GGGG) Broly. Double Strike. Auto: When you play this card, choose up to 2 cards from your opponent's hand at random and place them in the Drop Area." />
+</card>
+<card id="4e888ac0-279f-4bdc-a322-a71fc99f81db" name="Golden Frieza, Resurrected  Terror">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="7(YYY)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Super Rare" />
+<property name="Text" value="Evolve 4(YY) Frieza. Triple Strike. Auto: When a card evolves into this card, place all Rest Mode Battle Cards except for this card in the Drop Area. Then, choose all Active Mode Battle Cards except for this card and switch them to Rest Mode." />
+</card>
+</cards>
+</set>

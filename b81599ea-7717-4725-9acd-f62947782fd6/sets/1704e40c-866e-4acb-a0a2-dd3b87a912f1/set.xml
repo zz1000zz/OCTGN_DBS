@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Crimson Saiyan"
+     id="1704e40c-866e-4acb-a0a2-dd3b87a912f1" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="be3a224e-382c-4828-8674-ce08a0b8c288" name="Golden Great Ape Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku: GT" />
+<property name="Special Trait" value="Saiyan/Goku's Lineage" />
+<property name="Era" value="Baby Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, draw 1 card.  Awaken: When your life is at 4 or less: You may choose up to 2 of your energy, switch them to Active Mode and flip this card over." />
+<alternate name="Long Odds SS4 Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card.  Permanent: when your life is less than or equal to your opponent's life, this card gains +5000 power and Critical." />
+</alternate>
+</card>
+<card id="e07610b0-5cb0-46a4-9179-9ddd657a7971" name="Power Charge Bardock">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bardock" />
+<property name="Special Trait" value="Saiyan/Goku's Lineage" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Auto: When this card attacks, you may draw 1 card. If you did not draw a card with this skill, this card gains Double Strike." />
+</card>
+<card id="cfa5bc62-89db-4a5e-a5cf-c28f3cf1e466" name="SSB Son Goku, at the Apex">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="5(YY)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/Goku's Lineage" />
+<property name="Era" value="Resurrection 'F' Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Swap 8 YYYY: Goku's Lineage.  Barrier.  Double Strike.  Auto: When you play this card, if your Leader Cared is Goku's Lineage, choose up to 1 of your opponent's Battle Cards and KO it." />
+</card>
+<card id="4e0a81c9-5065-4231-9457-e862bc746bd9" name="Reborn Might SS4 Son Goku">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="5(YY)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: GT" />
+<property name="Special Trait" value="Saiyan/Goku's Lineage" />
+<property name="Era" value="Baby Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Swap 8 YYYY: Goku's Lineage.  Activate Main: Once per turn: Choose 1 card from your life and add it to your hand.  Switch this card to Active Mode, and if you have 2 or less life, this card gains Triple Strike." />
+</card>
+<card id="9c9c14b2-ce77-4bcf-b4fd-33ed7915c191" name="Ultimate Potential SS2 Son Gohan">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Childhood" />
+<property name="Special Trait" value="Saiyan/Earthling/Goku's Lineage" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Swap 4 YY: Goku's Lineage.  Auto: When you play this card, choose up to 1 of your opponent's Rest Mode Battle Cards and KO it." />
+</card>
+</cards>
+</set>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Special Event Cards"
+     id="eeddd415-cbef-4a3f-9734-2286790a187f" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1"
+hidden="true">
+<cards>
+<card id="9d1b90fc-5559-4c89-bbb0-aa2e5b80e448" name="Magetta">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Yamcha" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Challenge System" />
+<property name="Rarity" value="Event" />
+<property name="Text" value="Permanent: Treat cards with an energy cost of 1 in all areas as though they had no specified cost.  Auto: When you place this card in the Leader Area, choose 1 Things Are Heating Up! from your deck and place it in the Battle Area in Active Mode.  Awaken: When your life is at 4 or less: You may place up to 2 cards from your Drop in your Life, shuffle your Life and flip this card over." />
+<alternate name="Magetta and Botamo" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: Treat cards with an energy cost of 1 in all areas as though they had no specified cost.  Permanent: Your Field cards are not destroyed when another Field card is played.  Permanent: You may combo with Battle Cards in Rest Mode.  Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="2541d9dc-4b7e-4597-865f-500862e0189e" name="Absorption Field">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Event" />
+<property name="Text" value="Counter Attack: Negate the attack.  Draw a card." />
+</card>
+<card id="954f4fae-0213-486d-b0b3-7b5e17e2fbd9" name="Things are Heating Up!">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="0" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Event" />
+<property name="Text" value="Field. Auto: When you play this card from your hand, draw 1 card.  Auto: Whenever a card attacks, your opponent places the top card of their deck in the Warp." />
+</card>
+<card id="815eeabb-50d0-4f7f-9bea-10318289a24c" name="DB Search Delimiter">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="bf8d3adc-e2d7-44e9-8f9a-9d95c71be50f" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="d2e1daeb-3625-4d20-930c-60b7b8b86bca" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="c3af053e-a4e9-4524-b381-ea49c16d0930" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="5b14b7c3-a852-4558-a55c-bff642f3425e" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="29d9b8e3-25f5-442a-b248-d4f6e00863ae" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="3f7a5bca-1abe-4633-97d0-3d830f9358ea" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>

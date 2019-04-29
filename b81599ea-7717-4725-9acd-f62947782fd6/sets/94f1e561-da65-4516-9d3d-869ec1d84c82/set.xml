@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Dark Invasion"
+     id="94f1e561-da65-4516-9d3d-869ec1d84c82" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="22c353f1-af7d-407f-a7d6-6454a9247db2" name="The Masked Saiyan">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Masked Saiyan" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Activate Main: Once per Turn: Place the top 3 cards of your deck in the Drop Area: If you place a black card in the Drop Area with this skill, this card gains Critical for the duration of hte turn. If a card of any other color is placed in the Drop Area, this card also gains +5000 power for the duration of the turn. Awaken: When your life is at 4 or less: You may draw 2 cards and flip this card over." />
+<alternate name="Bardock, Unbound by Darkness" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Activate Main: Once per Turn: Place the top 3 cards of your deck in the Drop Area: If you place a black card in the Drop Area with this skill, this card gains Critical for the duration of hte turn. If a card of any other color is placed in the Drop Area, this card also gains +5000 power for the duration of the turn. Auto: When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="0bbe04b1-5136-4de6-ae86-fa07791fd511" name="Killer Sword Trunks">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Xeno" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Xeno Evolve 4 - Trunks: Xeno. Double Strike. Auto: When a card evolves into this card, choose up to 1 Battle Card in your Warp with energy cost of 3 or less and play it." />
+</card>
+<card id="1d483f45-63f9-46eb-a29e-205f1ea29b0a" name="Quick blade Trunks">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Black" />
+<property name="Cost" value="2" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Xeno" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Over Realm 2" />
+</card>
+<card id="906011fe-96f3-4bc3-befa-8e423c169d9b" name="Encroaching Threat Masked Saiyan">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bardock: Xeno" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Permanent: This card can attack Battle Cards that are in Active Mode. Permanent: When you'vesent 7 or more cards to your Warp, reduce the energy cost of this card in your hand and Warp by 1." />
+</card>
+<card id="a14c32e8-2384-4850-9ce0-9d2e3b2f4928" name="Power Aura Mira">
+<property name="Type" value="Battle Card" />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mira" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="Over Realm 3. Permanent: When you have 3 or more cards in your Warp, this card gains +5000 power. If you have 5 or more cards in your Warp, this card gains anadditional +5000 power." />
+</card>
+</cards>
+</set>

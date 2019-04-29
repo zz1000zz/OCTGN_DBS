@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Ultimate Box"
+     id="fc4f9aa6-7093-4860-ae1a-293c38f8dca6" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="8a535652-cc65-48cd-af84-2f9564c5f683">
+      <options>
+        <option probability="0.003">
+          <pick qty="1" key="Rarity" value="Secret Rare" />
+        </option>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.65">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging>
+<cards>
+<card id="5c846764-f0d7-4d7f-8f9b-5545d9b2fbac" name="Kefla">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Kefla" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, you may choose 1 \xe3\x80\x8aUniverse 6\xe3\x80\x8b in your hand and place it in your Drop Area. If you do so, draw 2 cards.  Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Explosive Power Kefla" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card.  Activate Main:  Once per turn, Choose 1 Universe 6 in your hand and place it in your Drop Area : Choose this card or one of your Universe 6 Battle Cards. It gains +5000 power and Double Strike for the duration of the turn." />
+</alternate>
+</card>
+<card id="a7abb277-f37a-4346-bb37-3757aa3670a1" name="Ghost Combo Gotenks">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(R)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Gotenks" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Double Strike.  Auto: When you combo with this card, if your Leader Card is red and you have 4 or less cards in your hand, play 1 Ghost token in Rest Mode. (Ghost tokens have 15000 power)" />
+</card>
+<card id="752e8327-5e7d-4c49-bb95-b33e80bddf7a" name="Virtuous Strength Gohan">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: If your Leader Card is red, this card can attack Battle Cards that are in Active Mode.  Auto: During your turn, when this card KO-s an opponent's Battle Card, inflict 1 damage to your opponent." />
+</card>
+<card id="8ef607f9-79e7-4010-a8f1-fea833a465f8" name="Umbral Blade Dabura">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dabura" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Double Strike.  Auto: When you play this card, if you have Evil Wizard Babidi in your Battle Area or Leader Area, for the duration of the turn this card gains +10000 power and Dual Attack." />
+</card>
+<card id="1fea4453-1b87-4759-826e-27738565f0bb" name="Rampant Evil Majin Buu">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(R)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Majin Buu" />
+<property name="Special Trait" value="Majin" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Deflect.  Auto: When you play this card, if your Leader \xef\xbc\xa3ard is a Majin, draw 1 card, choose up to 1 of your energy and switch it to Active Mode, and this card gains Triple Strike for the duration of the turn." />
+</card>
+<card id="a4aa2eab-7017-4b4e-9e76-4e0b0b8bf32a" name="Capricious Destroyer Champa">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is a God or Universe 6, choose up to 2 of your opponent's Battle Cards with 9000 power or less and KO them." />
+</card>
+<card id="20e472c5-0edf-4eec-b4f0-8efd6c7212da" name="Vegeta">
+<property name="Type" value="Leader" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Warrior of Universe 7.  Auto: When this card attacks a Leader Card, if you have a Universe 7 in your Energy Area, draw 1 card, and this card gains +5000 power for the duration of the turn.  Awaken When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Explosive Power Vegeta" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent: During your turn, if you have 3 or more Universe 7 in your Energy Area, this card gains +5000 power.  Auto: When this card attacks, draw 1 card. You may choose up to 1 of your energy and add it to your hand. If you chose to add a card from your \xef\xbc\xa5nergy Area to your hand, choose up to 1 card in your hand and add it to your energy." />
+</alternate>
+</card>
+<card id="ef4e4b4d-cef7-47b0-ae1d-8fee09b5d327" name="Awe-Inspiring Intimidator SSB Vegito">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(B)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegito" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: If your Leader Card is blue and this card is in Rest Mode, this card gains Barrier and your opponent's cards can't attack your Leader Card.  Auto When you play this card, if you have 5 or more energy, draw 1 card." />
+</card>
+<card id="eece9a48-8231-42db-89ff-7f50da6b2f01" name="Determined Time Leaper Trunks">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When this card attacks, look at up to 7 cards from the top of your deck, choose up to 1 Trunks: Future among them and add it to your hand, shuffle your deck, and this card gains +5000 power for the duration of the turn." />
+</card>
+<card id="34f0f7bd-ca8e-48df-b0ce-dc795543b7ab" name="Nightmare Scythe Goku Black">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BBB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Goku Black" />
+<property name="Special Trait" value="Saiyan/God" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Barrier.  Auto: When you play this card, if your Leader Card is Zamasu or Goku Black, play 2 Shadow tokens. (Shadow tokens have 10000 power, 0 combo cost, and 5000 combo power)" />
+</card>
+<card id="d69ef046-5caf-47c6-9d5f-dc78af61138b" name="Undying Link Zamasu">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Zamasu" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Indestructible.  Auto: When you play this card, if your Leader Card is Zamasu or Goku Black and you have 5 or more energy, you may inflict 2 damage to your life. If you do so, choose up to 4 of your energy and switch them to Active Mode." />
+</card>
+<card id="b6bc1c8e-9d42-4f64-8abe-6a24ea6b7539" name="Indiscriminate Obliteration Sidra">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Sidra" />
+<property name="Special Trait" value="God/Universe 9" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Blocker.  Auto: When you play this card, you may choose 1 card in your life and add it to your hand. If you do so, choose up to 1 of your opponent's Battle Cards with an energy cost equal to or less than your energy and KO it." />
+</card>
+<card id="b818edec-4d78-4c77-92d4-449bcdfd1636" name="Son Goku">
+<property name="Type" value="Leader" />
+<property name="Color" value="Green" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Warrior of Universe 7.  Auto Bond 1 Universe 7: When this card attacks a Leader Card, draw 1 card, and this card gains +5000 power for the duration of the turn.  Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Explosive Power Son Goku" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Warrior of Universe 7.  Permanent Bond 2 Universe 7: During your turn, this card gains +5000 power and Double Strike.  Auto When this card attacks, draw 1 card." />
+</alternate>
+</card>
+<card id="fcc7964b-5632-4c0d-b740-83e5641c3745" name="Last One Standing Son Goku">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Activate Main: Once per turn, Choose 1 of your opponent's Battle Cards and KO it.  Auto: When you play this card from your hand, if there are 9 or more Universe 7 in your Drop Area, for the duration of the turn, this card gains +10000 power, Triple Strike, and its attacks can't be negated." />
+</card>
+<card id="a15fd92a-b9fd-4731-80bf-cba2ac05cdb6" name="Vile Replication Cell">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="5(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cell" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is an Android, draw 2 cards and play 2 Cell Jr. tokens. (Cell Jr. tokens have 10000 power, 0 combo cost, and 5000 combo power)" />
+</card>
+<card id="4104da7b-a994-4f76-a143-75ee802cc464" name="Deathless Warrior Broly">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Evolve GGG: Broly.  Permanent: When evolving this card into a Broly with a different card name from your hand, the Evolve cost is decreased by GG.  Auto: When you play this card, if your Leader Card is Broly, your opponent may choose 1 of their Battle Cards and KO it.  If they don't KO a card this way, they instead choose 2 cards in their hand and place them in their Drop Area." />
+</card>
+<card id="5ecf9274-de53-4525-ba74-f32930711293" name="Limitless Energy Android 17">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Android 17" />
+<property name="Special Trait" value="Android/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Barrier.  Blocker.  Auto: When you play this card, if your Leader Card is green, choose up to 1 of your opponent's Battle Cards and KO it." />
+</card>
+<card id="e4a6add5-f07a-4e74-9344-b2678b35b3e7" name="Elegant Assistance Heles">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="12000" />
+<property name="Combo" value="0" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Heles" />
+<property name="Special Trait" value="God/Universe 2" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Super Combo.  Auto: When you combo with this card, if your Leader Card is a God or Universe 2 and you\xef\xbd\x92 life is at 4 or less, you may place 1 card from your hand in your Drop Area. If you do so, draw 2 cards, and this card gains +10000 combo power for the duration of the turn." />
+</card>
+<card id="3aae9198-49c6-4afc-814f-6433b3a984ff" name="Jiren">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Jiren" />
+<property name="Special Trait" value="Alien/Pride Troopers/Universe 11" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When this card attacks a Leader Card, you may choose 1 Universe 11 in your hand and place it in your Drop Area. If you do so, draw 2 cards.  Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Explosive Power Jiren" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Auto: When this card attacks, draw 1 card.  Activate Main: Choose 9 Universe 11 in your Drop Area and send them to your Warp: This card gains Quadruple Strike for the duration of the turn." />
+</alternate>
+</card>
+<card id="ae728499-1da4-44ce-9c95-3fff20ee0040" name="Indomitable SS Son Goku Jr.">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku Jr." />
+<property name="Special Trait" value="Saiyan/Earthling/Goku's Lineage" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: If your Leader Card is Goku's Lineage and your life is at 2 or less, this card gains Swap 8 YYYYY: Goku's Lineage with an energy cost of 8." />
+</card>
+<card id="1e3181f6-7028-4801-a6e7-510e28c93154" name="Space Pirate Chilled">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(Y)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chilled" />
+<property name="Special Trait" value="Frieza Clan" />
+<property name="Era" value="Chilled Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is Frieza Clan, place up to 3 cards from the top of your deck in your Drop Area, then if a Frieza Clan is in your Drop Area, draw 1 card and play 2 Chilled's Army tokens. (Chilled's Army tokens have 10000 power)" />
+</card>
+<card id="9512c2ba-f7a6-4611-9b50-e36aabbcf3d2" name="Elite Bloodline Cooler">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cooler" />
+<property name="Special Trait" value="Frieza Clan" />
+<property name="Era" value="Cooler Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: If there are 3 or more Frieza Clan in your Drop Area, reduce the energy cost of this card in your hand by 1.  Auto: Once per turn, When this card attacks, if your Leader Card is Frieza Clan, place the top 3 cards of your deck in your Drop Area, then if a Frieza Clan is in your Drop Area, switch this card to Active Mode." />
+</card>
+<card id="67d5d8c6-6f83-4789-a253-258fbbe38ae4" name="Frieza, Obsession of The Clan">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When your opponent's cards attack, if your Leader Card is Frieza Clan, you may choose 1 Frieza Clan other than \xef\xbc\x9cFrieza\xef\xbc\x9e in your hand and place it in your Drop Area. If you do so, negate that attack, and negate this skill for the duration of the turn." />
+</card>
+<card id="242e84c5-0cfd-440e-8670-4a9f3e6a58a3" name="Clownish Destruction Belmod">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Belmod" />
+<property name="Special Trait" value="God/Universe 11" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Barrier.  Double Strike.  Auto: When you play this card, look at up to 3 cards from the top of your deck. Choose up to 1 card among them and add it to your hand, then place the rest in your Drop Area. If you chose not to add any cards to your hand, choose up to 1 of your opponent's Battle Cards in Rest Mode and KO it." />
+</card>
+<card id="1a7ec329-c158-4805-8373-17cf0b9a6acb" name="Zen-Oh">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Zen-Oh" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: You can't include cards in your deck that don't have Universe as part of their special trait.  Permanent: Treat cards with Universe as part of their special traits in all areas as if they had no specified cost.  Auto: When this card attacks a Leader Card, place up to 2 cards from the top of your deck in your Drop Area, then draw 1 card.  Awaken: When your life is at 4 or less : You may choose up to 2 of your energy, switch them to Active Mode, and flip this card over." />
+<alternate name="Zen-Oh, Ruler of the Universe" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="Permanent, Treat cards with Universe as part of their special traits in all areas as if they had no specified cost.  Auto: When this card attacks, place up to 2 cards from the top of your deck in your Drop Area, and draw 1 card.  Activate Main: Once per turn, Choose 10 cards in your Drop Area and send them to your Warp : Your opponent chooses 2 cards from their hand and places them in their Drop Area." />
+</alternate>
+</card>
+<card id="dc0c24dd-5f31-4d5b-8b10-56f758d9cf5e" name="Forced Absorption Demigra">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="5" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Demigra" />
+<property name="Special Trait" value="Demon God" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Triple Strike.  Auto: When this card attacks, if your Leader Card is a Demon God and you have 15 or more Black Cards in your Warp, choose all of your opponent's Battle Cards ignoring Barrier and combo with them in your Combo Area." />
+</card>
+<card id="a19e9e71-af97-430b-98a6-939146fe0023" name="Forced Ejection Masked Saiyan">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Masked Saiyan" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Over Realm 3: 1.  Activate Main: Once per turn, If you have placed a card in your Energy Area during your Charge Phase this turn, and you have less energy than your opponent, choose 1 of your opponent's energy and send it to their Warp." />
+</card>
+<card id="dd3d4db0-3c7b-4f17-9db8-2be2b6f1a8cb" name="Smiling Madness Towa">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Towa" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Xeno-Evolve 4: Towa.  Double Strike.  Auto: When a card evolves into this card, if your Leader Card is an Android, your opponent chooses 1 card in their hand, places it in their Drop Area, then you choose up to 1 of your opponent's Battle Cards with an energy cost of 3 or less and gain control of it." />
+</card>
+<card id="76853ae7-960b-4801-9722-a41f4047f8a0" name="Forced Destruction Mira">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="5" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mira" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Xeno-Evolve 5: Mira.  Triple Strike.  Auto: When a card evolves into this card, if your Leader Card is Towa or an Android, and you have 10 or more black cards in your Warp, your opponent chooses 3 cards in their hand and sends them to their Warp." />
+</card>
+<card id="adb085b2-2771-47ef-8be8-202efd1fa193" name="Toppo Unleashed">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="5" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Toppo" />
+<property name="Special Trait" value="Alien/Pride Troopers/Universe 11" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="EX-Evolve 1, place 3 cards from the top of your deck in your Drop Area: Toppo with an energy cost of 4 or more.  Barrier.  Blocker.  Auto: When a card evolves into this card, if your Leader Card is Universe 11 and you have 8 or more Universe 11 in your Drop Area, draw 2 cards and for the duration of the turn this card gains Double Strike and Critical." />
+</card>
+</cards>
+</set>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Mighty Heroes"
+     id="846738bf-486b-479f-be04-4a93f5f7f0eb" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="3a268080-b992-4634-8513-8adf537c6326" name="Comrades Combined Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, look at up to 7 cards from the top of your deck. Choose up to 1 blue Vegeta among them with an energy cost of 3 or less and play it in Rest Mode. Then, place the remaining cards on the bottom of your deck in any order." />
+</card>
+<card id="2e420837-6a14-4c4a-a2b5-b8bc56c1bfa6" name="Comrades Combined Vegeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent: If all of your energy is blue, reduce the energy cost of this card in your hand and Battle Area by 1." />
+</card>
+<card id="6bdf19ee-a3fa-4aea-bb0c-a51bec83341e" name="Trunks, Link to the Future">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Critical. Auto: When you play this card, look at up to 7 cards from the top of your deck. Choose up to 1 blue Vegito among them with an energy cost of 8 or less and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="64d182ea-642f-4504-8923-d93e0cc871a1" name="SSB Vegito, the Savior">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="8(BBB)" />
+<property name="Power" value="30000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegito" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Union-Potara 3BB: Son Goku and Vegeta. Dual Attack. Critical. Auto: When this card attacks twice in the same turn, it gains Double Strike for the duration of the turn." />
+</card>
+<card id="cabbe032-ad82-43cc-b204-584286c72d93" name="Unified Spirit Son Goten">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goten" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Activate Main: Return this card to its owner's hand. Auto: When this card attacks, look at up to 7 cards from the top of your deck. Choose up to 1 Trunks: Youth among them with 15000 or less power and add it to your hand. Then, shuffle your deck." />
+</card>
+<card id="8073947a-8098-4b84-8a12-14a351373800" name="Unified Spirit Trunks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Youth" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Activate Main: Return this card to its owner's hand. Auto When this card attacks, you may reveal 1 Son Goten from your hand. If you do so, choose up to 1 opponent Battle Card with an energy cost of 3 or less and KO that card." />
+</card>
+<card id="bdfc2b0a-630c-465d-a261-b492c4b8c68c" name="Psyched Up Gotenks">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gotenks" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Union-Fusion 2GG: Son Goten and Trunks: Youth. Double Strike. Auto: When you play this card, if you have a Son Goten in your Drop Area, draw 2 cards. If you have a Trunks: Youth in your Drop Area, choose up to 1 opponent Battle Card and KO that card." />
+</card>
+</cards>
+</set>

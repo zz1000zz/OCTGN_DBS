@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Unity of Saiyans"
+     id="20b6a959-8c36-4820-8a29-0e7e2e06594b" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="a6edfb0c-ed5b-4dce-8adb-41de49703d92" name="SS Gogeta, Acrobatic Warrior">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(R)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gogeta: Br" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Permanent Only 1 SS Gogeta, Acrobatic Warrior can be played in your Battle Area.  Auto: When a Battle Card that is both red and green with an energy cost of 5 is played in your Battle Area, activate this skill. You may play this card from your hand.  Auto: When this card is switched to Rest Mode by Alliance, deal 1 damage to your opponent." />
+</card>
+<card id="017bb5f4-2c88-45c6-a367-64c0cded7f5d" name="SS Broly, Rampaging Rush">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: When you play this card, if there is a card that is both red and green in your energy, draw 1 card, then your opponent chooses 1 card from their hand and places it in their Drop Area.  Auto: When you play this card, choose up to 1 of your opponent's Battle Cards and KO it." />
+</card>
+<card id="d6da1f9e-7076-4873-a4ce-5b0085c30ab7" name="SSB Gogeta, Resonant Explosion">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red/Green" />
+<property name="Cost" value="5(RRG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Gogeta: Br" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Double Strike.  Arrival Red/Green R.  Energy-Exhaust.  Auto: When you play this card, choose up to 1 of your opponent's Battle Cards with an energy cost of 4 or less, KO it, and you can't play SSB Gogeta, Resonant Explosion for the duration of the turn." />
+</card>
+<card id="0e0fa569-6262-4fd1-9348-987e52cfe010" name="Full Power Broly, Resonant Evolution">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red/Green" />
+<property name="Cost" value="5(RGG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="EX-Evolve RGG: Broly : Br card with an energy cost of 4.  Energy-Exhaust.  Alliance Red/Green:  This card gains power equal to the total power of the cards switched to Rest Mode by this skill and Triple Strike for the duration of the battle.  Permanent: If you played this card with Evolve, it can't be KO'd by your opponent." />
+</card>
+</cards>
+</set>
