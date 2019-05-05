@@ -1,0 +1,80 @@
+Game GUID:
+Dragon Ball Super GUID
+b81599ea-7717-4725-9acd-f62947782fd6
+
+
+Set GUIDs:
+Tokens
+108a09ba-ec2a-4ad8-afbb-15e42f945dc7
+
+The Awakening
+16bf98d7-bde9-4c19-9668-71a6e8bb325f
+
+The Crimson Saiyan:
+1704e40c-866e-4acb-a0a2-dd3b87a912f1
+
+Miraculous Revival
+178828ea-92e0-49be-95a7-c9069dc02a29
+
+Unity of Saiyans
+20b6a959-8c36-4820-8a29-0e7e2e06594b	
+
+Shenron's Advant
+35f17fab-dfa3-4f39-b42d-da6e71af9e3c
+
+World Martial Arts Tournament
+39b6f1db-0295-42f6-86ef-f9be95996ff9
+
+The Guardian of Namekians
+42b30076-09d6-4ba3-892f-483ec9083b0e
+
+Galactic Battle
+7ead4d27-4628-4fbf-87e5-7d35715af912
+
+Mighty Heroes
+846738bf-486b-479f-be04-4a93f5f7f0eb
+
+The Extreme Evolution
+8d785562-107a-49bb-af3f-c0672f0903cb
+
+The Dark Invasion
+94f1e561-da65-4516-9d3d-869ec1d84c82
+
+Union Force
+9f5ef009-7c4c-4023-bc58-d191cc174ca6
+
+Clash of Fates
+a0ec1556-4e99-4a02-a9c5-499f85362629
+
+Rising Broly
+a3ac9f75-cd2d-458f-8462-e0b3923ee454
+
+Promos
+bcaf8fcc-a06d-4f57-88a2-2e1bc2c1a87f
+
+Destroyer Kings
+c12a1c9b-3df3-4fb9-9e87-6459281841c6
+
+Cross Worlds
+c9953fbf-8c5e-4249-acc4-8599719c8f1c
+
+Resurrected Fusion
+ce87ffb6-d4bc-4605-ae01-4cf25989a036
+
+Colossal Warfare
+cf024c81-df94-4e53-b6c3-d06403fe07f5
+
+Tournament of Power
+ee1ab63e-9966-4155-bafb-8dd7a09a69a1
+
+Special Event Cards
+eeddd415-cbef-4a3f-9734-2286790a187f
+
+Dark Demon's Villains
+f2fb2286-c1cd-4544-b55c-8589bf717aa1
+
+Unity of Destruction
+f5242d2c-705e-4d8d-bb75-c9a1de8ba653
+
+Ultimate Box
+fc4f9aa6-7093-4860-ae1a-293c38f8dca6
