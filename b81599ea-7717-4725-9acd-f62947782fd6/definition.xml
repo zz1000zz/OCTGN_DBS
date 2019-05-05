@@ -101,18 +101,18 @@
     <groupaction menu="Search for DB" shortcut="Ctrl+Shift+X" execute="dbSearch" />
     <groupaction menu="Top card as Energy" execute="topCardEnergy" />
 </group>
-    <group name="Drop Zone" visibility="all" icon="cards/front.png" shortcut="F6">
+<group name="Drop Zone" visibility="all" icon="cards/front.png" shortcut="F6">
     <groupaction menu="Over Realm" default="True" shortcut="Ctrl+Shift+W" execute="warp" />
 </group>
-    <group name="Life" visibility="none" icon="cards/front.png" collapsed="False">
+<group name="Life" visibility="none" icon="cards/front.png" collapsed="False">
     <groupaction menu="Top card as Energy" execute="topCardEnergy" shortcut="Ctrl+Shift+E" />
     <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
 </group>
 <group name="Leader" visibility="none" icon="cards/front.png" collapsed="True">
 <cardaction menu="Play Leader" default="True" execute="playLeader"/>
 </group>
-    <group name="Warp" visibility="all" icon="cards/front.png" collapsed="True" shortcut="F7"></group>	
-    <group name="Sideboard" visibility="me" icon="cards/front.png" collapsed="True" shortcut="F8"></group>	
+<group name="Warp" visibility="all" icon="cards/front.png" collapsed="True" shortcut="F7"></group>	
+<group name="Sideboard" visibility="me" icon="cards/front.png" collapsed="True" shortcut="F8"></group>	
 </player>
 <shared>
 </shared>

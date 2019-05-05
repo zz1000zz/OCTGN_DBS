@@ -1,9 +1,14 @@
 ####################################################
+##Import regular expression module, system file modules and time module.
 import re
 import nt
 import sys
 import time
 
+##Initializing some variables.  The first four are for automatic card placement.
+##The card placement code needs a total overhaul so these will be deprecated.
+##comboColor defines what color border is placed around cards being combo'd.
+##The last two variables assign the GUID for markers used represents +/- modifiers.
 xBattle = -400
 xEnergy = -400
 xBattle2 = 325
@@ -12,13 +17,18 @@ comboColor = "#00ff00"
 CounterMarker =("Power", "3ef3165f-b02f-458a-823e-cb7d9247c269")
 CounterMarker2 = ("PowerN", "8b12e609-12f3-4bec-9e8f-8ad2cf7c6d58")
 
+##Initialize variables when a deck is loaded.  Global variables may be deprecated?
+##reportDeck is a test function to report decklists to a server.
+##This has never gone beyond testing, but it could be used for meta reporting.
 def onDeckLoaded(args):
         init()
         global log_entries
         global last_time
         last_time = time.time()
         reportDeck(True)
-        
+
+##Initializing coordinate variables, redundant design with the global variables.
+##specMode checks the player's local settings to check preference on Spectator Mode.
 def init():
         xBattle = -400
         xEnergy = -400
@@ -27,10 +37,11 @@ def init():
         global specMode
         specMode = getSetting("spectatorMode", False)
 
+##Pretty sure this test function isn't used anymore.
 def test():
         specMode2 = getSetting("spectatorMode", False)
 
-
+##Complicated concept, will explain in the future.
 def activate(card, x=0, y=0):
         if card.Name in card_list:
                 for f in card_list[card.Name]:
@@ -38,22 +49,31 @@ def activate(card, x=0, y=0):
         else:
                 whisper("This card doesn't have an automated ability.  Sorry!")
 
-
+##Search "top" X cards for cards which meet arbitrarily complex criteria.
 def tutorTopComplex(group=me.Deck, count=None, num=1, q='', zone=me.hand):
         mute()
+        ##Initialize variable to track cards.
         topCards = []
+        ##Loop over top X cards.
         for c in group.top(count):
+                ##See if card matches critiera, if so, add to topCards list.
                 if matchComplex(c, q):
                         topCards.append(c)
+        ##Create dialob box to pick from valid options.
         dlg = cardDlg(topCards)
+        ##Specify maximum number of cards that can be selected.
         dlg.max = num
+        ##Show dialog box and store cards chosen by player.
         cardsSelected = dlg.show()
+        ##Move any selected cards to the correct zone.
         if cardsSelected:
                 for card in cardsSelected:
                         card.moveTo(zone)
                         notify("{} puts {} into their hand.".format(me, card.properties["Name"]))
+        ##Shuffle the deck after.
         me.Deck.shuffle()  
 
+##Check if card (c) meets criteria listed in q.
 def matchComplex(c, q):
         for prop in q:
                 if type(q[prop]) is str:
@@ -88,13 +108,16 @@ def matchComplex(c, q):
                                         return()
         return(c)
 
-
+##Use a regular expression to search a string for specified value.
 def rSearch(c,q=''):
         mute()
+        ##Copy c variable to c_p to allow function to be extended in the future?
+        ##Maybe this should be removed?
         c_p = c
         if re.search(q, c_p):
                 return True
 
+##Outdated function, all calls should go to tutorTopComplex instead.
 def tutorTop(group=me.Deck, count=None, num=1, trait='', p='', zone=me.hand):
         mute()
         if count == None:
@@ -115,6 +138,7 @@ def tutorTop(group=me.Deck, count=None, num=1, trait='', p='', zone=me.hand):
                         notify("{} puts {} into their hand.".format(me, card.properties["Name"]))
         me.Deck.shuffle()
 
+##Search for Dragon Balls.
 def dbSearch(args='', num=7):
         mute()
         topCards = []
@@ -143,6 +167,8 @@ def dbSearch(args='', num=7):
         me.Deck.shuffle()
         me.Life.shuffle()
 
+##Used for cards like Time Patrol Trunks.
+##Needs further documentation due to awkward workaround.
 def scry(group=me.Deck, count=None, num=1, trait='', p='', zone=me.hand, reveal=False):
     mute()
     if count == None:
@@ -175,8 +201,8 @@ def scry(group=me.Deck, count=None, num=1, trait='', p='', zone=me.hand, reveal=
     group.visibility = "none"
 
 
+##Allows for sideboarding during a match.  Hasn't seen much use so perhaps remove?
 def sideboard(group=me.Deck, x = 0, y = 0):
-##        getEventDeck(True)
     mute()
     topCards = []
     for c in me.Deck.top(100):
@@ -200,13 +226,16 @@ def sideboard(group=me.Deck, x = 0, y = 0):
     me.Deck.visibility = "none"
     me.Sideboard.visibility = "Me"
 
+##Called whenever a card is moved.
+##Checks if Spectator Mode is on.  If so, used workaround to show hand to
+##spectators without showing it to the opponent and use reportCOunts.
+##reportCounts will be documented in the future.
 def moveCards(args):
         cards = args.cards
         global specMode
         if args.player == me:
                 specMode = getSetting("spectatorMode", False)
                 if specMode:
-##                        check this line
                         spectatorModeOn(False)
                         me.hand.visibility = 'all'
                         if len(players)>1:
@@ -219,9 +248,9 @@ def moveCards(args):
         return()
 
 
-
 def initializeGame():
         mute()
+        ##Get version number, check if there's a new changelog message since the last version.
         v1, v2, v3, v4 = gameVersion.split('.')  ## split apart the game's version number
         v1 = int(v1) * 1000000
         v2 = int(v2) * 10000
@@ -229,7 +258,6 @@ def initializeGame():
         v4 = int(v4)
         currentVersion = v1 + v2 + v3 + v4  ## An integer interpretation of the version number, for comparisons later
         lastVersion = getSetting("lastVersion", (currentVersion))
-##        notify(str(lastVersion))
         for log in sorted(changelog):  ## Sort the dictionary numerically
                 if lastVersion < log:  ## Trigger a changelog for each update they haven't seen yet.
                         stringVersion, date, text = changelog[log]
@@ -240,6 +268,7 @@ def initializeGame():
                         elif choice == None:
                                 notify("Really, are you trying to break things?")
         setSetting("lastVersion", currentVersion)
+        ##Pretty sure this is outdated and not used anymore(?)
         global log_entries
         log_entries = {}
         log_entries['Player:'] = me.name
@@ -247,6 +276,7 @@ def initializeGame():
                 log_entries['Enemy:'] = players[1].name
 
 
+##Handle comboing.
 def combo(card, x=0, y=25):
         mute()
         y = 10
@@ -272,16 +302,18 @@ def combo(card, x=0, y=25):
                         card.moveToTable(x - 75, y*-1 -90)
                 card.orientation = Rot270
                 card.highlight = comboColor
+                ##Check combo value of card and set markers showing it.
                 if re.search("5000", card.Combo):
                         card.markers[CounterMarker] = 5000
                 elif re.search("10000", card.Combo):
                         card.markers[CounterMarker] = 10000
                 notify("{} combos with {} from their {}.".format(me, card, src.name))
+        ##If command used on combo'd card, remove border and untap it.
         else:
                 card.highlight = None
                 card.orientation = Rot0
         
-
+##Display changes stored in changelog.py if any new entries exist.
 def changeLog(group, x = 0, y = 0):
         mute()
         allLog = sorted(changelog, reverse = True)  ##sorts the changelog so the most recent entries appear first.
@@ -298,7 +330,7 @@ def changeLog(group, x = 0, y = 0):
                 elif num == -3 and count > 1: ## If the player chooses 'newer'
                         count -= 1
 
-    
+##Turn Spectator Mode on, save choice for future matches.
 def spectatorModeOn(whisp=False, x = 0, y = 0):
         mute()
         global specMode
@@ -307,6 +339,8 @@ def spectatorModeOn(whisp=False, x = 0, y = 0):
                 whisper("{} turns on spectator mode.".format(me))
         setSetting("spectatorMode", True)
 
+##Turn Spectator Mode off, save choice for future matches.
+##Also reset visibility of hand to default.
 def spectatorModeOff(card, x = 0, y = 0):
         mute()
         global specMode
@@ -315,6 +349,9 @@ def spectatorModeOff(card, x = 0, y = 0):
         whisper("{} turns off spectator mode.".format(me))
         setSetting("spectatorMode", False)
 
+##If called on a single card, send that card to the warp.
+##If called on a group, send entire group to warp.
+##That should only be possible by default for the Discard Pile.
 def warp(group, x = 0, y = 0):
         if type(group) is Card:
                 group.moveTo(me.piles["Warp"])
@@ -327,7 +364,8 @@ def warp(group, x = 0, y = 0):
                 notify("{} sends {} cards from their Drop Zone to the Warp!".format(me, count))
 
 
-
+##Used via the Activate command, KOs cards which meet the specified criteria.
+##See Activate documentation for further information.
 def kill(count = 1, opponentOnly = False, zone=me.piles["Drop Zone"], q=""):
         mute()
         cardsInTable = []
@@ -356,22 +394,25 @@ def kill(count = 1, opponentOnly = False, zone=me.piles["Drop Zone"], q=""):
                                 remoteCall(card.controller, "toDrop", card)
                         notify("{} kills {} !".format(me, card))
 
-
+##Move card to hand.
 def toHand(card):
         mute()
         card.moveTo(card.owner.hand)
 
+##Move card to Drop.
 def toDrop(card):
         mute()
         card.moveTo(card.owner.piles["Drop Zone"])
 
+##Move card to top of deck.
 def toTop(card):
         card.moveTo(card.owner.Deck)
 
+##Move card to bottomof deck.
 def toBottom(card):
         card.moveToBottom(card)
 
-
+##Called as part of game setup process, plays leader to the table.
 def playLeader(card):
         if me._id == 1:
                 card.moveToTable(-405, 0)
@@ -380,6 +421,7 @@ def playLeader(card):
 
 			
 #Sets up the game. Resets Your side. Draws 6, plays the Leader card
+##Created by Manveer Singh.
 def setup(group, x = 0, y = 0):
 	cardsInTable = [c for c in table if c.controller == me and c.owner == me]
 	cardsInLife = [c for c in me.piles['Life']] 
@@ -417,12 +459,14 @@ def setup(group, x = 0, y = 0):
 	for card in me.Deck.top(6): 
 		card.moveTo(me.hand)
 	notify("{} Draws six cards".format(me))	
-	
+
+##Sets up life.  Can be called manually or from the Mulligan function.
 def setupLife(group, x = 0, y = 0): #Sets up 8 life
 	for card in me.Deck.top(8):
 		card.moveTo(me.piles['Life'], 0)
 	notify("{} sets up their Life.".format(me))	
 
+##Handles tapping and untapping.
 def tap(card, x = 0, y = 0):
     mute()
     card.orientation ^= Rot90
@@ -441,7 +485,8 @@ def untapAll(group, x = 0, y = 0): #Modified it to account for Energy which will
 		if card.orientation == Rot270:
 			card.orientation = Rot180
 	notify("{} untaps all their cards.".format(me))			
-			
+
+##Used card alternates to link unawakened and awakened sides.
 def awaken(card, x = 0, y = 0): 
 	mute()
 	if (re.search("Leader", card.Type)):
@@ -450,6 +495,7 @@ def awaken(card, x = 0, y = 0):
 		notify("{}'s' {} awakens to {}.".format(me, altName, card))
 		card.Type = "Leader"
 
+##Mostly for if players awaken when they shouldn't, also works with Wish leaders.
 def unawaken(card, x = 0, y = 0): 
 	mute()
 	altName = card.alternateProperty('awakened', 'name')
@@ -457,6 +503,7 @@ def unawaken(card, x = 0, y = 0):
 	notify("{}'s' {} reverts to its base form.".format(me, altName, card))
 	return
 
+##Draws hand up to 6 cards, if Life isn't set up, set it up.
 def mulligan(group):
         mute()
         cards = 6 - len(me.hand)
@@ -468,12 +515,18 @@ def mulligan(group):
                 setupLife("")
 
 def token(group, x = 0, y = 0, guid='', quantity=1):
+        ##Create tokens.
+        ##If card information passed, used that information.
         if guid:
                 token=table.create(guid, x, y, quantity)
-        else:        
+        ##When card information not passed, prompt player for card information.
+        else:
+                ##Ask which token, and how many copies.
                 guid, quantity = askCard({"Rarity":"Token"}, "And")
+                ##Catch invalid response.
                 if quantity == 0:
                         return
+                ##Prevent game from crashing due to too many copies being made.
                 if quantity < 10:
                         token = table.create(guid, x, y, quantity)
                 else:
@@ -500,9 +553,7 @@ def flipCoin(group, x = 0, y = 0):
     else:
         notify("{} flips tails.".format(me))
 
-
-
-		  
+##Turns cards face up/face down.		  
 def flip(card, x = 0, y = 0):
     mute()
     if card.isFaceUp:
@@ -517,6 +568,9 @@ def discard(card, x = 0, y = 0): #Renamed
         card.moveTo(me.piles['Drop Zone'])
 	notify("{} discards {}".format(me, card))
 
+##Power buffs/debuffs use separate counters.  These functions need to check if
+##The opposite type exists to determine if more + counters should be added or -
+##counters should be removed, and vice versa.  Add/Remove X may be bugged.
 def addCounter5(card, x = 0, y = 0):
 	mute()
 	if card.markers[CounterMarker2] > 0:
@@ -561,7 +615,8 @@ def removeCounters(card, x = 0, y = 0):
         mute()
         for marker in card.markers:
                 card.markers[marker] = 0
-		
+
+##Handles auto-placement of played cards.  Very crude, should be rewritten.		
 def play(card, x = 0, y = 0): #Extra Cards will go to Drop after being played
 	mute()
 	x = 0
@@ -586,7 +641,7 @@ def play(card, x = 0, y = 0): #Extra Cards will go to Drop after being played
 	notify("{} plays {}.".format(me, card))
 
 
-
+##As with the play function, should be rewritten to work more smoothly.
 def toEnergy(card, y = 90):
         mute()
         src = card.group
@@ -607,7 +662,8 @@ def toEnergy(card, y = 90):
                 card.moveToTable(x - 75, y*-1 -90)
         card.orientation = Rot180
         notify("{} charges {} from their {} as energy.".format(me, card, src.name))
-		
+
+##Charge top card of specified group to enegry.
 def topCardEnergy(group, count = 1, x = 0, y = 0):
 	mute()
 	for i in range(0,count):
@@ -615,12 +671,14 @@ def topCardEnergy(group, count = 1, x = 0, y = 0):
 		card = group[0]
 		toEnergy(card)
 
+##Move specified card to life.
 def toLife(card):
 	mute()
 	src = card.group
 	card.moveTo(card.owner.piles['Life'])
 	notify("{} puts a card from their {} as Life.".format(me, src.name))
 
+##Used in game setup process.
 def findLeader(card):
         if card.Type=="Leader":  card.moveTo(me.Leader)
         else: card.moveTo(me.deck)
@@ -632,6 +690,7 @@ def randomDiscard(group):
 	notify("{} randomly discards {}.".format(me,card.name))
 	card.moveTo(me.piles['Drop Zone'])
 
+##Allows for a prompt to ask how many cards should be drawn.
 def draw(group, conditional = False, count = 1, x = 0, y = 0): #Added draw function to include choice
     mute()
     for i in range(0,count):
@@ -647,6 +706,7 @@ def draw(group, conditional = False, count = 1, x = 0, y = 0): #Added draw funct
         card.moveTo(card.owner.hand)
         notify("{} draws a card from their {}.".format(me, group.name))
 
+##Like draw(), allow for prompt asking how many cards should be milled.
 def mill(group, conditional = False, count = 1, x = 0, y = 0): #Added draw function to include choice
     mute()
     for i in range(0,count):
@@ -694,6 +754,8 @@ def lookAtDeck(): #For Automation
 #---------------------------------------------------------------------------
 # Phases
 #---------------------------------------------------------------------------
+##Not used, leftover code from previous game which was used as template.
+##Should probably be deleted, but need to verify doing so won't break anything.
 
 def showCurrentPhase(phaseNR = None): # Just say a nice notification about which phase you're on.
    if phaseNR: notify(phases[phaseNR])
@@ -739,6 +801,9 @@ def goToDeclare(group = table, x = 0, y = 0): # Go directly to the Balance phase
 #---------------------------------------------------------------------------
 # Meta Functions
 #---------------------------------------------------------------------------
+##Not used, leftover code from previous game which was used as template.
+##Should probably be deleted, but need to verify doing so won't break anything.
+
 def findOpponent(position = '0', multiText = "Choose which opponent you're targeting with this effect."):
    opponentList = fetchAllOpponents()
    if len(opponentList) == 1: opponentPL = opponentList[0]
@@ -766,6 +831,7 @@ def playerside():
 #------------------------------------------------------------------------------
 # Button and Announcement functions
 #------------------------------------------------------------------------------
+##Allow users to send standardized messages quickly to reduce typing needing.
 
 def BUTTON_NR(group = None,x=0,y=0):
    notify("--- {} has no counters.".format(me))
@@ -779,6 +845,7 @@ def BUTTON_NC(group = None,x=0,y=0):
 def BUTTON_FC(group = None,x=0,y=0):  
    notify("--- {} is finished comboing.".format(me))
 
+##I don't think this function is used currently.
 def declarePass(group, x=0, y=0):
    notify("--- {} Passes".format(me))    
 

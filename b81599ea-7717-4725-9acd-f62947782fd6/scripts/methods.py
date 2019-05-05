@@ -1,3 +1,5 @@
+##Only used with Activate command.  Needs extensive documentation.
+
 card_list = {
     'Energy Boosted Majin Buu': {draw: (me.piles["Deck"], False, 1)},
     'Vegeta, Prince of Speed': {draw: (me.piles["Deck"], False, 2)},

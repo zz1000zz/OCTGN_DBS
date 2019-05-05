@@ -1,3 +1,6 @@
+##Array storying version history.  Can be used to show updates to users when the
+##patch is updated.  I haven't used it recently, but the format remains the same.
+
 changelog = {
     500: ("0.0.5.0", "June 8th, 2018", [
         "Green and Yellow cards from Bandai's recent previews have been added to OCTGN.",

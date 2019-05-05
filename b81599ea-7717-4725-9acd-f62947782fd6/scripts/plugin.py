@@ -1,5 +1,7 @@
 #
 # Routines for writing out updated decks based on either the player piles or the shared piles
+##Original code written for another game, has been updated to fix errors and to adapt to this game.
+##Some functionality has also been added, like autosaving.
 #
 from datetime import datetime as dt
 import collections
@@ -15,7 +17,6 @@ def verifySaveDirectory(group,x=0,y=0):
                 filename = dir.replace('GameDatabase','Decks').replace('b81599ea-7717-4725-9acd-f62947782fd6','Dragon Ball S')
         else:
                 filename = "Decks\Dragon Ball S".join(dir.rsplit('OCTGN',1))
-##        notify(filename)
         try:
                 nt.mkdir(filename)
         except:
@@ -176,6 +177,7 @@ def saveDeck(group, x=0, y=0):
 	finally:
 		clearLock()
 
+##Holdover from recycled code.  Should probably be removed.
 def lookForInvestigator(cardList, investigators):
 	for card in cardList:
 		if card.owner == me:
@@ -189,6 +191,7 @@ def lookForInvestigator(cardList, investigators):
 				investigators[card.name].append(card)
 
 #Save the player deck - it is named after the character 	
+##Another holdover, should be safe to remove.
 def savePlayerDeck(player, invCards, suffix): #me.hand or table
 	sections = { p : {} for p in PLAYER_DECK}
 

@@ -5,7 +5,7 @@
      gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
      gameVersion="0.0.0.10" 
      version="0.0.0.1"
-hidden="true">
+     hidden="true">
 <cards>
 <card id="e043c8cb-cd4d-4a49-816f-bbf715bc57e4" name="Ghost Token">
 <property name="Type" value="Token" />

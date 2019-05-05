@@ -1,3 +1,5 @@
+##Utility functions, primarily used with saving and loading games.
+##Much of this code is recycled from another patch.
 orientation = {
         0: Rot0,
         1: Rot90,
@@ -131,6 +133,8 @@ def getSection(sections, card):
 			return card.Subtype
 	return None
 
+##Function for testing a data collection feature.  Works but data storage and 
+##analysis was never implemented.  Not sure if feature would be desired.
 def reportDeck(report = True):
         if report == True:
                 tab = {"deck":[], "leader": []}
@@ -171,7 +175,9 @@ def reportCounts(args, report = True):
             last_time = time.time()
             reportTXT, code = webPost('http://www.hi-izuru.org/octgn_streaming/input.php',n, 1000)
 
-                        
+##Function is for an idea which has never been implemented.  Pulls special
+##deck from server to be used in in event type matches.
+##Relies on configured server so may need to be removed.
 def getEventDeck(group, x=0, y=0):
         url = 'http://www.hi-izuru.org/OCTGN2/event.php?text=' + me.name
         content, code = webRead(url, 2000)
@@ -180,5 +186,3 @@ def getEventDeck(group, x=0, y=0):
                 notify("{} has loaded an event deck!".format(me))
         else:
                 whisper("Sorry, it looks like you don't have permission to use that feature.")
-
-
