@@ -29,5 +29,7 @@ changelog = {
         "I'd love to hear from you!"]),
     707: ("0.0.7.7", "Novmber 24th, 2018", [        
         "A new preview season has begun so OCTGN has been updated with some new Blue cards.",
-        "Also, some new features have been added, most notably a first draft of a command to search for DBs!"])
+        "Also, some new features have been added, most notably a first draft of a command to search for DBs!"]),
+    907: ("0.0.9.7", "May 15th, 2019", [        
+        "Big news!  Bardock, The Progenitor and A Child's Wish have been banned!  Super Shenron has also been errata'd."])
     }

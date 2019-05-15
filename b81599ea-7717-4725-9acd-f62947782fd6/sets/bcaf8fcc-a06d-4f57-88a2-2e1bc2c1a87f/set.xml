@@ -1677,5 +1677,512 @@
 <property name="Rarity" value="Promo" />
 <property name="Text" value="Barrier.  Auto: When you play this card, if your Leader Card is a black Saiyan card, place the top 5 cards of your deck in your Drop Area. Activate Main: 1, place this card in its owner's Drop Area : Choose 1 black Battle Card with 19000 power from your Drop Area and play it." />
 </card>
+<card id="e6895f5b-1d26-49b1-a355-ba774aa40472" name="Goku Black, Unforeseen Darkness">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Goku Black" />
+<property name="Special Trait" value="God/Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card from your hand, activate this skill. At the end of this turn, if there is a card that is both blue and yellow in your energy, draw 2 cards, choose 1 card in your hand and place it in your Drop Area, then choose up to 1 of your blue or yellow energy and switch it to Active Mode." />
+</card>
+<card id="46fa2744-80a2-4d6e-8bba-9c35e154745a" name="SS Broly, Unforeseen Force">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card from your hand, activate this skill. At the end of this turn, if there is a card that is both red and green in your energy, draw 2 cards, choose 1 card in your hand and place it in your Drop Area, then choose any number of your opponent's Battle Cards with a total energy cost of 3 or less and KO them." />
+</card>
+<card id="5b5cb2e5-5de4-4b00-8953-21c4e9bb20db" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="5bc345cd-2355-4589-9682-c721d541c6d6" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="e9d080df-2ae5-4dc9-bc19-49039c5d36a2" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="ccf45a0f-27ef-4e95-b6a7-2fadfa4073a4" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="782a582a-4df0-443b-9f96-678ef7726dd5" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="e14b3f54-0222-4fe0-b92f-e261d02f6f0d" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="ab35d3b8-050b-423d-bc30-c18ee590fdc6" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="796953f9-ab08-4433-b9de-beb24ae24f00" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="17264e6d-43f9-49ab-bbf7-b92dcc048198" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="dee07284-3b5c-4142-b397-47546cb7c801" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="71a3bfd6-1035-45c5-81f0-0cfb51e4cf39" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="82eeb912-277b-4704-a047-dadcee3d8811" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="2a104722-3c1a-4c09-8725-31f041f61550" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="6c1e5ef6-6739-4576-a17a-28551f59b4bb" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="ddc2018b-bd1c-4310-8288-59287a096ae6" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="4ba84345-e900-4235-be84-9a7041126cf6" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="2f01023d-4da2-4fd5-8f97-57b26ec29bdb" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="" />
+</card>
+<card id="7b4b96a3-8223-4845-8e8a-6cb6ac840daa" name="Vegeta, Unyielding Temperament">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Critical.  Auto: When this card is KO'd or placed in a Drop Area from a Battle Area by an opponent's skill, choose up to 1 red Battle Card with an original energy cost of 2 or less from your hand and play it with its skills negated for the duration of the turn." />
+</card>
+<card id="879c04b5-0bae-42ba-8610-47e4e5400261" name="Babidi, the Mastermind">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Babidi" />
+<property name="Special Trait" value="Evil Wizard/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card, if your Leader Card is a World Tournament card and you have 4 or more energy, you may choose 1 card from your hand and place it on top of your deck. If you do, choose up to 1 Supreme Showdown Vegeta from your deck, play it, then shuffle your deck.  Auto: When this card is placed in a Drop Area from a Battle Area by a skill, choose all of your red xe3x80x8aWorld Tournamentxe3x80x8b cards and they can't be KO'd for the duration of the turn." />
+</card>
+<card id="dcc924b1-1fc4-4834-a27c-3e7f64b4f6e5" name="Dabura, the Insurmountable">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dabura" />
+<property name="Special Trait" value="Demon Realm Race/World Tournament" />
+<property name="Era" value="The Evil Wizard Babidi Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Main, Once per turn: Choose up to 1 of your opponent's Battle Cards, and it can't attack or be placed in your opponent's Combo Area until the end of your opponent's next turn." />
+</card>
+<card id="30c18890-19cc-4b7c-a308-ba3f7e0fb5f3" name="I Am Number One!">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Main: If your Leader Card is a World Tournament card: You may choose 1 World Tournament card in your hand and place it in your Drop Area. If you do, choose up to 2 red World Tournament cards with different names and energy costs of 3 or less from your deck, play them, then shuffle your deck." />
+</card>
+<card id="6991f155-481a-4004-a325-223eb670100b" name="Son Goku Jr., Heroic Successor">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="19000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku Jr." />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Double Strike.  Auto: When you play this card, if your Leader Card is a World Tournament card, look at up to 1 card from the bottom of your deck, choose up to 1 Vegeta Jr., Heroic Successor from it, play it, then shuffle your deck.  Activate Main, Once per turn: Choose 1 Vegeta Jr., Heroic Successor in Rest Mode in your Battle Area and switch it to Active Mode: At the end of the turn, choose up to 1 of your energy and switch it to Active Mode." />
+</card>
+<card id="a42d1ff3-4f98-4f47-b55e-7f7f3c9fb051" name="Vegeta Jr., Heroic Successor">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="19000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta Jr." />
+<property name="Special Trait" value="Saiyan/Earthling/World Tournament" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Critical.  Activate Main: If your Leader Card is a World Tournament card: Place this card from your hand at the bottom of your deck, then draw 1 card.  Auto, Once per turn: When this card is switched to Active Mode by Son Goku Jr., Heroic Successor's skill, choose up to 1 Son Goku Jr., Heroic Successor in Rest Mode in your Battle Area and switch it to Active Mode." />
+</card>
+<card id="46ccdb04-7eb6-4669-b5a7-e5d6cb5809fa" name="Videl, Proudest Mother">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Videl" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Permanent: If your Leader Card is a World Tournament card and you don't have any Battle Cards in play in your Battle Area, reduce the energy cost of this card in your hand by 2. Auto: When you play this card, choose up to 1 Hercule, Proudest Grandpa from your hand and play it.  Auto: At the end of your turn, you may place this card on top of its owner's deck. If you do, choose up to 1 Pan, Proudest Daughter from your deck, play it, then shuffle your deck." />
+</card>
+<card id="c729346e-dd3c-4a00-8ae8-1d55caaeb910" name="Dende, Astute Savior">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="1000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Dende" />
+<property name="Special Trait" value="Namekian/God/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 World Tournament card with an energy cost of 5 or less from your deck, send it your Warp, shuffle your deck, and at the start of your next turn, add that card sent to your Warp by this skill to your hand from the Warp. Activate Main 2, if your Leader Card is a World Tournament card and you place this card in it's owner's Drop Area : Choose up to 1 World Tournament card with an energy cost of 3 or less from your hand, send it to your Warp, and at the start of your next turn, play the card sent to your Warp by this skill from your Warp." />
+</card>
+<card id="8e18f774-c4ee-4def-aed0-7d49fc7344ef" name="Mr. Buu, the Mischievous">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mr. Buu" />
+<property name="Special Trait" value="Majin/World Tournament" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Counter Attack: Negate the attack and play this card.  Auto: When you play this card, if your opponent has 2 or less energy, your opponent can't attack with Battle Cards with energy costs of 2 or less for the duration of the turn unless they choose 1 card from their hand and place it on top of their deck." />
+</card>
+<card id="341434ff-62eb-4bba-acd2-840d41ad1824" name="Piccolo Jr., Arena Wrecker">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Piccolo Jr." />
+<property name="Special Trait" value="Namekian/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Permanent: If your opponent has a Field card in their Battle Area, reduce the energy cost of this card in your hand by 2.  Auto: When you play this card, you may choose 1 Field card in a Battle Area with an energy cost of 1 or less and place it in its owner's Drop Area. If you do, this card gets +5000 power for the duration of the turn." />
+</card>
+<card id="798a51b2-8aba-4223-b454-f18b35a4d0b8" name="King Piccolo, Limitless Power">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="King Piccolo" />
+<property name="Special Trait" value="Namekian/World Tournament" />
+<property name="Era" value="King Piccolo Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Double Strike.  Activate Main: If you have 4 or more energy: You may choose 2 World Tournament cards in any Battle Areas, negate their skills for the duration of the turn, and place them in their owner's Drop Areas. If you do, play this card from your hand, and you can't activate King Piccolo, Limitless Power's Activate Main skill for the duration of the turn." />
+</card>
+<card id="fa2f4b0c-29dd-4339-b6d5-96d4c35cf8a1" name="Kami, Ethereal Technique">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Kami" />
+<property name="Special Trait" value="Namekian/God/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Main GGGG, if your Leader Card is a World Tournament card and you have 5 or more energy : Choose 1 card in your life and place it in your Drop Area, then choose up to 1 Destined Conclusion Hero from your deck, play it on top of this card, and shuffle your deck. If you played a card, choose up to 1 Destined Conclusion Piccolo Jr. from your hand and play it." />
+</card>
+<card id="ffc63c31-1bde-4838-8c39-3eba436c2581" name="Hero's Mafuba">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Counter Battle Card Attack: Negate the attack, and if there is a green God card in play in your Battle Area, place this card on top of the attacking card. At the end of your next turn, place this card (and only this card) in its owner's Drop Area. (While this card is on top of another card, the card underneath it is not treated as a Battle Card and can't activate any of its skills.)" />
+</card>
+<card id="a69024a8-2980-4e5e-8da2-22febdbb6087" name="Son Goku, Savage Great Ape">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan/Great Ape/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Main Y, if there are a total of 2 or morexe3x80x8aWorld Tournamentxe3x80x8b cards in play in all Battle Areas: Play this card from your hand, and you can't play Son Goku, Savage Great Ape for the duration of the turn.  Auto: When this card is removed from a Battle Area by a skill, if you have 4 or more energy, you may choose 2 cards from your hand and place them in your Drop Area, then choose 1 of your yellow energy and switch it to Rest Mode. If you did both, choose up to 1 Unyielding Victory Son Goku and 1 Unyielding Victory Jackie Chun from your deck, play them, then shuffle your deck." />
+</card>
+<card id="7668987e-7d13-4dc3-bae1-5de0931c5e3e" name="Chiaotzu, the Loyal">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Chiaotzu" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Main YY, if your Leader Card is a World Tournament card and you have 4 or more energy: Place this card on top of its owner's deck, then choose up to 1 Unending Moves Tien Shinhan from your deck, play it, and shuffle your deck. If you played a card, choose up to 1 Unending Moves Yamcha from your hand and play it in Rest Mode." />
+</card>
+<card id="93eaf510-6ef6-49d1-ab00-966a9a645ba2" name="Master Roshi, Martial Master">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Master Roshi" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card, choose 1 card in your life and add it to your hand.  Activate Main 1, choose 1 card in your life and add it to your hand: Choose up to 1 Moon-Destroying Kamehameha from your deck, add it to your hand, shuffle your deck, then negate this skill for the duration of the game." />
+</card>
+<card id="da1914ba-76fb-448b-a71b-965ff3417db6" name="Mutaito, Skill of a Sage">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mutaito" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Counter Play: Play this card. Auto: When you play this card, if it is your opponent's turn, you may place this card in it's owner's Drop Area. If you do, choose up to 1 of your opponent's Battle Cards with an energy cost greater than their energy, ignoring Barrier, switch it to Rest Mode, and that Battle Card can't be switched to Active Mode until the start of your next turn." />
+</card>
+<card id="01e4f63c-63a7-4559-88e5-90a8675e7cfe" name="Moon-Destroying Kamehameha">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Activate Battle: If your Leader Card is a Jackie Chun card, it gets +15000 power for the duration of the Battle, then you may choose 1 of your Battle Cards in Rest Mode and place it in its owner's Drop Area. If you do, draw 1 card." />
+</card>
+<card id="a1f1c399-2a1c-440e-9a15-cfd862342a3c" name="Hercule, World Tournament King">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hercule" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Auto: When you play this card, choose up to 1 World Tournament Arena from your deck or Drop Area, add it to your hand, then shuffle your deck if you looked through it." />
+</card>
+<card id="b47a7739-7489-4b97-b369-c943f2feff6c" name="Announcer, Witness of History">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="7" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Announcer" />
+<property name="Special Trait" value="Earthling/World Tournament" />
+<property name="Era" value="World Martial Arts Tournament Saga" />
+<property name="Rarity" value="Promo" />
+<property name="Text" value="Deflect.  Auto: When you play this card, if your Leader Card is a World Tournament card, choose up to 8 World Tournament cards from your hand with different names that aren't Announcer cards and play them." />
+</card>
 </cards>
 </set>
