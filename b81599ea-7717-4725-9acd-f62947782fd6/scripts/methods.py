@@ -108,6 +108,11 @@ card_list = {
     'Sensing Old Kai': {scry: (me.piles["Deck"], 3, 1, 'Name', 'Miraculous Comeback Ultimate Gohan', me.hand, True)},
     'Comrades Combined Son Goku': {scry: (me.piles["Deck"], 7, '', 'Character', 'Vegeta', me.hand, True)},
     'Scrambling Assault Son Goten': {scry: (me.piles["Deck"], 3)},
+    'Son Goku, Prepping for Fusion': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
+    'Vegeta, Prepping for Fusion': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
+    'Saiyan Bloodline Son Goku': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
+    'Saiyan Bloodline Vegeta': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
+
     
     'Energy Boost Beerus': {kill: (1, True)},
     'Indomitable Link Son Gohan': {kill: (1, True, me.piles["Drop Zone"], {'Cost': (4,'le')})},

@@ -210,7 +210,7 @@ def sideboard(group=me.Deck, x = 0, y = 0):
         c.peek()
     dlg = cardDlg(topCards)
     botCards = []
-    for c in sideboard:
+    for c in me.sideboard:
         botCards.append(c)
         c.peek()
     dlg = cardDlg(topCards, botCards)
@@ -306,6 +306,8 @@ def combo(card, x=0, y=25):
                 if re.search("5000", card.Combo):
                         card.markers[CounterMarker] = 5000
                 elif re.search("10000", card.Combo):
+                        card.markers[CounterMarker] = 10000
+                elif re.search("Super Combo", card.Text):
                         card.markers[CounterMarker] = 10000
                 notify("{} combos with {} from their {}.".format(me, card, src.name))
         ##If command used on combo'd card, remove border and untap it.
@@ -842,8 +844,19 @@ def BUTTON_NB(group = None,x=0,y=0):
 def BUTTON_NC(group = None,x=0,y=0):  
    notify("--- {} isn't comboing any cards.".format(me))
 
-def BUTTON_FC(group = None,x=0,y=0):  
-   notify("--- {} is finished comboing.".format(me))
+def BUTTON_FC(group = None,x=0,y=0):
+        mute()
+        comboTotal = 0
+        for card in table:
+                if card.highlight == comboColor and card.controller == me:
+                      comboTotal += card.markers[CounterMarker]
+
+        if comboTotal != 0:
+                notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
+        else:
+                notify("--- {} is finished comboing.".format(me))
+                              
+
 
 ##I don't think this function is used currently.
 def declarePass(group, x=0, y=0):

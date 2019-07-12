@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Anniversary Box"
+     id="f7e8dfc0-bdfb-44ea-b475-df7f08473cd5" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="952304e8-6991-4261-ab6c-98f2ba9fc728" name="Trunks, Surge of Energy">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: GT" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Baby Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="Auto: Once per turn, When this card's power is increased by a skill during your turn, draw 1 card." />
+</card>
+<card id="9b3ae550-7343-4c7b-95dd-cc15c9057465" name="Vegito, Polymorphic Potara">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(R)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegito" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="7a5903e2-c9e2-44cd-85e2-a427dd5e2a25" name="Almighty Technique Vados">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(RR)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vados" />
+<property name="Special Trait" value="God/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="1e101b44-3ec3-4112-ae83-5b5225c4e05a" name="Hit, Spacetime Transcended">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="3(RR)" />
+<property name="Power" value="19000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="a9c1b27f-f7de-4f58-a9ce-f1ba44f7b060" name="Innocence Cannon Majin Buu">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="2(R)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Majin Buu" />
+<property name="Special Trait" value="Majin" />
+<property name="Era" value="Majin Buu Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="b595707b-937f-4602-8dee-f4682170fd80" name="General Rilldo, Leader of Planet M-2">
+<property name="Type" value="Battle " />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="General Rilldo" />
+<property name="Special Trait" value="Machine Mutant" />
+<property name="Era" value="Black Star Dragon Ball Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="70711d60-243d-4a79-ac6e-3d6052c77462" name="Mutant Genesis">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red" />
+<property name="Cost" value="1(R)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="6404ae8f-10c7-4e6e-89d1-0143a7268ebb" name="Son Goku, Path to the Infinite">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="5(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="efc42f3a-409d-45c1-8808-dcb321cd3c9c" name="Vegeta, Energy Absorber">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Resurrection F Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="161485ce-a142-4515-a0d9-6e6a44168874" name="Trunks, Hope Renewed">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="c14ce3a7-624e-401a-ba26-36f6f076a714" name="Whis, Destruction's Aid">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Whis" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Battle of Gods Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="ff1e895f-9ade-4f4d-bb22-6fcff2a08d5c" name="Goku Black, Countdown to Destruction">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(BB)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Goku Black" />
+<property name="Special Trait" value="Saiyan/God" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="3140d2b8-d46d-4296-8de5-f24a5d1b8fa5" name="Fused Zamasu, Fusion Refined">
+<property name="Type" value="Battle " />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Zamasu" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="0a42bc20-862c-471d-bc1b-1799fbed518a" name="Plan for Destruction">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="1(B)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="e0fc1c7e-9c4f-48cb-a8cb-54ec77e7d216" name="Son Goku, in Close Quarters">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="2" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Future Trunks Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="9ffb2594-3485-4b4a-941d-75f0fcf20545" name="Son Gohan, Display of Strength">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="4(GG)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Childhood" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Android Cell Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="12c80288-f266-471b-a263-3f35a6c28b6e" name="Krillin, Calling for Help">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Krillin" />
+<property name="Special Trait" value="Earthling" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="1725afa0-e0a2-4f10-bd45-48b8b7c705af" name="Paragus, Quelling the Beast">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Paragus" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Baby Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="34f9f27c-bb33-40f7-a8f4-b5f3228d2143" name="Android 13, the Brilliant">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="3(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Android 13" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Android 13 Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="0c97dba7-e899-40bb-9478-3df42dcd169f" name="Android Troop - 14 and 15">
+<property name="Type" value="Battle " />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Android 14/Android 15" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Android 13 Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="660ef57e-a8ac-4d9c-82a4-15385cc7bb94" name="Blazing Technique">
+<property name="Type" value="Extra" />
+<property name="Color" value="Green" />
+<property name="Cost" value="1(G)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="79216fc4-5f7d-4b16-80ed-991cb03c57ad" name="Bardock, the Enlightened">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bardock" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="315d97ae-b9c9-46b0-8b00-0d501e71e93f" name="Son Goku, Unbreakable Will">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Goku: Childhood" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Young Son Goku Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="139e3e9e-ea93-4969-853d-5cc88bb018f8" name="Frieza, Malicious Streak">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(YY)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Frieza" />
+<property name="Special Trait" value="Frieza Clan/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="0565e95a-c708-4708-890a-b33286a22795" name="Ginyu, Helix Strike">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(YY)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Ginyu" />
+<property name="Special Trait" value="Ginyu Force/Frieza's Army" />
+<property name="Era" value="Frieza Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="b37ba801-fe24-4e3f-a125-0ff98885b2ba" name="Meta-Cooler Core, Ultimate Form">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="3000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Meta-Cooler Core" />
+<property name="Special Trait" value="Frieza Clan" />
+<property name="Era" value="Meta-Cooler Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="cb8afdc3-4b29-48b6-8617-8ab875e701a5" name="Swift Retaliation Cooler">
+<property name="Type" value="Battle " />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="3(YYY)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cooler" />
+<property name="Special Trait" value="Frieza Clan" />
+<property name="Era" value="Cooler Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="60e26370-3b6b-4e8b-b72e-f514f4176a24" name="Malevolent Revenge">
+<property name="Type" value="Extra" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="1(Y)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="c38e48ec-ea86-47b6-b812-b8792712efed" name="Towa">
+<property name="Type" value="Leader" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="15000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Towa" />
+<property name="Special Trait" value="Demon Realm Race" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+<alternate name="Towa, Chaosbringer" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="" />
+</alternate>
+</card>
+<card id="efffe64c-dedd-442e-acee-2fba84d0cb34" name="Bardock, Awakened Instincts">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Bardock: Xeno" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="ad7e3540-562e-44e9-b32b-75678d05b31c" name="Supreme Kai of Time, Time Disruptor">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="4000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Supreme Kai of Time" />
+<property name="Special Trait" value="God" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="c79deaa4-6df7-465b-a673-050dc2f42203" name="Demigra, Over Realm Unleashed">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="3" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Demigra" />
+<property name="Special Trait" value="Demon God" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="fafbc394-fcb2-4387-ba6a-8b9ea6728ec0" name="Mira, Self Reformation">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="5" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Mira" />
+<property name="Special Trait" value="Android" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="6f1c8bfb-04ca-4c36-a4e4-e3fb137736eb" name="Masked Saiyan, Beguiled Warrior">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="4" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Masked Saiyan" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="8ec314b7-28ca-4658-9ca4-0eb8fb923bee" name="Fu, the Dark Banisher">
+<property name="Type" value="Battle " />
+<property name="Color" value="Black" />
+<property name="Cost" value="8" />
+<property name="Power" value="25000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Fu" />
+<property name="Special Trait" value="Scientist" />
+<property name="Era" value="Dark Demon Realm Saga" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+<card id="8ec0757d-50e6-43dd-99b4-20d20df5e2a9" name="A Crack in Spacetime">
+<property name="Type" value="Extra" />
+<property name="Color" value="Black" />
+<property name="Cost" value="1" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Expansion Rare" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>

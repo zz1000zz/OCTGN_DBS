@@ -5,7 +5,26 @@
      gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
      gameVersion="0.0.0.10" 
      version="0.0.0.1">
-<cards>
+  <packaging>
+    <pack name="Booster" id="527ebf6d-0ded-4201-a23f-7d1f8ac7e4d8">
+      <options>
+        <option probability="0.003">
+          <pick qty="1" key="Rarity" value="Secret Rare" />
+        </option>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.65">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging><cards>
 <card id="dd833f33-ac12-48b9-83f0-74ac98f9d55f" name="Yamcha">
 <property name="Type" value="Leader" />
 <property name="Color" value="Red" />
@@ -1589,18 +1608,161 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Text" value="Permanent: This card gains Desire in all areas. Activate Main: Your Leader Card is a Shenron card: Choose 1 Battle Card in your Drop Area with an energy cost less than or equal to your current energy and play it." />
 </card>
-<card id="f0d82411-cd87-40ff-a8a0-bd23c4cd81f0" name="Miraculous Fighter SS3 Gogeta">
-<property name="Type" value="Battle" />
-<property name="Color" value="Blue" />
-<property name="Cost" value="8(BBBB)" />
-<property name="Power" value="40000" />
-<property name="Combo" value="10000" />
-<property name="Combo Cost" value="1" />
-<property name="Character" value="Gogeta" />
-<property name="Special Trait" value="Saiyan" />
-<property name="Era" value="Special" />
-<property name="Rarity" value="Secret Rare" />
-<property name="Text" value="EX-Evolve: Place all cards from your hand other than this card in your Drop Area: Blue Gogeta with an energy cost of 7 or more.  Critical.  Union-Fusion 3BBB: Son Goku and Vegeta.  Ultimate.  Deflect.  Activate Main Sparking 15: Choose 1 Son Goku and 1 Vegeta card from your Drop Area and place them at the bottom of your deck : Switch this card to Active Mode." />
+<card id="f0d82411-cd87-40ff-a8a0-bd23c4cd81f0" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="ff23bcae-97a4-4f33-bef3-2a2cec41ad8c" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="7639f8b5-c76d-4eb8-bd74-5b063e4ad7ac" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="08e44493-3b41-4d65-ab24-e4db48ced76a" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="a06df1f0-a302-4b26-af27-1d677b85b76d" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="2bcb24e2-0974-4989-9748-e520df409819" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="eac9122e-b9de-4670-8862-38b3c0ddeb48" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="6a002de4-12ee-4c9f-96af-340abea0e7a9" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="0d712ff5-9a3d-409f-9aab-bc94638e82bb" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="9fe6fe43-b391-4f4b-9706-82d7c8818a4e" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="3295af56-fb04-4009-a568-cc4d866a93b4" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
+</card>
+<card id="0f5bb309-14cc-424e-a7a1-a916b5ca036e" name="">
+<property name="Type" value="" />
+<property name="Color" value="" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="" />
+<property name="Text" value="" />
 </card>
 </cards>
 </set>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Saiyan Legacy"
+     id="078b67a4-8c74-4ebb-b920-f36f0304c90c" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="d849d446-57b3-4d75-bdb0-7da193f81d61" name="King Vegeta, Leader of the Saiyans">
+<property name="Type" value="Leader" />
+<property name="Color" value="Red" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="King Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Bardock Saga" />
+<property name="Rarity" value="Stater Rare" />
+<property name="Text" value="" />
+<alternate name="King Vegeta, Leader of the Saiyans" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="" />
+</alternate>
+</card>
+<card id="a016b104-0341-4572-a87a-381a1bb14a80" name="Raditz, Earth Invader">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Raditz" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Saiyan Saga" />
+<property name="Rarity" value="Stater Rare" />
+<property name="Text" value="" />
+</card>
+<card id="b8064f33-98fb-456d-a66e-10773027cda5" name="Vegeta, Royal Prince">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(G)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Saiyan Saga" />
+<property name="Rarity" value="Stater Rare" />
+<property name="Text" value="" />
+</card>
+<card id="2c474275-705c-43e7-ba9d-a0fecdacac6c" name="Fated Kaio-Ken Son Goku">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red/Green" />
+<property name="Cost" value="4(RG)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Son Goku" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Saiyan Saga" />
+<property name="Rarity" value="Stater Rare" />
+<property name="Text" value="" />
+</card>
+<card id="7500572d-5a9c-4159-b663-200e9bee7fb4" name="King Vegeta's Dynasty">
+<property name="Type" value="Extra" />
+<property name="Color" value="Red/Green" />
+<property name="Cost" value="2(RG)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Stater Rare" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>

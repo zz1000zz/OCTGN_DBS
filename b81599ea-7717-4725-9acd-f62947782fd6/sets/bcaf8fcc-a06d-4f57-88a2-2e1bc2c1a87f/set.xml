@@ -1807,120 +1807,120 @@
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="17264e6d-43f9-49ab-bbf7-b92dcc048198" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="17264e6d-43f9-49ab-bbf7-b92dcc048198" name="Energy Volley Gogeta">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="5(RR)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Gogeta: Br" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="DBS: Broly Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="dee07284-3b5c-4142-b397-47546cb7c801" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="dee07284-3b5c-4142-b397-47546cb7c801" name="Trunks, Hope of the Saiyans">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(BB)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Future Trunks Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="71a3bfd6-1035-45c5-81f0-0cfb51e4cf39" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="71a3bfd6-1035-45c5-81f0-0cfb51e4cf39" name="Overwhelming Energy Broly">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="6(GG)" />
+<property name="Power" value="25000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly: Br" />
+<property name="Special Trait" value="Saiyan/Frieza's Army" />
+<property name="Era" value="DBS: Broly Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="82eeb912-277b-4704-a047-dadcee3d8811" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="82eeb912-277b-4704-a047-dadcee3d8811" name="Vegeta, a Master's Temperament">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="4(Y)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="2a104722-3c1a-4c09-8725-31f041f61550" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="2a104722-3c1a-4c09-8725-31f041f61550" name="Son Gohan, the Avenger">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red" />
+<property name="Cost" value="4(RR)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Son Gohan: Adolescence" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Broly Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="6c1e5ef6-6739-4576-a17a-28551f59b4bb" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="6c1e5ef6-6739-4576-a17a-28551f59b4bb" name="Trunks, Forerunner of Hope">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Trunks: Future" />
+<property name="Special Trait" value="Saiyan/Earthling" />
+<property name="Era" value="Future Trunks Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="ddc2018b-bd1c-4310-8288-59287a096ae6" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="ddc2018b-bd1c-4310-8288-59287a096ae6" name="Broly, Everlasting Vengeance">
+<property name="Type" value="Battle" />
+<property name="Color" value="Green" />
+<property name="Cost" value="2(GG)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Broly Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="4ba84345-e900-4235-be84-9a7041126cf6" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="4ba84345-e900-4235-be84-9a7041126cf6" name="Cabba, the Revoker">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cabba" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>
-<card id="2f01023d-4da2-4fd5-8f97-57b26ec29bdb" name="">
-<property name="Type" value="" />
-<property name="Color" value="" />
-<property name="Cost" value="" />
-<property name="Power" value="" />
-<property name="Combo" value="" />
-<property name="Combo Cost" value="" />
-<property name="Character" value="" />
-<property name="Special Trait" value="" />
-<property name="Era" value="" />
+<card id="2f01023d-4da2-4fd5-8f97-57b26ec29bdb" name="Vegeta, Time Regulator">
+<property name="Type" value="Battle" />
+<property name="Color" value="Black" />
+<property name="Cost" value="2" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta: Xeno" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Dark Demon Realm Saga" />
 <property name="Rarity" value="Promo" />
 <property name="Text" value="" />
 </card>

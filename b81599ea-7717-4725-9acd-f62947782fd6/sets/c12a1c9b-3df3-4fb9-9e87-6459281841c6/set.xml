@@ -5,6 +5,26 @@
      gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
      gameVersion="0.0.0.10" 
      version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="71fcbd68-beb1-42f8-9e90-141e5b1daffd">
+      <options>
+        <option probability="0.003">
+          <pick qty="1" key="Rarity" value="Secret Rare" />
+        </option>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.65">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging>
 <cards>
 <card id="77fa27ef-1cfd-4471-ac98-99a5d0410483" name="Son Goku and Vegeta">
 <property name="Type" value="Leader" />
