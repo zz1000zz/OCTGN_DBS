@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Universe 6 Assailants"
+     id="d81383b3-8633-42a8-ae5b-a5349d8da97b" 
+     gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
+     gameVersion="0.0.0.10" 
+     version="0.0.0.1">
+<cards>
+<card id="5075f964-153b-4e57-84a6-3a3f38fe9af5" name="Cabba">
+<property name="Type" value="Leader" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="Cabba" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+<alternate name="Vegeta and Cabba, Master and Pupil" type="awakened">
+<property name="Power" value="15000" />
+<property name="Text" value="" />
+</alternate>
+</card>
+<card id="3d4136a0-29df-4044-a72d-57b1a19efcb0" name="Vegeta, Saiyan of Universe 7">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="4(BB)" />
+<property name="Power" value="20000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Vegeta" />
+<property name="Special Trait" value="Saiyan/Universe 7" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="f9611b87-d7d8-4879-a40b-fcf74f619881" name="Champa, Scheming God of Destruction">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="3(B)" />
+<property name="Power" value="15000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Champa" />
+<property name="Special Trait" value="God/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="370dbc4e-4dee-49d9-b992-30d47db8a896" name="Sisterly Bonds Kale">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue" />
+<property name="Cost" value="2(B)" />
+<property name="Power" value="9000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Kale" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="c3e98481-27b2-4faa-af61-26cab6acc319" name="Hit, Ace of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Hit" />
+<property name="Special Trait" value="Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="d944f7ec-06e3-4422-ac64-4b5f81842161" name="Cabba, Saiyan of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="5000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Cabba" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="f924f42e-c401-46e2-919e-55dd1b7bd0d3" name="Caulifla, Troublemaker of Universe 6">
+<property name="Type" value="Battle" />
+<property name="Color" value="Yellow" />
+<property name="Cost" value="2(Y)" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="Caulifa" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="13f58b62-4625-4d73-b29a-d3dbe0004228" name="Vegeta and Cabba, Master-Pupil Bond">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue/Yellow" />
+<property name="Cost" value="3(BY)" />
+<property name="Power" value="19000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegeta/Cabba" />
+<property name="Special Trait" value="Saiyan/Alien/Universe 7/Universe 6" />
+<property name="Era" value="Universe Survival Saga" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="161a62f9-142b-45dc-b104-007a95773581" name="Planet Sadala">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue/Yellow" />
+<property name="Cost" value="2(BY)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+<card id="f571ead5-5b1d-4389-906d-f735d4035af4" name="Frost's Deadly Poison">
+<property name="Type" value="Extra" />
+<property name="Color" value="Blue/Yellow" />
+<property name="Cost" value="3(BY)" />
+<property name="Power" value="" />
+<property name="Combo" value="" />
+<property name="Combo Cost" value="" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Starter Rare" />
+<property name="Text" value="" />
+</card>
+</cards>
+</set>
