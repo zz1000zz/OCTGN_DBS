@@ -42,12 +42,13 @@ def test():
         specMode2 = getSetting("spectatorMode", False)
 
 ##Complicated concept, will explain in the future.
-def activate(card, x=0, y=0):
+def activate(card, x=0, y=0, silent = False):
         if card.Name in card_list:
                 for f in card_list[card.Name]:
                         f(*card_list[card.Name][f])
         else:
-                whisper("This card doesn't have an automated ability.  Sorry!")
+                if silent == False:
+                        whisper("This card doesn't have an automated ability.  Sorry!")
 
 ##Search "top" X cards for cards which meet arbitrarily complex criteria.
 def tutorTopComplex(group=me.Deck, count=None, num=1, q='', zone=me.hand):
@@ -68,8 +69,11 @@ def tutorTopComplex(group=me.Deck, count=None, num=1, q='', zone=me.hand):
         ##Move any selected cards to the correct zone.
         if cardsSelected:
                 for card in cardsSelected:
-                        card.moveTo(zone)
-                        notify("{} puts {} into their hand.".format(me, card.properties["Name"]))
+                        if zone == table:
+                                play(card)
+                        else:
+                                card.moveTo(zone)
+                                notify("{} puts {} into their hand.".format(me, card.properties["Name"]))
         ##Shuffle the deck after.
         me.Deck.shuffle()  
 
@@ -396,6 +400,39 @@ def kill(count = 1, opponentOnly = False, zone=me.piles["Drop Zone"], q=""):
                                 remoteCall(card.controller, "toDrop", card)
                         notify("{} kills {} !".format(me, card))
 
+
+##Used via the Activate command, returns cards which meet the specified criteria to their owner's hand.
+##See Activate documentation for further information.
+##Overlaps significantly with kill() function.  Should create helper functions to simplify.
+def bounce(count = 1, opponentOnly = False, zone=me.deck, q=""):
+        mute()
+        cardsInTable = []
+        targets = []
+        if opponentOnly:
+                cardsInTable = [c for c in table if c.controller != me and c.orientation == Rot0 and not (re.search("Leader", c.Type))]
+                for c in cardsInTable:
+                        if matchComplex(c, q):
+                                targets.append(c)
+        else:
+                cardsInTable = [c for c in table if c.orientation == Rot0 and not (re.search("Leader", c.Type))]
+                for c in cardsInTable:
+                        if matchComplex(c, q):
+                                targets.append(c)
+        if len(cardsInTable) < 1:
+                whisper("There are no targets!")
+                return
+        dlg = cardDlg(cardsInTable)
+        dlg.max = count
+        cardsSelected = dlg.show()
+        if cardsSelected:
+                for card in cardsSelected:
+                        if card.controller == me:
+                                card.moveTo(zone)
+                        else:
+                                remoteCall(card.controller, "toHand", card)
+                        notify("{} returns {} !".format(me, card))
+
+
 ##Move card to hand.
 def toHand(card):
         mute()
@@ -618,8 +655,9 @@ def removeCounters(card, x = 0, y = 0):
         for marker in card.markers:
                 card.markers[marker] = 0
 
-##Handles auto-placement of played cards.  Very crude, should be rewritten.		
-def play(card, x = 0, y = 0): #Extra Cards will go to Drop after being played
+##Handles auto-placement of played cards.  Very crude, should be rewritten.
+#Extra Cards will go to Drop after being played unless they're Field cards.       
+def play(card, x = 0, y = 0): 
 	mute()
 	x = 0
 	cardsInTable = [c for c in table if c.controller == me]
@@ -635,7 +673,16 @@ def play(card, x = 0, y = 0): #Extra Cards will go to Drop after being played
                 for c in cards:
                         if c.position[0] < x:
                                 x = c.position[0]
-	if card.Type=="Extra": card.moveTo(card.owner.piles['Drop Zone'])
+##	if card.Type=="Extra": card.moveTo(card.owner.piles['Drop Zone'])
+	if card.Type=="Extra":
+                if re.search("^Field", card.Text):
+                        if me._id == 1:
+                                card.moveToTable(-405, 90)
+                        else: 
+                                card.moveToTable(330, 0)
+                else:
+                        card.moveTo(card.owner.piles['Drop Zone'])
+                        activate(card, 0, 0, True)
         elif me._id == 1:
 		card.moveToTable(x + 75, 0)
 	else:

@@ -100,9 +100,8 @@ card_list = {
     'Lord Slug, Returned to Form': {tutorTopComplex: (me.piles["Deck"], 5, 1, {'Special Trait': ('Slug\s Army', 'i'), 'Cost': (4, 'le')})},
     'Deadly Golden Great Ape Son Goku': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Special Trait': ('Goku\'s Lineage', 'i'), 'Name': ('Deadly Golden Great Ape Son Goku', 'ne')})},
     'Dynasty\'s Solace Chi-Chi': {tutorTopComplex: (me.piles["Deck"], 3, 1, {'Special Trait': ('Goku\s Lineage', 'i')})},
-    'Successor of Hope': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Special Trait': ('Goku\'s Lineage', 'i'), 'Cost': (5, 'le'), 'Text': ('Swap', 'i')})},
     'Frigid Blast Putine': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Demigra', 'i'), 'Cost': (4, 'le')})},
-    'Determined Time Leaper Trunks': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Trunks: Future', 'i')})},    
+    'Determined Time Leaper Trunks': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Trunks: Future', 'i')})},
     
     'Time Patrol Trunks': {scry: (me.piles["Deck"], 2)},
     'Sensing Old Kai': {scry: (me.piles["Deck"], 3, 1, 'Name', 'Miraculous Comeback Ultimate Gohan', me.hand, True)},
@@ -111,7 +110,7 @@ card_list = {
     'Son Goku, Prepping for Fusion': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
     'Vegeta, Prepping for Fusion': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
     'Saiyan Bloodline Son Goku': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
-    'Saiyan Bloodline Vegeta': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
+##    'Saiyan Bloodline Vegeta': {scry: (me.piles["Deck"], 3, '', '', '', me.hand, True)},
 
     
     'Energy Boost Beerus': {kill: (1, True)},
@@ -153,6 +152,57 @@ card_list = {
     'Meta-Rilldo, Form Perfected': {draw: (me.piles["Deck"], False, 2)},
     'Encroaching Terror Android 19': {draw: (me.piles["Deck"], False, 1)},    
     'Planet Vegeta': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Special Trait': ('Saiyan', 'i'),'Cost': (4,'le')})},
+
+
+##7/15 additions:
+    'Announcer, Ever-Curious': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Special Trait': ('World Tournament', 'i')})},
+    'Planetary Invader Fasha': {tutorTopComplex: (me.piles["Deck"], 5, 1, {'Special Trait': ('Bardock\'s Crew', 'i')})},
+    'Everybody\'s Pal Yamcha': {tutorTopComplex: (me.piles["Deck"], 3, 1, {'Special Trait': ('Earthling', 'i')})},
+    'Paragus, Deadly Premonition': {tutorTopComplex: (me.piles["Deck"], 5, 1, {'Character': ('Broly: Br', 'i')})},
+    'Dependable Saiyan Trunks': {tutorTopComplex: (me.piles["Deck"], 3, 1, {'Special Trait': ('Saiyan', 'i'), 'Color': ('Yellow', 'i')})},
+    'Space Pirate Bido': {tutorTopComplex: (me.piles["Deck"], 5, 1, {'Special Trait': ('Boujack\'s Brigade', 'i')})},
+    'Father Figure Piccolo': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Gohan: Youth', 'i'), 'Cost': (2, 'ge')})},
+    'Coco\'s Grandpa, Village Oldster': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Coco, Village Princess', 'e')})},
+    'Trunks, Fighting the Darkness': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Super Saiyan Blue Vegeta', 'e'), 'Color': ('Yellow', 'i'), 'Cost': (2, 'i')}), tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('SSB Son Goku, the Sweeper', 'e')})},
+    'Son Gohan, Momentary Awakening': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Goku', 'e'), 'Color': ('Green', 'i')})},
+    'Namekian Partner Saonel': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Namekian Partner Pirina', 'i')})},
+    'Namekian Partner Pirina': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Namekian Partner Saonel', 'i')})},
+    
+    'Harmonic Energy SSB Vegeta': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Goku: Br', 'e'),'Color': ('Red','e')}, 'table')},
+    'Harmonic Energy SSB Son Goku': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Vegeta: Br', 'e'),'Color': ('Red','e')}, 'table')},
+    'Last Resort Vegeta': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Power Ball', 'e')}, 'table')},
+    'Dormant Legend': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Broly', 'e')}, 'table')},
+    'Goku Black, Evil\'s Apprentice': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Mass Replication', 'e')}, 'table')},
+    'Great Ape Vegeta, Energy Manipulation': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Vegeta', 'e'), 'Color': ('Red','i'), 'Color': ('Green','i'), 'Cost': (6, 'le')}, 'table')},
+    'Nappa, The Cultivator': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Saibaiman', 'i')}, 'table')},
+    'Son Goku, Dimensional Defender': {draw: (me.piles["Deck"], False, 1), tutorTopComplex: (me.piles["Warp"], 100, 1, {'Color': ('Black', 'i'), 'Type': ('Battle', 'i')}, me.piles["Drop Zone"])},
+
+
+    ##Extra Cards that tutor
+    'Successor of Hope': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Special Trait': ('Goku\'s Lineage', 'i'), 'Cost': (5, 'le'), 'Text': ('Swap', 'i')})},
+    'New Model Scouter': {tutorTopComplex: (me.piles["Deck"], 7, 2, {'Special Trait': ('Frieza\'s Army', 'i'), 'Cost': (4, 'ge'), 'Color': ('Red', 'e')})},
+    'Dawn of Evil': {tutorTopComplex: (me.piles["Deck"], 10, 1, {'Character': ('Majin Buu', 'i'), 'Cost': (3, 'le'), 'Color': ('Blue', 'e')})},
+    'Assembling the Squad': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Cost': (2, 'le'), 'Power': (15000, 'le')}, 'table')},
+    'Time Transmission G': {tutorTopComplex: (me.piles["Warp"], 100, 1, {'Cost': (4, 'le'), 'Type': ('Battle', 'i'), 'Color': ('Black', 'i')}, 'table')},
+
+    
+    ##Bounce effects
+    'SSB Son Goku, the Sweeper': {draw: (me.piles["Deck"], False, 1), bounce: (1, True, me.hand, {'Cost': (4,'le')})},
+    'Undying SPirit Son Gohan': {bounce: (1, True, me.hand, {'Cost': (4,'le')})},
+    'Trunks, the Sweeper': {bounce: (1, True, me.hand, {'Cost': (2,'le')})},
+    'Bulma, Saying Farewell': {bounce: (1, True, me.hand, {'Cost': (3,'le')})},
+    'You\'re Wide Open': {bounce: (1, True, me.hand, {'Cost': (4,'le')})},
+    'All Too Easy': {bounce: (1, True, me.hand, {'Cost': (1,'le')})},
+
+    'Saibaimen, Endless Explosions': {kill: (1, True, me.piles["Drop Zone"], {'Cost': (1,'le')})},
+    'For the Greater Good': {kill: (1, True, me.piles["Drop Zone"], {'Cost': (1,'e')})},
+
+    'Raditz, the Oppressor': {draw: (me.piles["Deck"], False, 1)},
+    'Supreme Kai of Time, Time Regulator': {draw: (me.piles["Deck"], False, 1)},
+    'Wilderness Training Son Gohan': {draw: (me.piles["Deck"], False, 1)},
+    'Urgent Aid Kami': {draw: (me.piles["Deck"], False, 1)},
+    'Cabba, Brimming with Spirith': {draw: (me.piles["Deck"], False, 1)},
+    'Kefla\'s Fury': {draw: (me.piles["Deck"], False, 2)},
     
     'Whis,the Resting Attendant': {topCardEnergy: (me.piles["Deck"], 1)}
 }
