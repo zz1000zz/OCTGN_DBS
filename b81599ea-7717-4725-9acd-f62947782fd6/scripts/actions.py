@@ -16,6 +16,9 @@ xEnergy2 = 325
 comboColor = "#00ff00"
 CounterMarker =("Power", "3ef3165f-b02f-458a-823e-cb7d9247c269")
 CounterMarker2 = ("PowerN", "8b12e609-12f3-4bec-9e8f-8ad2cf7c6d58")
+attackingCard = []
+defendingCard = []
+gameStarted = False
 
 ##Initialize variables when a deck is loaded.  Global variables may be deprecated?
 ##reportDeck is a test function to report decklists to a server.
@@ -24,18 +27,52 @@ def onDeckLoaded(args):
         init()
         global log_entries
         global last_time
+        global gameStarted
         last_time = time.time()
+        gameStarted = False
         reportDeck(True)
 
 ##Initializing coordinate variables, redundant design with the global variables.
 ##specMode checks the player's local settings to check preference on Spectator Mode.
 def init():
-        xBattle = -400
-        xEnergy = -400
-        xBattle2 = 325
-        xEnergy2 = 325
         global specMode
         specMode = getSetting("spectatorMode", False)
+
+##CLeanup board at end of turn.
+def turnPassCleanup(p):
+        mute()
+        global attackingCard
+        global defendingCard
+        try:
+                if attackingCard[0].controller == me:
+                        attackingCard[0].arrow(attackingCard[0], active = False)
+        except:
+                pass
+        attackingCard = []
+        defendingCard = []
+        for card in table:
+                if card.controller == me:
+                        if card.highlight == comboColor:
+                                toDrop(card)
+                                continue
+                        for marker in card.markers:
+                                card.markers[marker] = 0
+        notify("{} ends their turn.".format(me))
+
+
+##Preliminary function to using a global variable to list the last card that has
+##drawn an arrow.  Maybe expand later?  Note, List is emptied at end of turn
+##to account for arrows not being undrawn when cards change zones.
+def onCardArrowTargeted(args):
+        mute()
+        global attackingCard
+        global defendingCard
+        if args.targeted == True:
+                attackingCard = [args.fromCard]
+                defendingCard = [args.toCard]
+        if args.targeted == False:
+                attackingCard = []
+                defendingCard = []
 
 ##Pretty sure this test function isn't used anymore.
 def test():
@@ -75,7 +112,7 @@ def tutorTopComplex(group=me.Deck, count=None, num=1, q='', zone=me.hand):
                                 card.moveTo(zone)
                                 notify("{} puts {} into their hand.".format(me, card.properties["Name"]))
         ##Shuffle the deck after.
-        me.Deck.shuffle()  
+        me.Deck.shuffle()
 
 ##Check if card (c) meets criteria listed in q.
 def matchComplex(c, q):
@@ -150,10 +187,10 @@ def dbSearch(args='', num=7):
                 if c.Text.startswith('Dragon Ball'):
                         topCards.append(c)
         d = me.Deck.create('815eeabb-50d0-4f7f-9bea-10318289a24c',1)
-        topCards.append(d)        
+        topCards.append(d)
         for c in me.Life:
                 if c.Text.startswith('Dragon Ball'):
-                        topCards.append(c)        
+                        topCards.append(c)
         dlg = cardDlg(topCards)
         dlg.max = num
         dlg.title = "Searching Life and Deck for DBs"
@@ -283,42 +320,50 @@ def initializeGame():
 ##Handle comboing.
 def combo(card, x=0, y=25):
         mute()
-        y = 10
         src = card.group
-##        notify(src.name)
-##        if src.name == "Hand":
-##                pass
         if card.highlight == None:
+                comboPower = 0
                 cardsInTable = [c for c in table if c.controller == me]
                 if me._id == 1:
                         x = -400
+                        y = -25
                         for c in cardsInTable:
-                                if c.position[0] >= x:
+                                if c.position[0] >= x and c.highlight != comboColor:
                                         x = c.position[0]
+                                if c.highlight == comboColor:
+                                        y = c.position[1]
+                                        comboPower = c.markers[CounterMarker]
+                                        c.markers[CounterMarker] = 0
                 else:
                         x = 325
+                        y = -75
                         for c in cardsInTable:
-                                if c.position[0] < x:
+                                if c.position[0] < x and c.highlight != comboColor:
                                         x = c.position[0]
+                                if c.highlight == comboColor:
+                                        y = c.position[1]
+                                        comboPower = c.markers[CounterMarker]
+                                        c.markers[CounterMarker] = 0
                 if me._id == 1:
-                        card.moveToTable(x + 75, y)
+                        card.moveToTable(x + 150, y+20)
                 else:
-                        card.moveToTable(x - 75, y*-1 -90)
-                card.orientation = Rot270
+                        card.moveToTable(x - 150, y-20)
+                card.orientation = Rot90
                 card.highlight = comboColor
                 ##Check combo value of card and set markers showing it.
                 if re.search("5000", card.Combo):
-                        card.markers[CounterMarker] = 5000
+                        card.markers[CounterMarker] = 5000 + comboPower
                 elif re.search("10000", card.Combo):
-                        card.markers[CounterMarker] = 10000
+                        card.markers[CounterMarker] = 10000 + comboPower
                 elif re.search("Super Combo", card.Text):
-                        card.markers[CounterMarker] = 10000
+                        card.markers[CounterMarker] = 10000 + comboPower
                 notify("{} combos with {} from their {}.".format(me, card, src.name))
         ##If command used on combo'd card, remove border and untap it.
         else:
                 card.highlight = None
                 card.orientation = Rot0
-        
+                toDrop(card)
+
 ##Display changes stored in changelog.py if any new entries exist.
 def changeLog(group, x = 0, y = 0):
         mute()
@@ -455,92 +500,103 @@ def toBottom(card):
 def playLeader(card):
         if me._id == 1:
                 card.moveToTable(-405, 0)
-        else: 
+        else:
                 card.moveToTable(330, -90)
 
-			
+
 #Sets up the game. Resets Your side. Draws 6, plays the Leader card
-##Created by Manveer Singh.
-def setup(group, x = 0, y = 0):
-	cardsInTable = [c for c in table if c.controller == me and c.owner == me]
-	cardsInLife = [c for c in me.piles['Life']] 
-	cardsInHand = [c for c in me.hand]
-	cardsInDrop = [c for c in me.piles['Drop Zone']]
-	cardsInWarp = [c for c in me.piles['Warp']]
-	if cardsInTable or cardsInHand or cardsInDrop or cardsInLife:
-		if confirm("Are you sure you want to setup game? Current setup will be lost"):
-                        for card in cardsInTable:
-                                findLeader(card)
-			for card in cardsInLife:
-				findLeader(card)
-			for card in cardsInHand:
-				findLeader(card)
-			for card in cardsInDrop:
-				findLeader(card)
-			for card in cardsInWarp:
-				findLeader(card)
-		else:
-			return
-	mute()
+##Originally Created by Manveer Singh.
+def setup(newGame = True, *args):
+        mute()
+        global gameStarted
+        if gameStarted == True:
+                if not confirm("Are you sure you want to setup a new game?  Current setup will be lost"):
+                        return
+        scoop(False)
         global xBattle, xEnergy, xBattle2, xEnergy2
         init()
-	if len(me.Deck) < 25: #We need at least 25 cards to properly setup the game
-		whisper("Not enough cards in deck")
-		return
-	leaderCards = [c for c in me.piles['Leader']]	
-	if len(leaderCards) != 1: 
-		whisper("You must play exactly 1 leader card!")
-		return
-	for card in me.piles['Leader']:
-		playLeader(card)
-		break
-	me.Deck.shuffle()
-	for card in me.Deck.top(6): 
-		card.moveTo(me.hand)
-	notify("{} Draws six cards".format(me))	
+        if len(me.Deck) < 25: #We need at least 25 cards to properly setup the game
+                whisper("Not enough cards in deck")
+                return
+        leaderCards = [c for c in me.piles['Leader']]
+        if len(leaderCards) != 1:
+                whisper("You must play exactly 1 leader card!")
+                return
+        else:
+                playLeader(leaderCards[0])
+                gameStarted = True
+        me.Deck.shuffle()
+        for card in me.Deck.top(6):
+                card.moveTo(me.hand)
+        notify("{} Draws six cards".format(me))
+
+
+##Need to move the scoop functionality from setup() to this function.
+def scoop(prompt = False, *args):
+        mute()
+        if prompt != False:
+                if not confirm("Are you sure you want to scoop up your cards?  Current setup will be lost"):
+                        return
+        for card in table:
+                if card.owner == me: findLeader(card)
+        for card in me.piles['Life']: findLeader(card)
+        for card in me.hand: findLeader(card)
+        for card in me.piles['Drop Zone']: findLeader(card)
+        for card in me.piles['warp']: findLeader(card)
+        
 
 ##Sets up life.  Can be called manually or from the Mulligan function.
 def setupLife(group, x = 0, y = 0): #Sets up 8 life
-	for card in me.Deck.top(8):
-		card.moveTo(me.piles['Life'], 0)
-	notify("{} sets up their Life.".format(me))	
+        for card in me.Deck.top(8):
+                card.moveTo(me.piles['Life'], 0)
+        notify("{} sets up their Life.".format(me))
 
-##Handles tapping and untapping.
-def tap(card, x = 0, y = 0):
-    mute()
-    card.orientation ^= Rot90
-    if card.orientation & Rot90 == Rot90:
-        notify('{} taps {}.'.format(me, card))
-    else:
-        notify('{} untaps {}.'.format(me, card))	
+##Handles tapping and untapping.  Works with individual or multiple cards.
+def tap(cards, *args):
+        mute()
+        if not isinstance(cards, list):
+                cards = [cards]
+        tappedCards = []
+        untappedCards = []
+        for card in cards:
+                if card.orientation & Rot90 == Rot90:
+                        tappedCards.append(format(card))
+                else:
+                        untappedCards.append(format(card))
+                card.orientation ^= Rot90
+        if len(tappedCards) > 0:
+                notify('{} taps {}.'.format(me, ', '.join(tappedCards)))
+        if len(untappedCards) > 0:
+                notify('{} untaps {}.'.format(me, ', '.join(untappedCards)))
+
 
 def untapAll(group, x = 0, y = 0): #Modified it to account for Energy which will be played upside down
-	mute()
-	for card in group:
-		if not card.controller == me:
-			continue
-		if card.orientation == Rot90:
-			card.orientation = Rot0
-		if card.orientation == Rot270:
-			card.orientation = Rot180
-	notify("{} untaps all their cards.".format(me))			
+        mute()
+        for card in group:
+                if not card.controller == me:
+                        continue
+                if card.orientation == Rot90:
+                        card.orientation = Rot0
+                if card.orientation == Rot270:
+                        card.orientation = Rot180
+        notify("{} untaps all their cards.".format(me))
 
 ##Used card alternates to link unawakened and awakened sides.
-def awaken(card, x = 0, y = 0): 
-	mute()
-	if (re.search("Leader", card.Type)):
-		altName = card.alternateProperty('awakened', 'name')
+def awaken(card, x = 0, y = 0):
+        mute()
+        if (re.search("Leader", card.Type)):
+                altName = card.alternateProperty('awakened', 'name')
                 card.alternate = 'awakened'
-		notify("{}'s' {} awakens to {}.".format(me, altName, card))
-		card.Type = "Leader"
+                notify("{}'s' {} awakens to {}.".format(me, altName, card))
+                card.Type = "Leader"
 
 ##Mostly for if players awaken when they shouldn't, also works with Wish leaders.
-def unawaken(card, x = 0, y = 0): 
-	mute()
-	altName = card.alternateProperty('awakened', 'name')
+def unawaken(card, x = 0, y = 0):
+        mute()
+        altName = card.alternateProperty('awakened', 'name')
         card.alternate = ''
-	notify("{}'s' {} reverts to its base form.".format(me, altName, card))
-	return
+        notify("{}'s' {} reverts to its base form.".format(me, altName, card))
+        return
 
 ##Draws hand up to 6 cards, if Life isn't set up, set it up.
 def mulligan(group):
@@ -571,28 +627,15 @@ def token(group, x = 0, y = 0, guid='', quantity=1):
                 else:
                         whisper("You can't make more than 9 tokens at once.")
 
-			
+
 def clearAll(group, x = 0, y= 0):
     notify("{} clears all targets and combat.".format(me))
     for card in group:
-		if card.controller == me:
-			card.target(False)
-			card.highlight = None
+                if card.controller == me:
+                        card.target(False)
+                        card.highlight = None
 
-def roll20(group, x = 0, y = 0):
-    mute()
-    n = rnd(1, 20)
-    notify("{} rolls {} on a 20-sided die.".format(me, n))
-
-def flipCoin(group, x = 0, y = 0):
-    mute()
-    n = rnd(1, 2)
-    if n == 1:
-        notify("{} flips heads.".format(me))
-    else:
-        notify("{} flips tails.".format(me))
-
-##Turns cards face up/face down.		  
+##Turns cards face up/face down.
 def flip(card, x = 0, y = 0):
     mute()
     if card.isFaceUp:
@@ -605,48 +648,48 @@ def flip(card, x = 0, y = 0):
 def discard(card, x = 0, y = 0): #Renamed
         mute()
         card.moveTo(me.piles['Drop Zone'])
-	notify("{} discards {}".format(me, card))
+        notify("{} discards {}".format(me, card))
 
 ##Power buffs/debuffs use separate counters.  These functions need to check if
 ##The opposite type exists to determine if more + counters should be added or -
 ##counters should be removed, and vice versa.  Add/Remove X may be bugged.
 def addCounter5(card, x = 0, y = 0):
-	mute()
-	if card.markers[CounterMarker2] > 0:
+        mute()
+        if card.markers[CounterMarker2] > 0:
                 card.markers[CounterMarker2] -= 5000
         else:
                 card.markers[CounterMarker] += 5000
 
 def addCounter10(card, x = 0, y = 0):
-	mute()
-	card.markers[CounterMarker] += 10000
+        mute()
+        card.markers[CounterMarker] += 10000
 
 def addCounterN5(card, x = 0, y = 0):
-	mute()
-	if card.markers[CounterMarker] > 0:
+        mute()
+        if card.markers[CounterMarker] > 0:
                 card.markers[CounterMarker] -= 5000
         else:
                 card.markers[CounterMarker2] += 5000
 
 def addCounterN10(card, x = 0, y = 0):
-	mute()
-	card.markers[CounterMarker] -= 10000
+        mute()
+        card.markers[CounterMarker] -= 10000
 
 def removeCounter(card, x = 0 , y = 0):
-	mute()
-	card.markers[CounterMarker] -= 1
-	  
+        mute()
+        card.markers[CounterMarker] -= 1
+
 def setCounter(card, x = 0, y = 0):
-	mute()
-	quantity = askInteger("How many counters", 0)
-	if quantity:
+        mute()
+        quantity = askInteger("How many counters", 0)
+        if quantity:
                 removeCounters(card)
-        	card.markers[CounterMarker] = quantity
+                card.markers[CounterMarker] = quantity
 
 def setCounterN(card, x = 0, y = 0):
-	mute()
-	quantity = askInteger("How many counters", 0)
-	if quantnty:
+        mute()
+        quantity = askInteger("How many counters", 0)
+        if quantnty:
                 removeCounters(card)
                 card.markers[CounterMarker2] = quantity
 
@@ -656,76 +699,74 @@ def removeCounters(card, x = 0, y = 0):
                 card.markers[marker] = 0
 
 ##Handles auto-placement of played cards.  Very crude, should be rewritten.
-#Extra Cards will go to Drop after being played unless they're Field cards.       
-def play(card, x = 0, y = 0): 
-	mute()
-	x = 0
-	cardsInTable = [c for c in table if c.controller == me]
-	if me._id == 1:
-                cards = [c for c in cardsInTable if c.position[1] >= 0 and c.position[1] <= 50]
-                x = -400
-                for c in cards:
-                        if c.position[0] > x:
-                                x = c.position[0]
-        else:
-                cards = [c for c in cardsInTable if c.position[1] >= -90 and c.position[1] <= -40]
-                x = 325
-                for c in cards:
-                        if c.position[0] < x:
-                                x = c.position[0]
-##	if card.Type=="Extra": card.moveTo(card.owner.piles['Drop Zone'])
-	if card.Type=="Extra":
+#Extra Cards will go to Drop after being played unless they're Field cards.
+def play(card, x = 0, y = 0):
+        mute()
+        x = 0
+        y = 0
+        if card.Type=="Extra":
                 if re.search("^Field", card.Text):
                         if me._id == 1:
-                                card.moveToTable(-405, 90)
-                        else: 
-                                card.moveToTable(330, 0)
+                                card.moveToTable(-405, 120)
+                        else:
+                                card.moveToTable(330, -195)
                 else:
                         card.moveTo(card.owner.piles['Drop Zone'])
                         activate(card, 0, 0, True)
-        elif me._id == 1:
-		card.moveToTable(x + 75, 0)
-	else:
-                card.moveToTable(x - 75, -90)
-	notify("{} plays {}.".format(me, card))
-
-
-##As with the play function, should be rewritten to work more smoothly.
-def toEnergy(card, y = 90):
-        mute()
-        src = card.group
-        cardsInTable = [c for c in table if c.controller == me and (c.orientation == Rot180 or Rot270)]
+                notify("{} plays {}.".format(me, card))
+                return
+        cardsInTable = [c for c in table if c.controller == me and (c.orientation == Rot0 or c.orientation == Rot90) and "Battle" in c.Type]
         if me._id == 1:
                 x = -400
                 for c in cardsInTable:
-                        if c.position[0] >= x:
-                                x = c.position[0]
+                        x += 90
+                        c.moveToTable(x, 0)
+                card.moveToTable(x+90, 0)
         else:
                 x = 325
                 for c in cardsInTable:
-                        if c.position[0] < x:
-                                x = c.position[0]
+                        x -= 90
+                        card.moveToTable(x, -90)
+                card.moveToTable(x-90, -90)
+        card.orientation = Rot0
+        notify("{} plays {}.".format(me, card))
+
+
+##As with the play function, should be rewritten to work more smoothly.
+def toEnergy(card, y = 120, f=''):
+        mute()
+        y = 120
+        src = card.group
+        cardsInTable = [c for c in table if c.controller == me and (c.orientation == Rot180 or c.orientation == Rot270)]
         if me._id == 1:
-                card.moveToTable(x + 75, y)
+                x = -400
+                for c in cardsInTable:
+                        x += 90
+                        c.moveToTable(x, y)
+                card.moveToTable(x + 90, y)
         else:
-                card.moveToTable(x - 75, y*-1 -90)
+                x = 325
+                for c in cardsInTable:
+                        x -= 90
+                        c.moveToTable(x, -195)
+                card.moveToTable(x-90, -195)
         card.orientation = Rot180
         notify("{} charges {} from their {} as energy.".format(me, card, src.name))
 
 ##Charge top card of specified group to enegry.
 def topCardEnergy(group, count = 1, x = 0, y = 0):
-	mute()
-	for i in range(0,count):
-		if len(group) == 0: return
-		card = group[0]
-		toEnergy(card)
+        mute()
+        for i in range(0,count):
+                if len(group) == 0: return
+                card = group[0]
+                toEnergy(card)
 
 ##Move specified card to life.
 def toLife(card):
-	mute()
-	src = card.group
-	card.moveTo(card.owner.piles['Life'])
-	notify("{} puts a card from their {} as Life.".format(me, src.name))
+        mute()
+        src = card.group
+        card.moveTo(card.owner.piles['Life'])
+        notify("{} puts a card from their {} as Life.".format(me, src.name))
 
 ##Used in game setup process.
 def findLeader(card):
@@ -733,11 +774,11 @@ def findLeader(card):
         else: card.moveTo(me.deck)
 
 def randomDiscard(group):
-	mute()
-	card = group.random()
-	if card == None: return
-	notify("{} randomly discards {}.".format(me,card.name))
-	card.moveTo(me.piles['Drop Zone'])
+        mute()
+        card = group.random()
+        if card == None: return
+        notify("{} randomly discards {}.".format(me,card.name))
+        card.moveTo(me.piles['Drop Zone'])
 
 ##Allows for a prompt to ask how many cards should be drawn.
 def draw(group, conditional = False, count = 1, x = 0, y = 0): #Added draw function to include choice
@@ -750,7 +791,7 @@ def draw(group, conditional = False, count = 1, x = 0, y = 0): #Added draw funct
             colorsList = ['#FF0000', '#FF0000']
             choice = askChoice("Draw a card?", choiceList, colorsList)
             if choice == 0 or choice == 2:
-                return 
+                return
         card = group[0]
         card.moveTo(card.owner.hand)
         notify("{} draws a card from their {}.".format(me, group.name))
@@ -766,117 +807,46 @@ def mill(group, conditional = False, count = 1, x = 0, y = 0): #Added draw funct
             colorsList = ['#6F6F6F', '#FF0000']
             choice = askChoice("Mill a card?", choiceList, colorsList)
             if choice == 0 or choice == 2:
-                return 
+                return
         card = group[0]
         card.moveTo(card.owner.piles["Drop Zone"])
         notify("{} mills a card from their {}.".format(me, group.name))
 
 def drawMany(group, count = None):
-	if len(group) == 0: return
-	mute()
-	if count == None: count = askInteger("Draw how many cards?", 0)
-	for card in group.top(count): card.moveTo(me.hand)
-	notify("{} draws {} cards.".format(me, count))
+        if len(group) == 0: return
+        mute()
+        if count == None: count = askInteger("Draw how many cards?", 0)
+        for card in group.top(count): card.moveTo(me.hand)
+        notify("{} draws {} cards.".format(me, count))
 
 def drawBottom(group, x = 0, y = 0):
-	if len(group) == 0: return
-	mute()
-	group.bottom().moveTo(me.hand)
-	notify("{} draws a card from the bottom.".format(me))
+        if len(group) == 0: return
+        mute()
+        group.bottom().moveTo(me.hand)
+        notify("{} draws a card from the bottom.".format(me))
 
 def shuffle(group):
-	group.shuffle()
-  
+        group.shuffle()
+
 def lookAtTopCards(num, targetZone='hand'): #Added function for looking at top X cards and take a card
     mute()
     notify("{} looks at the top {} cards of their deck".format(me,num))
     cardList = [card for card in me.Deck.top(num)]
     choice = askCard(cardList, 'Choose a card to take')
     toHand(choice, show = True)
-    me.Deck.shuffle() 
-	
+    me.Deck.shuffle()
+
 def lookAtDeck(): #For Automation
     mute()
     notify("{} looks at their Deck.".format(me))
     me.Deck.lookAt(-1)
-	
-#---------------------------------------------------------------------------
-# Phases
-#---------------------------------------------------------------------------
-##Not used, leftover code from previous game which was used as template.
-##Should probably be deleted, but need to verify doing so won't break anything.
 
-def showCurrentPhase(phaseNR = None): # Just say a nice notification about which phase you're on.
-   if phaseNR: notify(phases[phaseNR])
-   else: notify(phases[num(me.getGlobalVariable('phase'))])
+def roll20(group, x = 0, y = 0):
+    mute()
+    n = rnd(1, 20)
+    notify("{} rolls {} on a 20-sided die.".format(me, n))
 
-def endMyTurn(opponent = None):
-   if not opponent: opponent = findOpponent()
-   me.setGlobalVariable('phase','0') # In case we're on the last phase (Force), we end our turn.
-   notify("=== {} has ended their turn ===.".format(me))
-   opponent.setActivePlayer() 
-      
-def nextPhase(group = table, x = 0, y = 0, setTo = None):  
-# Function to take you to the next phase. 
-   mute()
-   phase = num(me.getGlobalVariable('phase'))
-   if phase == 3: 
-      endMyTurn()
-      return  
-   else:
-      if not me.isActivePlayer and confirm("Your opponent does not seem to have ended their turn yet. Switch to your turn?"):
-         remoteCall(findOpponent(),'endMyTurn',[me])
-         rnd(1,1000) # Pause to wait until they change their turn
-      phase += 1
-      if phase == 1: goToDraw()
-      elif phase == 2: goToPlanning()
-      elif phase == 3: goToDeclare()
 
-def goToDraw(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','1')
-   showCurrentPhase(1)
-         
-def goToPlanning(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','2')
-   showCurrentPhase(2)
-         
-def goToDeclare(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','3')
-   showCurrentPhase(3)
-
-#---------------------------------------------------------------------------
-# Meta Functions
-#---------------------------------------------------------------------------
-##Not used, leftover code from previous game which was used as template.
-##Should probably be deleted, but need to verify doing so won't break anything.
-
-def findOpponent(position = '0', multiText = "Choose which opponent you're targeting with this effect."):
-   opponentList = fetchAllOpponents()
-   if len(opponentList) == 1: opponentPL = opponentList[0]
-   else:
-      if position == 'Ask':
-         choice = SingleChoice(multiText, [pl.name for pl in opponentList])
-         opponentPL = opponentList[choice]         
-      else: opponentPL = opponentList[num(position)]
-   return opponentPL
-
-def fetchAllOpponents(targetPL = me):
-   opponentList = []
-   if len(getPlayers()) > 1:
-      for player in getPlayers():
-         if player != targetPL: opponentList.append(player) # Opponent needs to be not us, and of a different type. 
-   else: opponentList = [me] # For debug purposes
-   return opponentList   
-
-def playerside():
-   if me.hasInvertedTable(): side = -1
-   else: side = 1   
-   return side
-   
- 
 #------------------------------------------------------------------------------
 # Button and Announcement functions
 #------------------------------------------------------------------------------
@@ -885,27 +855,46 @@ def playerside():
 def BUTTON_NR(group = None,x=0,y=0):
    notify("--- {} has no counters.".format(me))
 
-def BUTTON_NB(group = None,x=0,y=0):  
+def BUTTON_NB(group = None,x=0,y=0):
    notify("--- {} is using no blockers.".format(me))
 
-def BUTTON_NC(group = None,x=0,y=0):  
+def BUTTON_NC(group = None,x=0,y=0):
    notify("--- {} isn't comboing any cards.".format(me))
 
 def BUTTON_FC(group = None,x=0,y=0):
         mute()
+        global attackingCard
         comboTotal = 0
         for card in table:
                 if card.highlight == comboColor and card.controller == me:
                       comboTotal += card.markers[CounterMarker]
-
         if comboTotal != 0:
-                notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
+                if (getActivePlayer == me and len(attackingCard) == 1) or (getActivePlayer != me and len(defendingCard) == 1):
+                        try:
+                                power = int(attackingCard[0].Power) + comboTotal
+                                notify("--- {} is finished comboing, with {} total Power!".format(me, power))
+                        except:
+                                notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
+                else:
+                        notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
+        elif getActivePlayer() == me and len(attackingCard) == 1:
+                try:
+                        power = int(attackingCard[0].Power)
+                        notify("--- {} is attacking with {} power.".format(me, power))
+                except:
+                        pass
+        elif getActivePlayer() != me and len(defendingCard) == 1:
+                try:
+                        power = int(defendingCard[0].Power)
+                        notify("--- {} is defending with {} power.".format(me, power))
+                except:
+                        pass
         else:
                 notify("--- {} is finished comboing.".format(me))
-                              
+
 
 
 ##I don't think this function is used currently.
 def declarePass(group, x=0, y=0):
-   notify("--- {} Passes".format(me))    
+   notify("--- {} Passes".format(me))
 

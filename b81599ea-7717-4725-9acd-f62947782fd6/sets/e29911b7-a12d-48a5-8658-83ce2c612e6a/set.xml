@@ -5,7 +5,26 @@
      gameId="b81599ea-7717-4725-9acd-f62947782fd6" 
      gameVersion="0.0.0.10" 
      version="0.0.0.1">
-<cards>
+  <packaging>
+    <pack name="Booster" id="d93b0cd5-0d28-435c-8895-d09be504bf05">
+      <options>
+        <option probability="0.003">
+          <pick qty="1" key="Rarity" value="Secret Rare" />
+        </option>
+        <option probability="0.014">
+          <pick qty="1" key="Rarity" value="Special Rare" />
+        </option>
+        <option probability="0.333">
+          <pick qty="1" key="Rarity" value="Super Rare" />
+        </option>
+        <option probability="0.65">
+          <pick qty="1" key="Rarity" value="Rare" />
+        </option>
+      </options>
+      <pick qty="3" key="Rarity" value="Uncommon" />
+      <pick qty="8" key="Rarity" value="Common" />
+    </pack>
+  </packaging><cards>
 <card id="11d0783c-2228-4a37-bed4-0805c7f1459a" name="Son Gohan">
 <property name="Type" value="Leader" />
 <property name="Color" value="Red" />
@@ -181,7 +200,7 @@
 <property name="Special Trait" value="Earthling" />
 <property name="Era" value="Broly Saga" />
 <property name="Rarity" value="Common" />
-<property name="Text" value="" />
+<property name="Text" value="Super Combo" />
 </card>
 <card id="10d0aee1-5d60-48a7-a43f-a752eb00c654" name="Exalted Trio Videl">
 <property name="Type" value="Battle" />
@@ -462,7 +481,7 @@
 <property name="Special Trait" value="Earthling" />
 <property name="Era" value="Future Trunks Saga" />
 <property name="Rarity" value="Common" />
-<property name="Text" value="" />
+<property name="Text" value="Super Combo" />
 </card>
 <card id="5a16653f-8556-4f16-8665-f2eb764063b2" name="Whis, the Regulator">
 <property name="Type" value="Battle" />
@@ -834,7 +853,7 @@
 <property name="Special Trait" value="Earthling" />
 <property name="Era" value="Saiyan Saga" />
 <property name="Rarity" value="Common" />
-<property name="Text" value="" />
+<property name="Text" value="Super Combo" />
 </card>
 <card id="f6c7473a-834a-4542-990f-d3a7fd604ee1" name="Sorrowful Strike Tien Shinhan">
 <property name="Type" value="Battle" />
@@ -1180,7 +1199,7 @@
 <property name="Special Trait" value="Alien/Universe 6" />
 <property name="Era" value="Universe Survival Saga" />
 <property name="Rarity" value="Common" />
-<property name="Text" value="" />
+<property name="Text" value="Super Combo" />
 </card>
 <card id="0c848f79-d17f-4131-8955-a05a8944e54d" name="Magetta, Defender of Universe 6">
 <property name="Type" value="Battle" />
@@ -1193,7 +1212,7 @@
 <property name="Special Trait" value="Alien/Universe 6" />
 <property name="Era" value="Universe Survival Saga" />
 <property name="Rarity" value="Common" />
-<property name="Text" value="" />
+<property name="Text" value="Super Combo" />
 </card>
 <card id="bd67839b-cb73-4649-9435-fccd45519200" name="Namekian Partner Saonel">
 <property name="Type" value="Battle" />
@@ -1713,6 +1732,32 @@
 <property name="Special Trait" value="Saiyan" />
 <property name="Era" value="Special" />
 <property name="Rarity" value="Infinite Saiyan Rares" />
+<property name="Text" value="" />
+</card>
+<card id="5fd2485f-3503-4455-95a8-44316a95ec55" name="SS3 Scramble - Raditz, Vegeta and Broly">
+<property name="Type" value="Battle" />
+<property name="Color" value="Red/Green" />
+<property name="Cost" value="8(RRRGG)" />
+<property name="Power" value="40000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Raditz/Vegeta/Broly" />
+<property name="Special Trait" value="Saiyan" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Secret Rare" />
+<property name="Text" value="" />
+</card>
+<card id="64774895-a4f7-4af7-a9fe-c0878ae7feaf" name="Power of Potara - Vegito, Kefla and Zamasu">
+<property name="Type" value="Battle" />
+<property name="Color" value="Blue/Yellow" />
+<property name="Cost" value="8(BBBYY)" />
+<property name="Power" value="40000" />
+<property name="Combo" value="10000" />
+<property name="Combo Cost" value="1" />
+<property name="Character" value="Vegito/Kefla/Zamasu" />
+<property name="Special Trait" value="Saiyan/God/Alien/Universe 6" />
+<property name="Era" value="Special" />
+<property name="Rarity" value="Secret Rare" />
 <property name="Text" value="" />
 </card>
 </cards>

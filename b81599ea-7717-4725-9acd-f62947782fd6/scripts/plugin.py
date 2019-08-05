@@ -28,6 +28,7 @@ def verifySaveDirectory(group,x=0,y=0):
                 pass
 
 def autosave(p, x=0, y=False):
+        turnPassCleanup(p)
         global autosaveMode
         autosaveMode = getSetting("autosaveMode", False)
         if autosaveMode:

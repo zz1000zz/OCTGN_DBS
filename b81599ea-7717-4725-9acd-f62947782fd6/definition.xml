@@ -2,7 +2,7 @@
       name="Dragon Ball S Patch Beta" 
       id="b81599ea-7717-4725-9acd-f62947782fd6" 
       octgnVersion="3.1.2.0" 
-      version="0.0.10.1"
+      version="0.0.10.7"
       markersize="12"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="Dragon Ball Super Trading Card Game, by Bandai.  If you have questions or feedback, please join the Discord server at https://discord.gg/AUJKdD"
@@ -24,6 +24,7 @@
    <event name="OnScriptedCardsMoved" action="moveCards" />
    <event name="OnTableLoaded" action="initializeGame" />
    <event name="OnTurnPassed" action="autosave" />
+   <event name="OnCardArrowTargeted" action="onCardArrowTargeted" />
 </events>
 <fonts>
 <font src="fonts/MPlantin_chat_symbols.ttf" size="14" target="deckeditor" />
@@ -47,12 +48,13 @@
 <table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Board/background.png" backgroundStyle="uniformToFill">
    <groupaction menu="Set up Game" shortcut="F12" execute="setup" />
    <groupaction menu="Set up Life" shortcut="F9" execute="setupLife" />
+   <groupaction menu="Scoop" execute="scoop" />
    <groupaction menu="Clear targets" shortcut="Esc" execute="clearAll" />
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
    <groupaction menu="Untap All" shortcut="F1" execute="untapAll" />
    <groupaction menu="Create a Token..." shortcut="ctrl+shift+T" execute="token" />
    <groupaction menu="Sideboard" shortcut="ctrl+shift+S" execute="sideboard" />
-   <cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" execute="tap" />
+   <cardaction menu="Tap / Untap" default="True" shortcut="ctrl+G" batchExecute="tap" />
    <cardaction menu="Flip Up/Down" execute="flip" />
    <cardaction menu="Discard" shortcut="Del" execute="discard" />
    <cardaction menu="Combo" shortcut="Ctrl+C" execute="combo" />
@@ -80,6 +82,8 @@
 		<groupaction menu="Autosave Mode Off..." execute="autosaveOff" />
 		<groupaction menu="Load Event Deck" execute="getEventDeck" />
 	</groupactions>
+    <cardaction menu="Play" execute="play" shortcut="Ctrl+P" />
+    <cardaction menu="Charge as Energy" default="True" shortcut="Ctrl+E" execute="toEnergy" />
 </table>
 <player summary="Hand: {#Hand} / Life: {#Life}">
    <globalvariable name="phase" value="0" /> 
@@ -114,8 +118,6 @@
 <group name="Warp" visibility="all" icon="cards/front.png" collapsed="True" shortcut="F7"></group>	
 <group name="Sideboard" visibility="me" icon="cards/front.png" collapsed="True" shortcut="F8"></group>	
 </player>
-<shared>
-</shared>
 <deck>
 	<section name="Leader" group="Leader" />
 	<section name="Deck" group="Deck" />
