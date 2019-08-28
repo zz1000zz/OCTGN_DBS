@@ -168,13 +168,13 @@ card_list = {
     'Namekian Partner Saonel': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Namekian Partner Pirina', 'i')})},
     'Namekian Partner Pirina': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Namekian Partner Saonel', 'i')})},
     
-    'Harmonic Energy SSB Vegeta': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Goku: Br', 'e'),'Color': ('Red','e')}, 'table')},
-    'Harmonic Energy SSB Son Goku': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Vegeta: Br', 'e'),'Color': ('Red','e')}, 'table')},
-    'Last Resort Vegeta': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Power Ball', 'e')}, 'table')},
-    'Dormant Legend': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Broly', 'e')}, 'table')},
-    'Goku Black, Evil\'s Apprentice': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Mass Replication', 'e')}, 'table')},
-    'Great Ape Vegeta, Energy Manipulation': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Vegeta', 'e'), 'Color': ('Red','i'), 'Color': ('Green','i'), 'Cost': (6, 'le')}, 'table')},
-    'Nappa, The Cultivator': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Saibaiman', 'i')}, 'table')},
+    'Harmonic Energy SSB Vegeta': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Goku: Br', 'e'),'Color': ('Red','e')}, table)},
+    'Harmonic Energy SSB Son Goku': {tutorTopComplex: (me.piles["Deck"], 7, 1, {'Character': ('Son Vegeta: Br', 'e'),'Color': ('Red','e')}, table)},
+    'Last Resort Vegeta': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Power Ball', 'e')}, table)},
+    'Dormant Legend': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Broly', 'e')}, table)},
+    'Goku Black, Evil\'s Apprentice': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Name': ('Mass Replication', 'e')}, table)},
+    'Great Ape Vegeta, Energy Manipulation': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Vegeta', 'e'), 'Color': ('Red','i'), 'Color': ('Green','i'), 'Cost': (6, 'le')}, table)},
+    'Nappa, The Cultivator': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Character': ('Saibaiman', 'i')}, table)},
     'Son Goku, Dimensional Defender': {draw: (me.piles["Deck"], False, 1), tutorTopComplex: (me.piles["Warp"], 100, 1, {'Color': ('Black', 'i'), 'Type': ('Battle', 'i')}, me.piles["Drop Zone"])},
 
 
@@ -182,8 +182,8 @@ card_list = {
     'Successor of Hope': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Special Trait': ('Goku\'s Lineage', 'i'), 'Cost': (5, 'le'), 'Text': ('Swap', 'i')})},
     'New Model Scouter': {tutorTopComplex: (me.piles["Deck"], 7, 2, {'Special Trait': ('Frieza\'s Army', 'i'), 'Cost': (4, 'ge'), 'Color': ('Red', 'e')})},
     'Dawn of Evil': {tutorTopComplex: (me.piles["Deck"], 10, 1, {'Character': ('Majin Buu', 'i'), 'Cost': (3, 'le'), 'Color': ('Blue', 'e')})},
-    'Assembling the Squad': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Cost': (2, 'le'), 'Power': (15000, 'le')}, 'table')},
-    'Time Transmission G': {tutorTopComplex: (me.piles["Warp"], 100, 1, {'Cost': (4, 'le'), 'Type': ('Battle', 'i'), 'Color': ('Black', 'i')}, 'table')},
+    'Assembling the Squad': {tutorTopComplex: (me.piles["Deck"], 100, 1, {'Cost': (2, 'le'), 'Power': (15000, 'le')}, table)},
+    'Time Transmission G': {tutorTopComplex: (me.piles["Warp"], 100, 1, {'Cost': (4, 'le'), 'Type': ('Battle', 'i'), 'Color': ('Black', 'i')}, table)},
 
     
     ##Bounce effects

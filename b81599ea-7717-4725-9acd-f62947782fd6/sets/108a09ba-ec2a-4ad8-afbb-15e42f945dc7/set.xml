@@ -59,5 +59,18 @@
 <property name="Rarity" value="Token" />
 <property name="Text" value="" />
 </card>
+<card id="287b50ab-92bd-4ea6-91c1-dd4c2a2fa522" name="Shadow Token">
+<property name="Type" value="Token" />
+<property name="Color" value="Black" />
+<property name="Cost" value="" />
+<property name="Power" value="10000" />
+<property name="Combo" value="5000" />
+<property name="Combo Cost" value="0" />
+<property name="Character" value="" />
+<property name="Special Trait" value="" />
+<property name="Era" value="" />
+<property name="Rarity" value="Token" />
+<property name="Text" value="" />
+</card>
 </cards>
 </set>

@@ -970,7 +970,7 @@
 <property name="Special Trait" value="" />
 <property name="Era" value="" />
 <property name="Rarity" value="" />
-<property name="Text" value="" />
+<property name="Text" value="Field" />
 </card>
 <card id="4f0208ec-f57e-4ddf-866f-40a4c4660cd4" name="Hidden Power of the Saiyans">
 <property name="Type" value="Battle" />

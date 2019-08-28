@@ -2,7 +2,7 @@
       name="Dragon Ball S Patch Beta" 
       id="b81599ea-7717-4725-9acd-f62947782fd6" 
       octgnVersion="3.1.2.0" 
-      version="0.0.10.7"
+      version="0.0.10.11"
       markersize="12"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="Dragon Ball Super Trading Card Game, by Bandai.  If you have questions or feedback, please join the Discord server at https://discord.gg/AUJKdD"
@@ -84,6 +84,7 @@
 	</groupactions>
     <cardaction menu="Play" execute="play" shortcut="Ctrl+P" />
     <cardaction menu="Charge as Energy" default="True" shortcut="Ctrl+E" execute="toEnergy" />
+    <cardaction menu="Remove From Game" batchExecute="removeFromGame" />
 </table>
 <player summary="Hand: {#Hand} / Life: {#Life}">
    <globalvariable name="phase" value="0" /> 
@@ -93,6 +94,7 @@
 	<cardaction menu="Discard" shortcut="Del" execute="discard" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
         <cardaction menu="Combo" shortcut="Ctrl+C" execute="combo" />
+        <cardaction menu="Remove From Game" batchExecute="removeFromGame" />
 	<groupaction menu="Spectator Mode On" execute="spectatorModeOn" />
 	<groupaction menu="Spectator Mode Off" execute="spectatorModeOff" />
 </hand>
@@ -107,6 +109,7 @@
 </group>
 <group name="Drop Zone" visibility="all" icon="cards/front.png" shortcut="F6">
     <groupaction menu="Over Realm" default="True" shortcut="Ctrl+Shift+W" execute="warp" />
+    <cardaction menu="Remove From Game" execute="removeFromGame" />
 </group>
 <group name="Life" visibility="none" icon="cards/front.png" collapsed="False">
     <groupaction menu="Top card as Energy" execute="topCardEnergy" shortcut="Ctrl+Shift+E" />
@@ -117,6 +120,7 @@
 </group>
 <group name="Warp" visibility="all" icon="cards/front.png" collapsed="True" shortcut="F7"></group>	
 <group name="Sideboard" visibility="me" icon="cards/front.png" collapsed="True" shortcut="F8"></group>	
+<group name="Removed From Game" visibility="all" icon="cards/front.png" collapsed="True"></group>	
 </player>
 <deck>
 	<section name="Leader" group="Leader" />

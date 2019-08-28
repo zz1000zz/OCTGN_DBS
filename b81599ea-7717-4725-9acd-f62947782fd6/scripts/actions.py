@@ -57,7 +57,8 @@ def turnPassCleanup(p):
                                 continue
                         for marker in card.markers:
                                 card.markers[marker] = 0
-        notify("{} ends their turn.".format(me))
+        if (getActivePlayer() == me):
+                notify("{} ends their turn.".format(me))
 
 
 ##Preliminary function to using a global variable to list the last card that has
@@ -477,6 +478,15 @@ def bounce(count = 1, opponentOnly = False, zone=me.deck, q=""):
                                 remoteCall(card.controller, "toHand", card)
                         notify("{} returns {} !".format(me, card))
 
+def removeFromGame(cards, x = 0, y = 0):
+        mute()
+        if not isinstance(cards, list):
+                cards = [cards]
+        formattedCards = []
+        for card in cards:
+                card.moveTo(me.piles["Removed From Game"])
+                formattedCards.append(format(card))
+        notify("{} removes {} from the game.".format(me, ', '.join(formattedCards)))
 
 ##Move card to hand.
 def toHand(card):
@@ -543,6 +553,7 @@ def scoop(prompt = False, *args):
         for card in me.hand: findLeader(card)
         for card in me.piles['Drop Zone']: findLeader(card)
         for card in me.piles['warp']: findLeader(card)
+        for card in me.piles['Removed From Game']: findLeader(card)
         
 
 ##Sets up life.  Can be called manually or from the Mulligan function.
@@ -560,9 +571,9 @@ def tap(cards, *args):
         untappedCards = []
         for card in cards:
                 if card.orientation & Rot90 == Rot90:
-                        tappedCards.append(format(card))
-                else:
                         untappedCards.append(format(card))
+                else:
+                        tappedCards.append(format(card))
                 card.orientation ^= Rot90
         if len(tappedCards) > 0:
                 notify('{} taps {}.'.format(me, ', '.join(tappedCards)))
@@ -689,7 +700,7 @@ def setCounter(card, x = 0, y = 0):
 def setCounterN(card, x = 0, y = 0):
         mute()
         quantity = askInteger("How many counters", 0)
-        if quantnty:
+        if quantity:
                 removeCounters(card)
                 card.markers[CounterMarker2] = quantity
 
@@ -863,29 +874,35 @@ def BUTTON_NC(group = None,x=0,y=0):
 
 def BUTTON_FC(group = None,x=0,y=0):
         mute()
-        global attackingCard
+##        global attackingCard
         comboTotal = 0
         for card in table:
                 if card.highlight == comboColor and card.controller == me:
                       comboTotal += card.markers[CounterMarker]
         if comboTotal != 0:
-                if (getActivePlayer == me and len(attackingCard) == 1) or (getActivePlayer != me and len(defendingCard) == 1):
+                if (getActivePlayer() == me and len(attackingCard) == 1) or (getActivePlayer() != me and len(defendingCard) == 1):
+                        if getActivePlayer() == me:
+                                card = attackingCard[0]
+                        else:
+                                card = defendingCard[0]
+                        powerMod = card.markers[CounterMarker] + card.markers[CounterMarker2]
+                        notify(format(card))
                         try:
-                                power = int(attackingCard[0].Power) + comboTotal
-                                notify("--- {} is finished comboing, with {} total Power!".format(me, power))
+                                power = int(attackingCard[0].Power) + comboTotal + powerMod
+                                notify("--- {} is finished comboing, with {} total Power!".format(me, power + powerMod))
                         except:
                                 notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
                 else:
                         notify("--- {} is finished comboing, with {} Combo Power".format(me,comboTotal))
         elif getActivePlayer() == me and len(attackingCard) == 1:
                 try:
-                        power = int(attackingCard[0].Power)
+                        power = int(attackingCard[0].Power) + attackingCard[0].markers[CounterMarker2] + attackingCard[0].markers[CounterMarker]
                         notify("--- {} is attacking with {} power.".format(me, power))
                 except:
                         pass
         elif getActivePlayer() != me and len(defendingCard) == 1:
                 try:
-                        power = int(defendingCard[0].Power)
+                        power = int(defendingCard[0].Power) + defendingCard[0].markers[CounterMarker2] + defendingCard[0].markers[CounterMarker]
                         notify("--- {} is defending with {} power.".format(me, power))
                 except:
                         pass
